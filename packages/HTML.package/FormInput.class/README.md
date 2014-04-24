@@ -1,0 +1,1 @@
+an input instance for a form.  A form takes its input from a collection of FormInputs; each FormInput has a name and can retrieve a textual value.  WHen a form is submitted, these name-value associations are gathered together and passed to an HTTP server.

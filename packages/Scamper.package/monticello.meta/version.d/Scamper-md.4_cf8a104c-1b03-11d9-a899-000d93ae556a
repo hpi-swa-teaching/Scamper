@@ -1,0 +1,1 @@
+(name 'Scamper-md.4'message '"Change Set:		ScamperPaneFixDate:			10 October 2004Author:			Karl RambergScampers urlEditPane and the statusPane had way too much scrollbars. This fix hides them."!'id 'cf8a104c-1b03-11d9-a899-000d93ae556a'date '10 October 2004'time '11:31:56 pm'author 'md'ancestors ((id 'f391a0cd-9205-11d8-8bd9-003065b55c16'))stepChildren ())

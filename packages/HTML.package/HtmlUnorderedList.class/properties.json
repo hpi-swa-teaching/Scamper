@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlUnorderedList",
+	"pools" : [
+		 ],
+	"super" : "HtmlList",
+	"type" : "normal" }

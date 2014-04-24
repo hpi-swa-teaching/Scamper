@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlButton",
+	"pools" : [
+		 ],
+	"super" : "HtmlFormEntity",
+	"type" : "normal" }

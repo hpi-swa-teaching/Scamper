@@ -1,0 +1,1 @@
+parses a stream of HtmlToken's into an HtmlDocument.  All token become an entity of some sort in the resulting document; some things are left only as comments, though.

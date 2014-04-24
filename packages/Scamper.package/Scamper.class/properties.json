@@ -1,0 +1,27 @@
+{
+	"category" : "Scamper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"StartUrl" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"status",
+		"currentUrl",
+		"pageSource",
+		"document",
+		"formattedPage",
+		"downloadingProcess",
+		"documentQueue",
+		"recentDocuments",
+		"currentAnchorLocation",
+		"currentUrlIndex",
+		"backgroundColor",
+		"bookmark",
+		"bookDir",
+		"workerCountEdit" ],
+	"name" : "Scamper",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

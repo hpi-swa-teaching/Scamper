@@ -1,0 +1,16 @@
+{
+	"category" : "HTML-Forms",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"inputs",
+		"browser",
+		"form" ],
+	"name" : "FormInputSet",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

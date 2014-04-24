@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlAttributes",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }

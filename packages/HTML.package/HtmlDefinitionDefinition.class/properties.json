@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlDefinitionDefinition",
+	"pools" : [
+		 ],
+	"super" : "HtmlDefinitionListElement",
+	"type" : "normal" }

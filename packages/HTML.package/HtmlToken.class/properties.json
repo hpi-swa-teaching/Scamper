@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Tokenizer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source" ],
+	"name" : "HtmlToken",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

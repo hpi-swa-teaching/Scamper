@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCheckBoxButtonToFormatter:" : "LaurentLaffont 2/26/2010 23:13",
+		"addFileInputToFormatter:" : "LaurentLaffont 2/26/2010 23:13",
+		"addImageButtonToFormatter:" : "LaurentLaffont 2/26/2010 23:13",
+		"addRadioButtonToFormatter:" : "LaurentLaffont 2/26/2010 23:13",
+		"addTextInputToFormatter:" : "LaurentLaffont 2/26/2010 23:13",
+		"addToFormatter:" : "ls 10/28/2003 11:46",
+		"defaultValue" : "ls 9/18/1998 08:22",
+		"imageExtent" : "LaurentLaffont 2/26/2010 23:13",
+		"isTextualEntity" : "ls 7/5/1998 02:15",
+		"mayContain:" : "ls 7/5/1998 02:14",
+		"mouseUpEvent:linkMorph:formData:" : "ar 3/18/2001 17:27",
+		"mouseUpFormData:event:linkMorph:" : "LaurentLaffont 2/26/2010 23:13",
+		"suppliesInput" : "ls 7/21/1998 06:51",
+		"tagName" : "ls 7/5/1998 02:14",
+		"type" : "ls 7/23/1998 19:09" } }

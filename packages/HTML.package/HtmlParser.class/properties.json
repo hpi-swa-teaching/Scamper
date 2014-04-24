@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "HtmlParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

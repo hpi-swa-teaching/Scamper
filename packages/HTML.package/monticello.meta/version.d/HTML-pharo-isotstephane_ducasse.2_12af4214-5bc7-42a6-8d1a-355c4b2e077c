@@ -1,0 +1,1 @@
+(name 'HTML-pharo-isotstephane_ducasse.2'message '- replaced by := - isoToSqueak removedHtmlParser parse: ''http://www.squeak.org'' asUrl retrieveContentsworking now'id '12af4214-5bc7-42a6-8d1a-355c4b2e077c'date '24 May 2009'time '9:01:14 am'author 'stephane.ducasse'ancestors ((id '6b663ad3-0120-4f1b-a1f3-7638e9ba039f'))stepChildren ())

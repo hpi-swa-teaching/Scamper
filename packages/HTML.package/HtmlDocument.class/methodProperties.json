@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"emptyDocument" : "ls 7/23/1998 04:26" },
+	"instance" : {
+		"addToBody:" : "djp 7/21/1998 18:38",
+		"addToHead:" : "djp 7/21/1998 18:37",
+		"body" : "djp 7/21/1998 18:28",
+		"formattedText" : "LaurentLaffont 2/26/2010 23:13",
+		"formattedTextForBrowser:defaultBaseUrl:" : "LaurentLaffont 2/26/2010 23:13",
+		"formattedTextMorph" : "LaurentLaffont 2/26/2010 23:13",
+		"formattedTextMorphForBrowser:defaultBaseUrl:" : "LaurentLaffont 2/26/2010 23:13",
+		"head" : "djp 7/21/1998 18:28",
+		"mayContain:" : "ls 6/25/1998 02:57",
+		"tagName" : "ls 6/25/1998 02:06" } }

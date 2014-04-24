@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"commentText" ],
+	"name" : "HtmlCommentEntity",
+	"pools" : [
+		 ],
+	"super" : "HtmlTextualEntity",
+	"type" : "normal" }

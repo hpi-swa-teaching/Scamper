@@ -1,0 +1,3 @@
+access
+defaultBackgroundColor
+	^Color white

@@ -1,0 +1,1 @@
+the contents should be displayed struck-through

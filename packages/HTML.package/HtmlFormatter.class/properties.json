@@ -1,0 +1,34 @@
+{
+	"category" : "HTML-Formatter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CSNonSeparators",
+		"CSSeparators" ],
+	"commentStamp" : "ls 10/28/2003 11:56",
+	"instvars" : [
+		"browser",
+		"baseUrl",
+		"formDatas",
+		"outputStream",
+		"preformattedLevel",
+		"indentLevel",
+		"boldLevel",
+		"italicsLevel",
+		"underlineLevel",
+		"strikeLevel",
+		"centerLevel",
+		"urlLink",
+		"listLengths",
+		"listTypes",
+		"precedingSpaces",
+		"precedingNewlines",
+		"morphsToEmbed",
+		"incompleteMorphs",
+		"anchorLocations",
+		"imageMaps" ],
+	"name" : "HtmlFormatter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

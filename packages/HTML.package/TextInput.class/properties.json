@@ -1,0 +1,16 @@
+{
+	"category" : "HTML-Forms",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"defaultValue",
+		"textMorph" ],
+	"name" : "TextInput",
+	"pools" : [
+		 ],
+	"super" : "FormInput",
+	"type" : "normal" }

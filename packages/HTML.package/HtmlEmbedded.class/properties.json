@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ExtensionList" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlEmbedded",
+	"pools" : [
+		 ],
+	"super" : "HtmlSpecialEntity",
+	"type" : "normal" }

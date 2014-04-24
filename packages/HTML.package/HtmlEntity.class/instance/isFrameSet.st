@@ -1,0 +1,3 @@
+categorization
+isFrameSet
+	^false

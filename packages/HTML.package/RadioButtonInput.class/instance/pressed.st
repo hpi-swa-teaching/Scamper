@@ -1,0 +1,3 @@
+button state
+pressed
+	^state
