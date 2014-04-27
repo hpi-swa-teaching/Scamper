@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"value" ],
+	"name" : "HtmlInput",
+	"pools" : [
+		 ],
+	"super" : "HtmlFormEntity",
+	"type" : "normal" }

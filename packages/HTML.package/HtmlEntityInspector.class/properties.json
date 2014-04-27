@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlEntityInspector",
+	"pools" : [
+		 ],
+	"super" : "Inspector",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Scamper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "BrowserUrl",
+	"pools" : [
+		 ],
+	"super" : "GenericUrl",
+	"type" : "normal" }

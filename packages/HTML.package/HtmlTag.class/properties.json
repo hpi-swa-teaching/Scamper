@@ -1,0 +1,16 @@
+{
+	"category" : "HTML-Tokenizer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"EntityClasses" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"isNegated",
+		"name",
+		"attribs" ],
+	"name" : "HtmlTag",
+	"pools" : [
+		 ],
+	"super" : "HtmlToken",
+	"type" : "normal" }

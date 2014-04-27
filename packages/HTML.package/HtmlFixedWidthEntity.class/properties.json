@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "HtmlFixedWidthEntity",
+	"pools" : [
+		 ],
+	"super" : "HtmlFontChangeEntity",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "HTML-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ReverseCharacterEntities" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"contents",
+		"attribs" ],
+	"name" : "HtmlEntity",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "HTML-Forms",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"value" ],
+	"name" : "HiddenInput",
+	"pools" : [
+		 ],
+	"super" : "FormInput",
+	"type" : "normal" }

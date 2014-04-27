@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"entityClasses" : "LaurentLaffont 2/26/2010 23:13",
+		"initialize" : "LaurentLaffont 2/26/2010 23:13",
+		"source:name:negated:attribs:" : "ls 6/24/1998 18:54" },
+	"instance" : {
+		"attribs" : "ls 1/25/98 04:50",
+		"entityFor" : "LaurentLaffont 2/26/2010 23:13",
+		"isNegated" : "ls 6/24/1998 18:53",
+		"isTag" : "ls 1/25/98 04:57",
+		"name" : "ls 1/25/98 04:49",
+		"name:negated:attribs:" : "LaurentLaffont 2/26/2010 23:13" } }

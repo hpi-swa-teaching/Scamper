@@ -1,0 +1,3 @@
+access
+currentUrl
+	^currentUrl

@@ -1,0 +1,16 @@
+{
+	"category" : "Scamper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"getBgSelector",
+		"asColor",
+		"image" ],
+	"name" : "WebPageMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextMorph",
+	"type" : "normal" }

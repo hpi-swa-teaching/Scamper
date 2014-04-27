@@ -1,0 +1,6 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"mayContain:" : "ls 7/17/1998 19:20",
+		"shouldContain:" : "ls 7/28/1998 20:40" } }

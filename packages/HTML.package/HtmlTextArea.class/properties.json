@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlTextArea",
+	"pools" : [
+		 ],
+	"super" : "HtmlFormEntity",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Parser Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlBreak",
+	"pools" : [
+		 ],
+	"super" : "HtmlSpecialEntity",
+	"type" : "normal" }

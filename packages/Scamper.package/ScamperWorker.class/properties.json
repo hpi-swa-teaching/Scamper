@@ -1,0 +1,15 @@
+{
+	"category" : "Scamper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"items",
+		"boss" ],
+	"name" : "ScamperWorker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
