@@ -6,8 +6,9 @@ baseline: spec
         do: [ 
             spec
                 package: 'HTML';
-                package: 'Scamper' with: [ spec requires: #('HTML') ].
+                package: 'Scamper' with: [ spec requires: #('HTML') ];
+                package: 'Scamper-Tests' with: [ spec requires: #('Scamper') ].
             spec
                 group: 'default' with: #('Scamper');
-                group: 'Tests' with: #('Scamper');
+                group: 'Tests' with: #('Scamper-Tests');
                 group: 'TravisCI' with: #('Tests') ]
