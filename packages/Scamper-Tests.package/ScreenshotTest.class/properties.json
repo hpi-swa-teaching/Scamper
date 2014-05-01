@@ -1,0 +1,14 @@
+{
+	"category" : "Scamper-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ScreenshotTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

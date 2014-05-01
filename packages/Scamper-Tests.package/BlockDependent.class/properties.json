@@ -1,0 +1,16 @@
+{
+	"category" : "Scamper-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"subject",
+		"block",
+		"symbol" ],
+	"name" : "BlockDependent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
