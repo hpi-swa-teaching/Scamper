@@ -25,4 +25,5 @@ install:
 script: $BUILDER_CI_HOME/testTravisCI.sh # -verbose 
 after_success: 
    - cd $BUILDER_CI_HOME
+   - chmod -R 777 $PROJECT_HOME/build-support/*.sh
    - $PROJECT_HOME/build-support/screenshots.sh
