@@ -1,2 +1,2 @@
-SystemOrganization addCategory: #Scamper!
-SystemOrganization addCategory: #'Scamper-Tests'!
+SystemOrganization addCategory: #'Scamper-Core'!
+SystemOrganization addCategory: #'Scamper-Core-Tests'!
