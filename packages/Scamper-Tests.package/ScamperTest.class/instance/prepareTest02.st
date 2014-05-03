@@ -5,7 +5,7 @@ prepareTest02
 	[FileDirectory default deleteDirectory: 'Scamper-Tests'.
 	FileDirectory default createDirectory: 'Scamper-Tests'.] on: Error do: [].
 	[file := FileStream fileNamed:
-		(FileDirectory uri: 'Scamper-Tests/test02submitFormPage.html') fullName.
+		(FileDirectory uri: 'Scamper-Tests', FileDirectory pathNameDelimiter, 			'test02submitFormPage.html') fullName.
 		file ifNil: [self error: 'could not save file' translated].
 		file nextPutAll: 
 '<html>

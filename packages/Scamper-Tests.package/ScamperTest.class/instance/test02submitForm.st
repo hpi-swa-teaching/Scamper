@@ -2,7 +2,8 @@ initialize-release
 test02submitForm
 	| file scamper website button |
 	self prepareTest02.
-	file := FileStream oldFileOrNoneNamed:  'Scamper-Tests/test02submitFormPage.html'.
+	file := FileStream oldFileOrNoneNamed:  'Scamper-Tests',
+		FileDirectory pathNameDelimiter, 'test02submitFormPage.html'.
 	scamper := Scamper openOnUrl: file.
 	file close.
 	(Delay forMilliseconds: 50) wait.
