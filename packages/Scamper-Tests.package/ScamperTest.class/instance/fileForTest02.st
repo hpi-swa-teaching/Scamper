@@ -2,7 +2,7 @@ initialize-release
 fileForTest02
 "The prepared file with values for testing the form submit."
 
-	^'<html>
+	^ '<html>
 		<head>
 			<title>submitFormTest</title>
 		</head>

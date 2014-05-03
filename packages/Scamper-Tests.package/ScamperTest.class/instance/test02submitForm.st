@@ -1,10 +1,10 @@
 initialize-release
 test02submitForm
 	| scamper website button |
-	scamper := Scamper openOnUrl: self prepareTest02.
-	self cleanTest02.
+	scamper := Scamper openOnUrl: self preparedFileForTest02.
 	(Delay forMilliseconds: 50) wait.
 	scamper model step.
+	self cleanAfterTest02.
 	website := (((scamper submorphs at: 4) submorphs last) submorphs first).
 	button := (website submorphs reject: [:Morph | Morph isTextView]) first.
 	button performAction.
