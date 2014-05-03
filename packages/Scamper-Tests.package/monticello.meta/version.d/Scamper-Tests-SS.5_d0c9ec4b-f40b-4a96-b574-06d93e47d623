@@ -1,0 +1,1 @@
+(name 'Scamper-Tests-SS.5'message 'Add tests to evaluate the changed jumpToUrl method and to check the form submit. In addition, the screenshotTest method was changed so that it works with the new jumpTo method'id 'd0c9ec4b-f40b-4a96-b574-06d93e47d623'date '2 May 2014'time '6:10:35.237 pm'author 'SS'ancestors ((id '05e3db0d-a509-f447-9042-84e906eea76d'))stepChildren ())
