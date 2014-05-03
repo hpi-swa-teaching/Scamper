@@ -2,7 +2,7 @@ testing
 test01TakeScreenshotOfGoogleOpenedInScamper
 	| scamper window |
 	scamper := Scamper new.
-	scamper jumpToUrl: 'http://google.de'.
+	scamper jumpToUrl: 'http://google.de' asUrl.
 	window := scamper openAsMorph.
 	
 	(Delay forMilliseconds: 2000) wait.
