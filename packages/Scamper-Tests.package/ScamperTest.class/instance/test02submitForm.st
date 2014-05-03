@@ -1,12 +1,8 @@
 initialize-release
 test02submitForm
-	| file scamper website button |
-	self prepareTest02.
-	file := FileStream oldFileOrNoneNamed:  'Scamper-Tests',
-		FileDirectory pathNameDelimiter, 'test02submitFormPage.html'.
-	scamper := Scamper openOnUrl: file.
-	file close.
-	[FileDirectory default deleteDirectory: 'Scamper-Tests'.] on: Error do: [].
+	| scamper website button |
+	scamper := Scamper openOnUrl: self prepareTest02.
+	self cleanTest02.
 	(Delay forMilliseconds: 50) wait.
 	scamper model step.
 	website := (((scamper submorphs at: 4) submorphs last) submorphs first).

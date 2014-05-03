@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"cleanTest02" : "SS 5/3/2014 21:23",
 		"fileForTest02" : "SS 5/3/2014 21:03",
-		"prepareTest02" : "SS 5/3/2014 21:04",
+		"prepareTest02" : "SS 5/3/2014 21:24",
 		"test01jumpToRelativeUrl" : "SS 5/3/2014 16:34",
-		"test02submitForm" : "SS 5/3/2014 21:15",
+		"test02submitForm" : "SS 5/3/2014 21:24",
 		"testOpen" : "md 4/16/2003 15:08" } }

@@ -9,3 +9,4 @@ prepareTest02
 		file ifNil: [self error: 'could not save file' translated].
 		file nextPutAll: self fileForTest02.
 	] ensure: [file close].
+	^file.
