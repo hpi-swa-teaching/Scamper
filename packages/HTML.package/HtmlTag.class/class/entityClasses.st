@@ -79,6 +79,8 @@ entityClasses
 		tr		HtmlTableRow
 		td		HtmlTableDataItem 
 		th		HtmlTableHeader
+				
+		script	HtmlScript
 		) pairsDo: [ 
 			:tagName :className |
 			EntityClasses at: tagName asString put: (Smalltalk at: className) ].
