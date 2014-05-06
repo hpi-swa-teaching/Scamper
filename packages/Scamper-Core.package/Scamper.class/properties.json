@@ -18,8 +18,7 @@
 		"currentUrlIndex",
 		"backgroundColor",
 		"bookmark",
-		"bookDir",
-		"workerCountEdit" ],
+		"bookDir" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],
