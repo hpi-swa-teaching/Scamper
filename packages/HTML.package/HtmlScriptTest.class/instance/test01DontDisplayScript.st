@@ -11,4 +11,4 @@ test01DontDisplayScript
 		
 	formatted := (HtmlParser parse: input) formattedText.
 	
-	self assert: (formatted = 'Lorem ipsum').
+	self assert: formatted equals: 'Lorem ipsum'.
