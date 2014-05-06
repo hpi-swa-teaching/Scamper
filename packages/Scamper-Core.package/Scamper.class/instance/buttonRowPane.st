@@ -45,9 +45,5 @@ addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleButtonNamed: 'Stop!' translated
 					action: #stopEverything
-					text: self stopButtonText);
-		addTransparentSpacerOfSize: 5 @ 0;
-		addMorphBack: (StringMorph contents: 'Workers:');
-		addTransparentSpacerOfSize: 5 @ 0;
-		addMorphBack: self workerCountEdit.
+					text: self stopButtonText).
 	^buttonRow
