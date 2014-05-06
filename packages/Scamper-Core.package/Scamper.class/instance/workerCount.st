@@ -1,3 +1,3 @@
 access
 workerCount
-	^workerCountEdit contents string asInteger
+	^self defaultWorkerCount 
