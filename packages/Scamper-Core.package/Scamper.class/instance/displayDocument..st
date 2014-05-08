@@ -17,9 +17,6 @@ displayDocument: mimeDocument
 	(mimeDocument contentType beginsWith: 'text/html') 
 		ifTrue: [handled := self displayTextHtmlPage: mimeDocument].
 
-	mimeDocument contentType = 'x-application/shockwave-flash'
-		ifTrue:[handled := self displayFlashPage: mimeDocument].
-
 	(#('audio/midi' 'audio/x-midi') includes: mimeDocument contentType) 
 		ifTrue: [handled := self processMidiPage: mimeDocument].
 
@@ -30,8 +27,6 @@ displayDocument: mimeDocument
 			ifTrue:[handled := self displayImagePage: mimeDocument].
 		(handled not and:[urlString endsWithAnyOf: #('.mid' '.midi')])
 			ifTrue:[handled := self processMidiPage: mimeDocument].
-		(handled not and:[urlString endsWith: '.swf'])
-			ifTrue:[handled := self displayFlashPage: mimeDocument].
 	].
 
 	(handled not and: [ mimeDocument mainType = 'text']) ifTrue: [
