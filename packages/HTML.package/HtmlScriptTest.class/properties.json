@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlScriptTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
