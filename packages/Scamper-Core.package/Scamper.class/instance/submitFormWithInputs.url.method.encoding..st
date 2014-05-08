@@ -8,7 +8,7 @@ submitFormWithInputs: inputs url: url method: method encoding: encoding
 		ifTrue:
 			[ self inform: ('unknown FORM method: {1}' translated format: {method}).
 			^ false ].
-	newUrl := url asUrl asUrlRelativeTo: currentUrl.
+	newUrl := url asUrlRelativeTo: currentUrl.
 	newUrl schemeName ~= 'http'
 		ifTrue:
 			[ self inform: 'I can only submit forms via HTTP' translated.
