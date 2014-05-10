@@ -1,12 +1,12 @@
 testing
 test01TakeScreenshotOfGoogleOpenedInScamper
-	| window scamper |
-	window := Scamper open.
-	scamper := window model.
-	
-	(scamper jumpToUrlAsync: 'http://google.de' asUrl) wait.	
-	window owner runStepMethods.
-	
-	scamper status = 'done.' ifTrue: [ self saveScreenshotOf: window toFile: 'scamper.png' ].
-	window delete.
+	| scamper |
+	[ scamper := (Scamper openOnUrlAsync: 'http://google.de' asUrl) wait.
+	scamper owner runStepMethods.
+
+	scamper model status = 'done.' ifTrue: [ self saveScreenshotOf: scamper toFile: 'scamper.png' ] ]
+		on: Exception
+		do: [].
+		
+	scamper ifNotNilDo: [ :s | s delete ].
 	self assert: true
