@@ -3,8 +3,8 @@ language: erlang
 # Choose which platforms you want your builds run against (done in parallel)
 env:
    matrix:
-   - ST=Squeak-4.4
    - ST=Squeak-4.5 SCREENSHOT=true
+   - ST=Squeak-Trunk
    global:
      secure: PkDb5LAmq3k4O4wXLPhCq5GdlEBjaMJ8B7sAK36Rb9rg223OBYs8I+mTp9TB1O5DVu+4Q5o5EUmG5+lkiPINzXcDyPMpnw9zx7kZdA4LaiBpeiVtKH/2+t5hgD4KDWkXYdoINuIahOZsZcKzlibQ1aDcXN61A1qzQAo9BT4CbbU=
 
