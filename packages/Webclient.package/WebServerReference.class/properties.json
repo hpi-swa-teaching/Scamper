@@ -1,0 +1,14 @@
+{
+	"category" : "WebClient-Help",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WebServerReference",
+	"pools" : [
+		 ],
+	"super" : "WebServerHelp",
+	"type" : "normal" }
