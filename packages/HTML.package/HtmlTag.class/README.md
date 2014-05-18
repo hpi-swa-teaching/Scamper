@@ -1,1 +1,0 @@
-An HTML tag, eg <a href="foo.html">

@@ -1,0 +1,15 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"propertyName",
+		"valueType" ],
+	"name" : "CSSValueTypeProperty",
+	"pools" : [
+		 ],
+	"super" : "CSSValueType",
+	"type" : "normal" }

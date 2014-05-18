@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"on:" : "tb 12/1/2005 22:15",
+		"readConstraintFor:from:" : "tb 12/1/2005 21:47" },
+	"instance" : {
+		"allowedElements" : "tb 12/6/2005 10:01",
+		"allowsItem:" : "tb 12/2/2005 10:13",
+		"expression" : "tb 11/30/2005 19:18",
+		"expression:" : "tb 1/13/2006 20:28",
+		"isEmpty" : "tb 12/1/2005 14:29",
+		"isEnumeration" : "tb 12/2/2005 08:55",
+		"isLiteral" : "tb 12/6/2005 10:13",
+		"matchTagList:" : "tb 12/1/2005 23:56",
+		"printOn:" : "tb 12/1/2005 22:16",
+		"validateChildren:ofNode:" : "tb 12/5/2005 16:54" } }

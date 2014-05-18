@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"fromString:" : "tb 12/27/2005 10:44",
+		"readFrom:" : "tb 1/3/2006 09:39" },
+	"instance" : {
+		"addValues:fromStream:" : "tb 12/30/2005 22:55",
+		"isTypeAND" : "tb 12/27/2005 15:49",
+		"isTypeANDOR" : "tb 12/27/2005 15:26",
+		"isTypeOR" : "tb 12/27/2005 15:26",
+		"isTypeOneOf" : "tb 12/27/2005 10:20",
+		"isTypeOneOrMoreOf" : "tb 12/27/2005 10:20",
+		"isValidValue:" : "tb 12/27/2005 10:49" } }

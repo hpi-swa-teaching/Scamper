@@ -1,1 +1,0 @@
-a "hidden" input.  It never actually appear on a formatted page, and the user can't change the input value.

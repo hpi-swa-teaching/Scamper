@@ -1,1 +1,0 @@
-a placeholder for an image that is downloading

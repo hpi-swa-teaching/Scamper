@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSSVersion3ConstructFoundError",
+	"pools" : [
+		 ],
+	"super" : "CSSError",
+	"type" : "normal" }

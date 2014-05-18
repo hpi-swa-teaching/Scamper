@@ -1,3 +1,0 @@
-handling input
-name
-	^name

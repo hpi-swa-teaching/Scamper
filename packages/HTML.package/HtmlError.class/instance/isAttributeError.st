@@ -1,0 +1,4 @@
+testing
+isAttributeError
+
+	^false

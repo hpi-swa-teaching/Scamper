@@ -1,0 +1,4 @@
+accessing
+isCDATA
+
+	^true

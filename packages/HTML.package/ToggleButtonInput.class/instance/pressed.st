@@ -1,3 +1,0 @@
-button state
-pressed
-	^state

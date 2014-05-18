@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSSPaddingWidthValue",
+	"pools" : [
+		 ],
+	"super" : "CSSLengthValue",
+	"type" : "normal" }

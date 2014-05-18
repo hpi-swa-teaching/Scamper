@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"expression:" : "tb 12/6/2005 15:00",
+		"on:" : "tb 12/6/2005 14:52" },
+	"instance" : {
+		"allowedElements" : "tb 12/6/2005 15:09",
+		"allowsItem:" : "tb 12/1/2005 14:25",
+		"consumeStream:" : "tb 12/1/2005 23:22",
+		"isLiteral" : "tb 12/6/2005 10:13",
+		"printOn:" : "tb 12/2/2005 17:28",
+		"validateChildren:ofNode:" : "tb 12/5/2005 12:48" } }

@@ -1,1 +1,0 @@
-result of an <input> tag

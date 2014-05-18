@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "CSSElement",
+	"pools" : [
+		 ],
+	"super" : "HtmlParseNode",
+	"type" : "normal" }

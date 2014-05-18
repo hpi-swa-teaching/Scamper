@@ -1,1 +1,0 @@
-Abstract superclass for elements that only appear in forms

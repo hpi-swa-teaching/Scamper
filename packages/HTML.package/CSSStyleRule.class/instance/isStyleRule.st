@@ -1,0 +1,4 @@
+testing
+isStyleRule
+
+	^true

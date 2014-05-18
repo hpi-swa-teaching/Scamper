@@ -1,0 +1,4 @@
+*html
+unquoted
+
+	^self withoutQuoting

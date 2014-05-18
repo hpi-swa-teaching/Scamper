@@ -1,1 +1,0 @@
-an entity which displays its contents in boldface

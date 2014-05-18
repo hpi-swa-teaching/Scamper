@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Validator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "XHtmlDTDElement",
+	"pools" : [
+		 ],
+	"super" : "HtmlDTDElement",
+	"type" : "normal" }

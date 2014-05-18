@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-DOM-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nesting" ],
+	"name" : "HtmlHeadBodyNestingError",
+	"pools" : [
+		 ],
+	"super" : "HtmlTagError",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+prefixId
+
+	^self uniqueId

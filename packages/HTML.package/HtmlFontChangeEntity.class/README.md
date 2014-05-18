@@ -1,1 +1,0 @@
-an entity whose effect is to change the font its constituents are displayed in in some way.  Multiple tags might generate almost any of the subclasses, so the tag name is stored explicitly.

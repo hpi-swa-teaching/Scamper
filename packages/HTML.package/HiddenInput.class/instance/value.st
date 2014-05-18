@@ -1,3 +1,0 @@
-input handling
-value
-	^value

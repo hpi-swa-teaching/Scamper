@@ -1,0 +1,5 @@
+accessing
+asString
+
+	^self innerContents
+

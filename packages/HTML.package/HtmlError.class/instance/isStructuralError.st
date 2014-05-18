@@ -1,0 +1,4 @@
+testing
+isStructuralError
+
+	^false
