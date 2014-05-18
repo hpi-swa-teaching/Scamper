@@ -4,4 +4,7 @@
 	"instance" : {
 		"content" : "tb 1/17/2008 14:57",
 		"splitOn:" : "tb 1/17/2008 14:21",
+		"trimBoth" : "lr 10/25/2009 11:13",
+		"trimBoth:" : "lr 10/25/2009 11:11",
+		"trimLeft:right:" : "lr 10/25/2009 11:15",
 		"unquoted" : "tb 11/28/2005 18:14" } }
