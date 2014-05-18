@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"name:value:checkedByDefault:" : "bolot 11/3/1999 20:30" },
+	"instance" : {
+		"active" : "bolot 11/3/1999 20:40",
+		"button:" : "LaurentLaffont 2/26/2010 23:13",
+		"name" : "bolot 11/3/1999 20:33",
+		"name:value:checkedByDefault:" : "LaurentLaffont 2/26/2010 23:13",
+		"pressed" : "bolot 11/3/1999 20:25",
+		"pressed:" : "LaurentLaffont 2/26/2010 23:13",
+		"toggle" : "bolot 11/3/1999 20:25",
+		"value" : "bolot 11/3/1999 20:33" } }

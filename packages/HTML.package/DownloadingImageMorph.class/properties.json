@@ -1,0 +1,20 @@
+{
+	"category" : "HTML-Formatter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"url",
+		"altText",
+		"defaultExtent",
+		"image",
+		"downloadQueue",
+		"imageMapName",
+		"formatter" ],
+	"name" : "DownloadingImageMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

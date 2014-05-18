@@ -6,3 +6,5 @@ SystemOrganization addCategory: #'HTML-CSS'!
 SystemOrganization addCategory: #'HTML-CSS-Tests'!
 SystemOrganization addCategory: #'HTML-CSS-Errors'!
 SystemOrganization addCategory: #'HTML-PList'!
+SystemOrganization addCategory: #'HTML-Formatter'!
+SystemOrganization addCategory: #'HTML-Forms'!
