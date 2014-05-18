@@ -2,4 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"tag" : "" } }
+		"addCheckBoxButtonToFormatter:" : "pf 5/18/2014 14:28",
+		"addFileInputToFormatter:" : "pf 5/18/2014 14:29",
+		"addImageButtonToFormatter:" : "pf 5/18/2014 14:22",
+		"addRadioButtonToFormatter:" : "pf 5/18/2014 14:27",
+		"addTextInputToFormatter:" : "pf 5/18/2014 14:25",
+		"addToFormatter:" : "pf 5/18/2014 14:16",
+		"defaultValue" : "pf 5/18/2014 14:18",
+		"imageExtent" : "pf 5/18/2014 14:25",
+		"mouseUpEvent:linkMorph:formData:" : "pf 5/18/2014 14:29",
+		"mouseUpFormData:event:linkMorph:" : "pf 5/18/2014 14:29",
+		"name" : "pf 5/18/2014 14:40",
+		"tag" : "",
+		"type" : "pf 5/18/2014 14:10" } }
