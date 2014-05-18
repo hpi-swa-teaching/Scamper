@@ -7,5 +7,4 @@ initialize
 	currentUrlIndex := 0.
 	currentUrl := ''.
 	pageSource := ''.
-	document := HtmlParser parse: (ReadStream on: '').
 	self status: 'sittin' translated
