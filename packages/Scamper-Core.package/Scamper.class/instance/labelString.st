@@ -4,4 +4,4 @@ labelString
 
 	document isNil
 		ifTrue: [ ^ 'Scamper' ]
-		ifFalse: [ ^ 'Scamper: ' , (self document head title ifNil: [ '(untitled)' translated ]) ]
+		ifFalse: [ ^ 'Scamper: ' , ((self titleOf: document) ifNil: [ '(untitled)' translated ]) ]

@@ -11,9 +11,5 @@ test02submitForm
 	10 timesRepeat: 
 		[(Delay forMilliseconds: 100) wait. 
 		scamper model step].
-	self assert: scamper model formattedPage equals: '
-Scamper4ever!
-aString
-/aString/
-		' asText.
+	self assert: scamper model formattedPage asString substrings equals: #('Scamper4ever!' 'aString' '/aString/').
 	scamper delete.

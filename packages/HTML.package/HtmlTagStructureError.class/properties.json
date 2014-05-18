@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-DOM-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlTagStructureError",
+	"pools" : [
+		 ],
+	"super" : "HtmlError",
+	"type" : "normal" }

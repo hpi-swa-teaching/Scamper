@@ -1,0 +1,4 @@
+testing
+isAdjacentSelector
+
+	^false

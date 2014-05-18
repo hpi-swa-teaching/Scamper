@@ -1,0 +1,16 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tb 12/21/2005 11:45",
+	"instvars" : [
+		"imports",
+		"content",
+		"url" ],
+	"name" : "CSSStyleSheet",
+	"pools" : [
+		 ],
+	"super" : "CSSElement",
+	"type" : "normal" }

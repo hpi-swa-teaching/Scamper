@@ -1,0 +1,4 @@
+matching
+isLiteral
+
+	^false

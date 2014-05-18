@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSSAttributeHasSuffixSelector",
+	"pools" : [
+		 ],
+	"super" : "CSSAttributeSelector",
+	"type" : "normal" }

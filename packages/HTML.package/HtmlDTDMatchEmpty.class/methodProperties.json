@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"empty" : "tb 12/6/2005 14:50" },
+	"instance" : {
+		"allowedElements" : "tb 12/6/2005 10:02",
+		"allowsItem:" : "tb 12/1/2005 14:25",
+		"initialize" : "tb 12/6/2005 15:06",
+		"isEmpty" : "tb 12/2/2005 10:41",
+		"printOn:" : "tb 12/1/2005 14:26",
+		"validateChildren:ofNode:" : "tb 12/5/2005 11:51" } }

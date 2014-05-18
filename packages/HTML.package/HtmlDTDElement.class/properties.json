@@ -1,0 +1,18 @@
+{
+	"category" : "HTML-Validator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dtd",
+		"startIsOptional",
+		"endIsOptional",
+		"contentRule",
+		"allowedElements" ],
+	"name" : "HtmlDTDElement",
+	"pools" : [
+		 ],
+	"super" : "HtmlDTDConstruct",
+	"type" : "normal" }

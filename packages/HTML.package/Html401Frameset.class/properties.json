@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Validator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Html401Frameset",
+	"pools" : [
+		 ],
+	"super" : "HtmlDTD",
+	"type" : "normal" }

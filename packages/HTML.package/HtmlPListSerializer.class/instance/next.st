@@ -1,0 +1,3 @@
+reading
+next
+	^self read

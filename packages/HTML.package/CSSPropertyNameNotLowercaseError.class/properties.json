@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSSPropertyNameNotLowercaseError",
+	"pools" : [
+		 ],
+	"super" : "CSSPropertyError",
+	"type" : "normal" }

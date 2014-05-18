@@ -1,0 +1,18 @@
+{
+	"category" : "HTML-DOM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"parent",
+		"errors",
+		"start",
+		"end" ],
+	"name" : "HtmlParseNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

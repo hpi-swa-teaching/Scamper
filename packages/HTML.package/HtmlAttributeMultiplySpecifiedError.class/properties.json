@@ -1,0 +1,15 @@
+{
+	"category" : "HTML-DOM-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value1",
+		"value2" ],
+	"name" : "HtmlAttributeMultiplySpecifiedError",
+	"pools" : [
+		 ],
+	"super" : "HtmlAttributeError",
+	"type" : "normal" }

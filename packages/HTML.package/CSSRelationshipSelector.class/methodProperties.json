@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"operator" : "tb 1/18/2006 22:16",
+		"operators" : "tb 1/18/2006 22:48",
+		"selectorForOperator:" : "tb 1/18/2006 22:18" },
+	"instance" : {
+		"=" : "tb 1/3/2006 04:29",
+		"addSelector:" : "tb 12/21/2005 12:39",
+		"hash" : "tb 1/3/2006 04:30",
+		"isCSS3" : "tb 1/14/2006 21:36",
+		"isRelationshipSelector" : "tb 1/18/2006 22:14",
+		"isValid" : "tb 1/14/2006 20:40",
+		"keySelectors" : "tb 1/3/2006 03:03",
+		"operator" : "tb 12/22/2005 22:22",
+		"printOn:" : "tb 12/22/2005 22:26",
+		"removeLastSelector" : "tb 1/18/2006 22:41",
+		"selectors" : "tb 12/21/2005 15:16",
+		"selectors:" : "sebastian.sastre 10/18/2010 11:56",
+		"selectorsMatching:" : "tb 12/30/2005 19:53" } }

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"on:" : "tb 12/1/2005 22:12" },
+	"instance" : {
+		"allowedElements" : "tb 12/6/2005 10:02",
+		"allowsItem:" : "tb 12/1/2005 14:06",
+		"printOn:" : "tb 12/1/2005 21:21",
+		"validateChildren:ofNode:" : "tb 12/5/2005 16:45" } }

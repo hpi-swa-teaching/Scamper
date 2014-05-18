@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"on:" : "tb 12/1/2005 21:09" },
+	"instance" : {
+		"allowedElements" : "tb 12/6/2005 10:07",
+		"allowsItem:" : "tb 12/1/2005 16:01",
+		"expression:" : "tb 12/1/2005 17:10",
+		"printOn:" : "tb 12/8/2005 22:00",
+		"separator" : "tb 12/1/2005 17:11" } }

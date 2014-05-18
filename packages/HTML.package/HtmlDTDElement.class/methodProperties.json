@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"fromParsedString:" : "SebastianSastre 1/15/2012 16:34" },
+	"instance" : {
+		"allowsTag:" : "tb 12/8/2005 15:25",
+		"cacheAllowedElementsForDTD:" : "tb 12/6/2005 15:27",
+		"contentRule" : "tb 11/30/2005 22:06",
+		"contentRule:" : "tb 12/2/2005 08:53",
+		"endIsOptional" : "tb 11/30/2005 22:25",
+		"endIsOptional:" : "sebastian.sastre 9/20/2010 11:52",
+		"isEmpty" : "tb 12/1/2005 14:29",
+		"printOn:" : "tb 11/30/2005 22:29",
+		"startIsOptional" : "tb 11/30/2005 22:02",
+		"startIsOptional:" : "sebastian.sastre 9/20/2010 11:52" } }

@@ -1,3 +1,0 @@
-contents
-textualContents
-	^text

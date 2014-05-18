@@ -1,0 +1,17 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"idSelectors",
+		"classSelectors",
+		"tagSelectors",
+		"otherSelectors" ],
+	"name" : "CSSRuleSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

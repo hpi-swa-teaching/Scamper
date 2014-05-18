@@ -1,0 +1,4 @@
+matching
+isEnumeration
+
+	^false

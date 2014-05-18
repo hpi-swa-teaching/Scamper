@@ -1,0 +1,4 @@
+testing
+isCSSError
+
+	^false

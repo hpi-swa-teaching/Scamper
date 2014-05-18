@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"cdata" : "tb 12/6/2005 14:53" },
+	"instance" : {
+		"allowedElements" : "tb 12/6/2005 15:09",
+		"allowsItem:" : "tb 12/5/2005 17:35",
+		"initialize" : "tb 12/6/2005 15:07",
+		"printOn:" : "tb 12/5/2005 17:39",
+		"validateChildren:ofNode:" : "tb 12/5/2005 17:37" } }
