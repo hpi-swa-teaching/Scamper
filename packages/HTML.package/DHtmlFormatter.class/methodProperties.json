@@ -4,11 +4,14 @@
 	"instance" : {
 		"decreaseFontBy:" : "bolot 5/18/2000 11:55",
 		"endFont:" : "bolot 5/18/2000 11:23",
-		"endHeader:" : "LaurentLaffont 2/26/2010 23:13",
-		"headerFont:" : "bolot 5/18/2000 12:00",
+		"endHeader:" : "rs 5/18/2014 14:16:30.63",
+		"endStyles" : "rs 5/18/2014 14:00:49.41",
+		"headerFont:" : "rs 5/18/2014 14:15:07.55",
 		"increaseFontBy:" : "bolot 5/18/2000 11:50",
 		"lastFontSize" : "LaurentLaffont 2/26/2010 23:13",
+		"parseTextAttributes:" : "rs 5/18/2014 13:40:29.526",
 		"resetFont" : "bolot 5/18/2000 11:57",
 		"setAttributes" : "LaurentLaffont 2/26/2010 23:13",
-		"startFont:" : "LaurentLaffont 2/26/2010 23:13",
-		"startHeader:" : "LaurentLaffont 2/26/2010 23:13" } }
+		"startFont:" : "rs 5/18/2014 13:53:54.124",
+		"startHeader:" : "rs 5/18/2014 14:14:54.344",
+		"startStyles:" : "rs 5/18/2014 14:01:58.816" } }
