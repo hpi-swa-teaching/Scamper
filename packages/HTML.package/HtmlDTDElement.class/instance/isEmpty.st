@@ -1,0 +1,4 @@
+accessing
+isEmpty
+
+	^contentRule isEmpty

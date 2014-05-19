@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"readFrom:" : "tb 12/28/2005 23:45" },
+	"instance" : {
+		"addValues:fromStream:" : "tb 12/30/2005 22:58",
+		"isValueValid:" : "tb 12/27/2005 14:07",
+		"printOn:" : "tb 12/27/2005 14:10",
+		"valueClass" : "tb 12/27/2005 09:58",
+		"valueClass:" : "sebastian.sastre 9/19/2010 11:17" } }

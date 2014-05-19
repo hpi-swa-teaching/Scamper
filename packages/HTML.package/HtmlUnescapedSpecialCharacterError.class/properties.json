@@ -1,0 +1,15 @@
+{
+	"category" : "HTML-DOM-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CharactersToEntities",
+		"SpecialCharacters" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"position" ],
+	"name" : "HtmlUnescapedSpecialCharacterError",
+	"pools" : [
+		 ],
+	"super" : "HtmlSyntaxError",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-DOM-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlAttributeValueNotQuotedError",
+	"pools" : [
+		 ],
+	"super" : "HtmlAttributeError",
+	"type" : "normal" }

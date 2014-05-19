@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-DOM-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlAttributeNotLowerCaseError",
+	"pools" : [
+		 ],
+	"super" : "HtmlAttributeError",
+	"type" : "normal" }

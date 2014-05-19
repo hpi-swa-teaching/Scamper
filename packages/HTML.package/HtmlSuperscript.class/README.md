@@ -1,1 +1,0 @@
-an entity whose contents are to be displayed as a superscript

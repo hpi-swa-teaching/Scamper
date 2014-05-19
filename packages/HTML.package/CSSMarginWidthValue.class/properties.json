@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSSMarginWidthValue",
+	"pools" : [
+		 ],
+	"super" : "CSSValue",
+	"type" : "normal" }

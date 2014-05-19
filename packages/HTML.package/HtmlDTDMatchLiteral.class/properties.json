@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Validator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LiteralsByTagAsSymbol" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlDTDMatchLiteral",
+	"pools" : [
+		 ],
+	"super" : "HtmlDTDMatchExpression",
+	"type" : "normal" }

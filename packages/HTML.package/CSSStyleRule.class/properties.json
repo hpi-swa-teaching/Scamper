@@ -1,0 +1,17 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tb 12/12/2005 09:05",
+	"instvars" : [
+		"selector",
+		"properties",
+		"matchCount",
+		"keySelector" ],
+	"name" : "CSSStyleRule",
+	"pools" : [
+		 ],
+	"super" : "CSSRule",
+	"type" : "normal" }

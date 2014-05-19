@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"content" ],
+	"name" : "CSSNodeAttributeStyleRule",
+	"pools" : [
+		 ],
+	"super" : "CSSStyleRule",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"category" : "HTML-Validator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Cache" ],
+	"commentStamp" : "tb 11/30/2005 00:38",
+	"instvars" : [
+		"url",
+		"document",
+		"errors",
+		"dom",
+		"content",
+		"comments",
+		"elements",
+		"attLists",
+		"entities" ],
+	"name" : "HtmlDTD",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

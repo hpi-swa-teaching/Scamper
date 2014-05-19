@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSSUnmatchedRuleError",
+	"pools" : [
+		 ],
+	"super" : "CSSError",
+	"type" : "normal" }

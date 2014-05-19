@@ -1,0 +1,23 @@
+{
+	"category" : "HTML-DOM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultRules",
+		"HTML401" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"attributes",
+		"hasTrailingSlash",
+		"tag",
+		"isImplied",
+		"dtd",
+		"endTagMissing",
+		"styles",
+		"id",
+		"classes" ],
+	"name" : "HtmlDOMNode",
+	"pools" : [
+		 ],
+	"super" : "HtmlParseNode",
+	"type" : "normal" }

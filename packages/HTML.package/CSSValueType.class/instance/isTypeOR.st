@@ -1,0 +1,5 @@
+testing
+isTypeOR
+
+
+	^false

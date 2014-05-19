@@ -1,0 +1,15 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"urlValue",
+		"stylesheet" ],
+	"name" : "CSSAtImportRule",
+	"pools" : [
+		 ],
+	"super" : "CSSAtRule",
+	"type" : "normal" }

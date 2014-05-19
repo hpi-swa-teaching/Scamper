@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"candidateRulesForNode:" : "tb 1/18/2006 23:55",
+		"classSelectors" : "tb 1/3/2006 02:42",
+		"classSelectors:" : "PK 10/18/2010 22:19",
+		"idSelectors" : "tb 1/3/2006 02:39",
+		"idSelectors:" : "PK 10/18/2010 22:20",
+		"initialize" : "tb 1/3/2006 03:22",
+		"otherSelectors" : "tb 1/3/2006 02:39",
+		"otherSelectors:" : "PK 10/18/2010 22:20",
+		"tagSelectors" : "tb 1/3/2006 02:39",
+		"tagSelectors:" : "PK 10/18/2010 22:20" } }

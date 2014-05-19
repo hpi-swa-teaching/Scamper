@@ -16,4 +16,7 @@ submitFormWithInputsAsync: inputs url: url method: method encoding: encoding
 	self status: 'submitting form...' translated.
 	self addNextToRecentDocuments.
 	
-	^ self downloadFromUrlAsync: newUrl withMethod: method andInputs: inputs andEncoding: encoding
+	^ (self downloadFromUrlAsync: newUrl withMethod: method andInputs: inputs andEncoding: encoding)
+		then: [ :document |
+			WorldState addDeferredUIMessage: [ self processDocument: document ].
+			self ]

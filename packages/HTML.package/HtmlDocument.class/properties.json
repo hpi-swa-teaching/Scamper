@@ -1,14 +1,19 @@
 {
-	"category" : "HTML-Parser Entities",
+	"category" : "HTML-DOM",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"docType",
+		"content",
+		"requestUrl",
+		"responseUrl",
+		"dtdIsImplied",
+		"loader" ],
 	"name" : "HtmlDocument",
 	"pools" : [
 		 ],
-	"super" : "HtmlEntity",
+	"super" : "HtmlDOMNode",
 	"type" : "normal" }

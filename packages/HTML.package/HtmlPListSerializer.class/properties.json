@@ -1,0 +1,18 @@
+{
+	"category" : "HTML-PList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ReadTranslations",
+		"WriteTranslations" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"arrayItemsPerLine",
+		"dictionaryItemsPerLine",
+		"indentLevel" ],
+	"name" : "HtmlPListSerializer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

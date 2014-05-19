@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isValid" ],
+	"name" : "CSSSelector",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

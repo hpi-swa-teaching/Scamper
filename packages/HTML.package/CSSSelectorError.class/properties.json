@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSSSelectorError",
+	"pools" : [
+		 ],
+	"super" : "CSSError",
+	"type" : "normal" }

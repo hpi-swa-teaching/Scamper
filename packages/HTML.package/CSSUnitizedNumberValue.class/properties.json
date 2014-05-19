@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"units" ],
+	"name" : "CSSUnitizedNumberValue",
+	"pools" : [
+		 ],
+	"super" : "CSSNumberValue",
+	"type" : "normal" }

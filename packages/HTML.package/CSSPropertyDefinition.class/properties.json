@@ -1,0 +1,20 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Definitions" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"appliesTo",
+		"propertyName",
+		"initialValue",
+		"media",
+		"percentages",
+		"valueString",
+		"valueType" ],
+	"name" : "CSSPropertyDefinition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

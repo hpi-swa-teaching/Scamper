@@ -1,3 +1,0 @@
-properties
-isTag
-	^true

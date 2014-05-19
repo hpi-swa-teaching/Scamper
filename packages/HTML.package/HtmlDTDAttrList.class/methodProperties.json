@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"fromParsedArray:" : "tb 12/3/2005 14:30" },
+	"instance" : {
+		"addToAttributes:" : "tb 11/30/2005 19:31",
+		"attributeNamed:" : "tb 11/30/2005 23:12",
+		"attributes" : "tb 11/30/2005 19:32",
+		"attributes:" : "tb 11/30/2005 19:52",
+		"includesAttribute:" : "tb 12/1/2005 00:57",
+		"printOn:" : "tb 11/30/2005 22:58",
+		"requiredAttributes" : "tb 12/1/2005 01:01" } }

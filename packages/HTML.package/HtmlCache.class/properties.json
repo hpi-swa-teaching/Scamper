@@ -1,0 +1,15 @@
+{
+	"category" : "HTML-Validator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"urlToDocument",
+		"url" ],
+	"name" : "HtmlCache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

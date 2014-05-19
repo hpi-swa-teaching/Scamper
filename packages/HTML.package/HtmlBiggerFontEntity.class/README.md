@@ -1,1 +1,0 @@
-an entity which supposedly increases the font size of its constituents

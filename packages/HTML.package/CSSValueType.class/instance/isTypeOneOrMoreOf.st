@@ -1,0 +1,5 @@
+testing
+isTypeOneOrMoreOf
+
+
+	^false

@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-DOM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlAREANode",
+	"pools" : [
+		 ],
+	"super" : "HtmlDOMNode",
+	"type" : "normal" }

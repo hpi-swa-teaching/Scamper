@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type" ],
+	"name" : "CSSValueTypeConstraint",
+	"pools" : [
+		 ],
+	"super" : "CSSValueType",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Validator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HtmlDTDMatchConstraint",
+	"pools" : [
+		 ],
+	"super" : "HtmlDTDMatchExpression",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+testing
+isProperty
+
+	^true

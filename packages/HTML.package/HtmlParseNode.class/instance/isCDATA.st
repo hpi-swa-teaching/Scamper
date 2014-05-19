@@ -1,0 +1,4 @@
+testing
+isCDATA
+
+	^false
