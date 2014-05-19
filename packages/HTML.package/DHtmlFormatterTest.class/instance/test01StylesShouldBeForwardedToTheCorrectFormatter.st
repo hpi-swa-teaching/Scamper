@@ -12,4 +12,4 @@ test01StylesShouldBeForwardedToTheCorrectFormatter
 			props := CSSStyleRule new addProperty: (CSSProperty propertyNamed: attributeName).
 			result := self htmlFormatter parseTextAttributes: (OrderedCollection newFrom: {props}).
 
-			self assert: result includes: prefix first ] ]
+			self assert: (result includes: prefix first) ] ]
