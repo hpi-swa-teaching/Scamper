@@ -13,6 +13,9 @@ sendRequest: request contentBlock: contentBlock
 
 	"Always update the host header due to redirect"
 	request headerAt: 'Host' put: server.
+	
+	"Reset the User-Agent so that websites know which Browser is requesting."
+	request headerAt: 'User-Agent' put: self defaultUserAgent.
 
 		["The inner loop handles authentication"
 		repeatAuth := false.
