@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"fontFormatter" : "rs 5/19/2014 19:50:21.108",
+		"fontFormatter:" : "rs 5/19/2014 19:50:21.12",
+		"setUp" : "rs 5/19/2014 19:50:35.284",
+		"test01FontItalicBoldShouldBeConvertedToCorrectTextEmphasis" : "rs 5/19/2014 20:14:17.246",
+		"test02FontStyleItalicShouldBeConvertedToCorrectTextEmphasis" : "rs 5/19/2014 20:14:23.122",
+		"test03FontWeightBoldShouldBeConvertedToCorrectTextEmphasis" : "rs 5/19/2014 20:14:27.71" } }

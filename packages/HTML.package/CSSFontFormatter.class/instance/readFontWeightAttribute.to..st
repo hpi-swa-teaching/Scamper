@@ -1,4 +1,4 @@
-formatting commands
+parsing
 readFontWeightAttribute: aString to: aDictionary
 	| map |
 	map := Dictionary newFrom: {

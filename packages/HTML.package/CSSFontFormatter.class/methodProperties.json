@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"attributeMap" : "rs 5/19/2014 18:15:39.442",
+		"getTextAttributesFrom:" : "rs 5/19/2014 17:57:02.148",
+		"parseTextAttributesFrom:" : "rs 5/19/2014 18:23:59.342",
+		"readAttributesFrom:" : "rs 5/19/2014 18:25:26.94",
+		"readFontAttribute:to:" : "rs 5/19/2014 20:08:45.188",
+		"readFontStyleAttribute:to:" : "rs 5/19/2014 17:57:47.586",
+		"readFontWeightAttribute:to:" : "rs 5/19/2014 17:57:55.022" } }

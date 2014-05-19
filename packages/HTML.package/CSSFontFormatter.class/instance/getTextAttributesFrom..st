@@ -1,4 +1,4 @@
-formatting commands
+parsing
 getTextAttributesFrom: aDictionary
 	| attribs |
 	attribs := OrderedCollection new.

@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"fontSpecs",
-		"cssPrefixMap" ],
-	"name" : "DHtmlFormatter",
+		 ],
+	"name" : "CSSFormatter",
 	"pools" : [
 		 ],
-	"super" : "HtmlFormatter",
+	"super" : "Object",
 	"type" : "normal" }
