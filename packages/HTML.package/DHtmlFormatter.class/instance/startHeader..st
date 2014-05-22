@@ -1,5 +1,8 @@
 formatting commands
 startHeader: level
+	| attribs |
 	self ensureNewlines: 3.
-	boldLevel := boldLevel + 1. "self increaseBold"
-	self startFont: (self headerFont: level).
+	attribs := fontSpecs last.
+	attribs add: (self headerFont: level);
+		     add: TextEmphasis bold.
+	self setAttributes 
