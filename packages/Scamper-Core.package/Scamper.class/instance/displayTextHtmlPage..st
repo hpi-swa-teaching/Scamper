@@ -7,6 +7,7 @@ displayTextHtmlPage: newSource
 	self status: 'parsing...' translated.
 	document := (HtmlDocument new parseContents: (ReadStream on: pageSource)).
 	self status: 'laying out...' translated.
+	document applyStyles.
 	formatter := HtmlFormatter preferredFormatterClass new.
 	formatter browser: self.
 	formatter baseUrl: currentUrl.
