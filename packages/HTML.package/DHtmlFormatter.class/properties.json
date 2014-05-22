@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"fontSpecs" ],
+		"fontSpecs",
+		"cssPrefixMap" ],
 	"name" : "DHtmlFormatter",
 	"pools" : [
 		 ],

@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Formatter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"attributeMap" ],
+	"name" : "CSSFontFormatter",
+	"pools" : [
+		 ],
+	"super" : "CSSFormatter",
+	"type" : "normal" }
