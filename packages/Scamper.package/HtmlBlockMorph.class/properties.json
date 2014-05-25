@@ -1,16 +1,15 @@
 {
-	"category" : "Scamper-Core",
+	"category" : "Scamper-HTML-Morphs",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scamper",
-		"document",
-		"documentMorph" ],
-	"name" : "WebPageMorph",
+		"node",
+		"children" ],
+	"name" : "HtmlBlockMorph",
 	"pools" : [
 		 ],
-	"super" : "ScrollPane",
+	"super" : "Morph",
 	"type" : "normal" }

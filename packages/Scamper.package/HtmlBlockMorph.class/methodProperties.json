@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"newFor:" : "SN 5/25/2014 14:54" },
+	"instance" : {
+		"addChild:" : "SN 5/25/2014 15:40",
+		"children" : "SN 5/25/2014 15:35",
+		"children:" : "SN 5/25/2014 15:35",
+		"defaultColor" : "SN 5/25/2014 15:22",
+		"incompleteMorphs" : "SN 5/25/2014 15:32",
+		"initialize" : "SN 5/25/2014 15:33",
+		"node" : "SN 5/25/2014 14:50",
+		"node:" : "SN 5/25/2014 14:50" } }

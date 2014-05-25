@@ -15,7 +15,8 @@
 		"endTagMissing",
 		"styles",
 		"id",
-		"classes" ],
+		"classes",
+		"htmlMorph" ],
 	"name" : "HtmlDOMNode",
 	"pools" : [
 		 ],
