@@ -1,8 +1,10 @@
 {
 	"class" : {
 		"fromColorName:" : "pf 5/25/2014 13:53",
-		"fromHTMLString:" : "pf 5/25/2014 13:51",
+		"fromHTMLString:" : "js 5/25/2014 15:25",
 		"fromHexRGBString:" : "pf 5/25/2014 12:35",
+		"fromRGBFunction:" : "js 5/25/2014 15:35",
+		"fromRGBPercentageFunction:" : "js 5/25/2014 15:32",
 		"htmlColors1" : "pf 5/25/2014 13:18",
 		"htmlColors2" : "pf 5/25/2014 13:22",
 		"htmlColors3" : "pf 5/25/2014 13:24",
