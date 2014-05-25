@@ -8,9 +8,8 @@ baseline: spec
                 package: 'HTML';
 		    package: 'WebClient';
 		    package: 'ConfigurationOfWebClient';
-                package: 'Scamper-Core' with: [ spec requires: #('HTML') ];
-                package: 'Scamper-Tests' with: [ spec requires: #('default') ].
+                package: 'Scamper' with: [ spec requires: #('HTML') ].
             spec
-                group: 'default' with: #('Scamper-Core');
+                group: 'default' with: #('Scamper');
                 group: 'Tests' with: #('Scamper-Tests');
                 group: 'TravisCI' with: #('Tests') ]
