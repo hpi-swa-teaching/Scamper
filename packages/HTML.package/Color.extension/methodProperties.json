@@ -1,6 +1,12 @@
 {
 	"class" : {
-		"fromHTMLString:" : "pf 5/25/2014 12:42",
-		"fromHexRGBString:" : "pf 5/25/2014 12:35" },
+		"fromColorName:" : "pf 5/25/2014 13:53",
+		"fromHTMLString:" : "pf 5/25/2014 13:51",
+		"fromHexRGBString:" : "pf 5/25/2014 12:35",
+		"htmlColors1" : "pf 5/25/2014 13:18",
+		"htmlColors2" : "pf 5/25/2014 13:22",
+		"htmlColors3" : "pf 5/25/2014 13:24",
+		"htmlColors4" : "pf 5/25/2014 13:25",
+		"rgbOf:" : "pf 5/25/2014 13:30" },
 	"instance" : {
 		 } }

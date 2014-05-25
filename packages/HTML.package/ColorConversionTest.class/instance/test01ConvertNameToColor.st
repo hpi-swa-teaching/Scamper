@@ -1,6 +1,14 @@
 as yet unclassified
 test01ConvertNameToColor
-		
-	self assert: (Color fromHTMLString: 'white') equals: (Color r: 1 g: 1 b: 1).
-	self assert: (Color fromHTMLString: 'black') equals: (Color r: 0 g: 0 b: 0).
-	self assert: (Color fromHTMLString: 'cyan') equals: (Color r: 0 g: 1 b: 1).
+	| colorLists |
+	colorLists := OrderedCollection new.
+	colorLists
+		add: Color htmlColors1;
+		add: Color htmlColors2;
+		add: Color htmlColors3;
+		add: Color htmlColors4.
+	colorLists do: [:colorList | 
+		colorList keysAndValuesDo: [ :colorName :rgb |
+			self assert: (Color fromHTMLString: colorName) equals: (Color r: rgb first / 255 g: rgb second / 255 b: rgb third / 255).
+		].
+	].
