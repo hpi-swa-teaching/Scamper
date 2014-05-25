@@ -2,4 +2,5 @@ layout
 show: aHtmlDocument
 	self document: aHtmlDocument;
 		documentMorph: (HtmlDocumentMorph newFor: aHtmlDocument);
-		startDownloadingMorphState: documentMorph incompleteMorphs.
+		startDownloadingMorphState: documentMorph incompleteMorphs;
+		resetExtent.
