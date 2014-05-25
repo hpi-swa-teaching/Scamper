@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test02ConvertHexRGBToColor
 		
 	self assert: (Color fromHTMLString: '#fff') equals: (Color r: 1 g: 1 b: 1).
