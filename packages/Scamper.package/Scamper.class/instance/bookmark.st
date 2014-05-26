@@ -21,6 +21,6 @@ bookmark
 					menu add: name subMenu: sub]
 				ifFalse: [menu
 						add: name
-						selector: #jumpToUrl:
+						selector: #jumpToUrlAsync:
 						argument: url]].
 	menu popUpInWorld: self currentWorld

@@ -1,7 +1,7 @@
 initialize-release
 test01jumpToRelativeUrl
 	| scamper |
-	scamper := (Scamper openOnUrlAsync: 'http://de.selfhtml.org/html/verweise/anzeige/index.htm') wait.
+	scamper := Scamper openOnUrl: 'http://de.selfhtml.org/html/verweise/anzeige/index.htm'.
 	scamper owner runStepMethods.
 	
 	(scamper model jumpToUrlAsync: 'zweiteseite.htm') wait.

@@ -4,7 +4,7 @@ openOnUrl: aStringOrUrl
 		Scamper openOnUrl: 'www.squeak.org'
 		Scamper openOnUrl: 'file://C%3A/test.htm'
 	"
-
-	^ self new
-		jumpToUrlAsync: aStringOrUrl asUrl;
-		openAsMorph
+	| scamper |
+	scamper := self new.
+	(scamper jumpToUrlAsync: aStringOrUrl asUrl) wait.
+	^ scamper openAsMorph

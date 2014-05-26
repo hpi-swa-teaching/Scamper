@@ -1,8 +1,8 @@
 initialize-release
 test02submitForm
 	| scamper website button form |
-	scamper := (Scamper openOnUrlAsync: 
-		'http://swt-scamper.azurewebsites.net/Scamper-Tests/test02submitForm/request.html') wait.
+	scamper := Scamper openOnUrl: 
+		'http://swt-scamper.azurewebsites.net/Scamper-Tests/test02submitForm/request.html'.
 	scamper owner runStepMethods.
 	
 	website := (((scamper submorphs at: 4) submorphs last) submorphs first).

@@ -9,7 +9,7 @@ jumpToAbsoluteUrlAsync: urlText
 	newUrl := urlText asUrl.
 
 	"if it fundamentally doesn't fit the pages-and-contents model used internally, spawn off an external viewer for it"
-	newUrl hasContents ifFalse: [ newUrl activate.  ^true ].
+	newUrl hasContents ifFalse: [ newUrl activate.  ^ Promise unit: self ].
 
 	self status: ('downloading {1}...' translated format:{newUrl asString}).
 

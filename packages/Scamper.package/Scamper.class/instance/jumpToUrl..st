@@ -1,4 +1,4 @@
 changing page
 jumpToUrl: urlText
-	"start downloading a new page.  The page source is downloaded in a background thread"
+	"this method is called by the framework on web browsers - therefore don't block"
 	self jumpToAbsoluteUrlAsync: (urlText asUrlRelativeTo: currentUrl)
