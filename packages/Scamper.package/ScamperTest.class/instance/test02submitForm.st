@@ -11,5 +11,9 @@ test02submitForm
 	form submitAsync wait.
 	scamper owner runStepMethods.
 	
-	self assert: scamper model formattedPage asString substrings equals: #('Scamper4ever!' 'aString' '/aString/').
+	self assert: scamper model formattedPage withSqueakLineEndings equals: '
+Scamper4ever!
+aString
+/aString/
+		' asText.
 	scamper delete.
