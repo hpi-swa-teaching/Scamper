@@ -1,0 +1,1 @@
+(name 'HTML-SS.67'message 'Display HTML entities (either with their name, a decimal or hexadecimal value) correctly. If the string could not be recognized as HTML entitiy it will be shown as text.'id 'b1f3feb0-d236-493b-b595-7dc9f43a7baa'date '27 May 2014'time '10:18:02.814 pm'author 'SS'ancestors ((id 'cba0ca6a-6463-1646-badb-951964ca07ff'))stepChildren ())
