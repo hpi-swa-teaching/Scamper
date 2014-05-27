@@ -13,6 +13,6 @@ addNewSubMenu: aDictionary
 				ifFalse: [subMenu
 						add: name
 						target: self
-						selector: #jumpToUrl:
+						selector: #jumpToUrlAsync:
 						argument: url]].
 	^ subMenu
