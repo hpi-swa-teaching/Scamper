@@ -16,7 +16,8 @@
 		"styles",
 		"id",
 		"classes",
-		"htmlMorph" ],
+		"htmlMorph",
+		"isInline" ],
 	"name" : "HtmlDOMNode",
 	"pools" : [
 		 ],
