@@ -1,4 +1,4 @@
 menus
 visitStartPage
-	self jumpToAbsoluteUrl: 'browser:start'.
+	self jumpToAbsoluteUrlAsync: 'browser:start'.
 	^true

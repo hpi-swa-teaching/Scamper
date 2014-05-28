@@ -1,5 +1,5 @@
 menus
 reload
 	self stopEverything.
-	self jumpToUrl: currentUrl
+	self jumpToUrlAsync: currentUrl
 	

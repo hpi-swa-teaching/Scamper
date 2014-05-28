@@ -6,4 +6,4 @@ newInstancePointingAt: aStringOrUrl
 	"
 
 	^ (self new
-		jumpToUrl: aStringOrUrl asUrl) morphicWindow applyModelExtent
+		jumpToUrlAsync: aStringOrUrl asUrl) morphicWindow applyModelExtent
