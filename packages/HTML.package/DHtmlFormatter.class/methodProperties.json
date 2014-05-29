@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"cssPrefixMap" : "rs 5/19/2014 18:30:36.49",
+		"cssPrefixMap" : "pf 5/25/2014 13:57",
 		"decreaseFontBy:" : "bolot 5/18/2000 11:55",
 		"endFont:" : "bolot 5/18/2000 11:23",
 		"endHeader:" : "rs 5/18/2014 14:16:30.63",
 		"endStyles" : "rs 5/18/2014 14:00:49.41",
 		"getFormatterFor:" : "rs 5/21/2014 12:18:05.082",
-		"getPrefixOf:" : "rs 5/19/2014 18:31:23.964",
-		"getTextAttributesFrom:" : "rs 5/21/2014 12:45:42.142",
+		"getPrefixOf:" : "pf 5/25/2014 11:03",
+		"getTextAttributesFrom:" : "pf 5/25/2014 14:15",
 		"headerFont:" : "rs 5/18/2014 14:15:07.55",
 		"increaseFontBy:" : "bolot 5/18/2000 11:50",
 		"lastFontSize" : "LaurentLaffont 2/26/2010 23:13",
