@@ -1,3 +1,3 @@
 accessing
 startStyles: aFormatter
-	aFormatter startOrderedList
+	aFormatter startOrderedListWithStart: (self attributes at: 'start' ifAbsent: [1]) asInteger.
