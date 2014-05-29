@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"colorFormatter" : "pf 5/25/2014 14:26",
+		"colorFormatter:" : "pf 5/25/2014 14:26",
+		"setUp" : "pf 5/25/2014 14:25",
+		"test01ColorShouldBeParsedCorrectly" : "pf 5/25/2014 14:27" } }
