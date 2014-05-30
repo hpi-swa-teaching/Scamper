@@ -1,12 +1,14 @@
 as yet unclassified
 addToFormatter: formatter
-	formatter currentFormData ifNil: [
+	| form |
+	form := self associatedForm.
+	form ifNil: [
 		"not in a form.  It's bogus HTML but try to survive"
 		^self ].
 
 	"is it a submit button?"
 	self type = 'submit' ifTrue: [
-		formatter addMorph: ((PluggableButtonMorph on: formatter currentFormData getState: nil action: #submit) label: (self attributes at: 'value' ifAbsent: ['Submit'])).
+		formatter addMorph: ((PluggableButtonMorph on: form getState: nil action: #submit) label: (self attributes at: 'value' ifAbsent: ['Submit'])).
 		^self ].
 
 	self type = 'image'
@@ -16,7 +18,7 @@ addToFormatter: formatter
 		ifTrue: [^self addTextInputToFormatter: formatter].
 
 	self type = 'hidden' ifTrue: [
-		formatter currentFormData addInput: (HiddenInput name: self name  value: self defaultValue).
+		form addInput: (HiddenInput name: self name  value: self defaultValue).
 		^self ].
 
 	self type = 'radio' ifTrue: [ 

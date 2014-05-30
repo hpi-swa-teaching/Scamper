@@ -5,6 +5,6 @@ flushInlineNodes: inlineNodes to: aHtmlBlockMorph
 		formatter := HtmlFormatter preferredFormatterClass new.
 		inlineNodes do: [ :node | node addToFormatter: formatter ].
 		htmlInlineMorph := formatter htmlInlineMorph.
-		htmlInlineMorph text isEmpty ifFalse: [
+		htmlInlineMorph text ifNotEmpty: [
 			htmlInlineMorph nodes: inlineNodes.
 			aHtmlBlockMorph addChild: htmlInlineMorph ] ]

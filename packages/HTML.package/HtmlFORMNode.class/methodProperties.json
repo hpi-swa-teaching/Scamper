@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addToHtmlMorph:" : "rs 5/30/2014 15:26:39.038",
+		"associatedForm" : "rs 5/29/2014 23:11:52.896",
 		"encoding" : "pf 5/18/2014 14:31",
-		"endStyles:" : "rs 5/18/2014 15:24:37.044",
+		"endStyles:" : "rs 5/30/2014 15:28:49.09",
+		"initialize" : "rs 5/30/2014 15:24:27.908",
 		"method" : "pf 5/18/2014 14:31",
 		"startStyles:" : "rs 5/18/2014 15:24:15.682",
 		"tag" : "",

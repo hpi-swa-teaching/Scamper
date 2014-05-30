@@ -8,5 +8,5 @@ addTextInputToFormatter: formatter
 	size := (self attributes at: 'size' ifAbsent: ['12']) asNumber.
 	inputMorph extent: (size*10@20).
 	formatter addMorph: inputMorph.
-	formatter currentFormData addInput:
+	self associatedForm addInput:
 		(TextInput name: self name defaultValue: self defaultValue  textMorph: inputMorph).

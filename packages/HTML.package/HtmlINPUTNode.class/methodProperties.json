@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addCheckBoxButtonToFormatter:" : "pf 5/18/2014 14:28",
-		"addFileInputToFormatter:" : "pf 5/18/2014 14:29",
-		"addImageButtonToFormatter:" : "pf 5/18/2014 14:22",
-		"addRadioButtonToFormatter:" : "pf 5/18/2014 14:27",
-		"addTextInputToFormatter:" : "pf 5/18/2014 14:25",
-		"addToFormatter:" : "pf 5/18/2014 14:16",
+		"addCheckBoxButtonToFormatter:" : "rs 5/29/2014 23:19:20.856",
+		"addFileInputToFormatter:" : "rs 5/29/2014 23:19:04.282",
+		"addImageButtonToFormatter:" : "rs 5/29/2014 23:18:49.476",
+		"addRadioButtonToFormatter:" : "rs 5/29/2014 23:18:42.71",
+		"addTextInputToFormatter:" : "rs 5/29/2014 23:18:32.39",
+		"addToFormatter:" : "rs 5/29/2014 23:17:52.448",
 		"alt" : "SN 5/22/2014 11:49",
 		"defaultValue" : "pf 5/18/2014 14:18",
 		"imageExtent" : "pf 5/18/2014 14:25",
