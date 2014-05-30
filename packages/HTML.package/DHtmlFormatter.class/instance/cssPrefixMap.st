@@ -1,7 +1,7 @@
 accessing
 cssPrefixMap
 	^ cssPrefixMap ifNil: [
-		Dictionary newFrom: {
+		cssPrefixMap := Dictionary newFrom: {
 			'font' -> CSSFontFormatter new.
 			'color' -> CSSColorFormatter new
 		}]

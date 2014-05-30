@@ -8,7 +8,7 @@ addToFormatter: formatter
 
 	"is it a submit button?"
 	self type = 'submit' ifTrue: [
-		formatter addMorph: ((PluggableButtonMorph on: form getState: nil action: #submit) label: (self attributes at: 'value' ifAbsent: ['Submit'])).
+		formatter addMorph: ((PluggableButtonMorph on: form getState: nil action: #submitAsync) label: (self attributes at: 'value' ifAbsent: ['Submit'])).
 		^self ].
 
 	self type = 'image'
