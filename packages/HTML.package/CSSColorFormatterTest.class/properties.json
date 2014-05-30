@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"colorFormatter" ],
+	"name" : "CSSColorFormatterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
