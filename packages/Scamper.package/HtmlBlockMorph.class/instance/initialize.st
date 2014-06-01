@@ -8,4 +8,5 @@ initialize
 		listCentering: #topLeft;
 		wrapCentering: #topLeft;
 		vResizing: #rigid;
-		hResizing: #spaceFill
+		hResizing: #spaceFill;
+		cellPositioning: #topLeft
