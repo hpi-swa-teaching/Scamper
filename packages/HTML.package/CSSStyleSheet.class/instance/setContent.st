@@ -3,7 +3,7 @@ setContent
 
 	| doc |
 
-	doc := (self url asUrlRelativeTo: self parent parent parent parent requestUrl asUrl) retrieveContents.
+	doc := (self url asUrlRelativeTo: self document requestUrl asUrl) retrieveContents.
 	self 
 		content: doc content; 
 		start: 0; 
