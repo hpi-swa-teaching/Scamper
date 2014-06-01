@@ -5,6 +5,6 @@ startListItem
 	self ensureNewlines: 1.
 	listTypes last = #unordered
 		ifTrue: [ self addString: '¥ ' ]
-		ifFalse: [ self addString: (listLengths last + 1) printString.
+		ifFalse: [ self addString: (listStyleTypes last convert: listLengths last + 1).
 			self addString: '. ' ].
 	listLengths at: (listLengths size) put: (listLengths last + 1).

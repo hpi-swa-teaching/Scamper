@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Formatter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ListStyleLowerAlphaFormatter",
+	"pools" : [
+		 ],
+	"super" : "ListStyleFormatter",
+	"type" : "normal" }
