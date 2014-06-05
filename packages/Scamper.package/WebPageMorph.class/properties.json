@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"getBgSelector",
-		"asColor",
-		"image" ],
+		"scamper",
+		"document",
+		"documentMorph" ],
 	"name" : "WebPageMorph",
 	"pools" : [
 		 ],
-	"super" : "PluggableTextMorph",
+	"super" : "ScrollPane",
 	"type" : "normal" }

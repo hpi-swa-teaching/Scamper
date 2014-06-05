@@ -9,4 +9,4 @@ addFileInputToFormatter: formatter
 	formatter addMorph: inputMorph;
 		addMorph: ((PluggableButtonMorph on: fileInput getState: nil action: #browse)
 				label: 'Browse').
-	formatter currentFormData addInput: fileInput
+	self associatedForm addInput: fileInput

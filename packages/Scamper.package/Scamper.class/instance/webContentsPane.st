@@ -1,10 +1,5 @@
 window definition
 webContentsPane
-	"Create and return the web page pane."
+	"Return the web page pane."
 
-	^WebPageMorph
-		on: self 
-		bg: #backgroundColor 
-		text: #formattedPage 
-		readSelection: #formattedPageSelection 
-		menu: #menu:shifted:
+	^webPageMorph ifNil: [webPageMorph := WebPageMorph on: self.]
