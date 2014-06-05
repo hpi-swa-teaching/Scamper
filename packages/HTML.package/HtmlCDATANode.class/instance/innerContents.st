@@ -1,4 +1,4 @@
 accessing
 innerContents
 
-	^self rawContent asUnHtml
+	^self rawContent
