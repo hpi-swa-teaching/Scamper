@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"on:bg:text:readSelection:menu:" : "AK 12/4/1999 02:50" },
+		"on:" : "SN 5/25/2014 14:26" },
 	"instance" : {
-		"drawImage:" : "LaurentLaffont 2/26/2010 23:08",
-		"drawOn:" : "dgd 2/21/2003 23:18",
-		"getBg" : "dgd 2/21/2003 23:18",
-		"isImage:" : "gm 2/22/2003 13:11",
-		"layoutChanged" : "AK 12/7/1999 01:31",
-		"on:bg:text:readSelection:menu:" : "LaurentLaffont 2/26/2010 23:08",
-		"setText:" : "jmck 3/27/2010 10:28",
-		"update:" : "LaurentLaffont 2/26/2010 23:08" } }
+		"document" : "SN 5/25/2014 14:01",
+		"document:" : "SN 5/25/2014 14:10",
+		"documentMorph" : "SN 5/25/2014 14:01",
+		"documentMorph:" : "SN 5/25/2014 15:01",
+		"layoutChanged" : "SN 5/25/2014 13:56",
+		"resetExtent" : "SN 5/25/2014 16:09",
+		"scamper" : "SN 5/25/2014 14:25",
+		"scamper:" : "SN 5/25/2014 14:25",
+		"show:" : "SN 5/25/2014 16:10",
+		"startDownloadingMorphState:" : "SN 5/25/2014 15:41" } }

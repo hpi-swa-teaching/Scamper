@@ -9,5 +9,5 @@ submitAsync
 			(inputValues includesKey: input name) ifFalse: [
 				inputValues at: input name  put: (OrderedCollection new: 1) ].
 			(inputValues at: input name)  add: input value ] ].
-	^ browser submitFormWithInputsAsync: inputValues url: form url
+	^ self browser submitFormWithInputsAsync: inputValues url: form url
 		method: form method encoding: form encoding

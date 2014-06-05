@@ -80,7 +80,6 @@
 		"reloadButtonText" : "dgd 10/28/2003 13:20",
 		"showLint" : "ls 7/29/1998 00:07",
 		"simpleButtonNamed:action:text:" : "ccn 6/28/2000 20:53",
-		"startDownloadingMorphState:" : "LaurentLaffont 2/26/2010 23:08",
 		"startDownloadingStateIn:url:" : "LaurentLaffont 2/26/2010 23:08",
 		"startPage" : "LaurentLaffont 2/26/2010 23:08",
 		"startPage:" : "LaurentLaffont 2/26/2010 23:08",
@@ -97,5 +96,5 @@
 		"viewSource" : "dgd 10/28/2003 13:46",
 		"visitStartPage" : "rs 5/9/2014 18:11:59.138",
 		"wantsSteps" : "di 1/14/1999 09:00",
-		"webContentsPane" : "ccn 6/28/2000 21:00",
+		"webContentsPane" : "SN 5/25/2014 14:27",
 		"workerCount" : "js 5/6/2014 15:57" } }
