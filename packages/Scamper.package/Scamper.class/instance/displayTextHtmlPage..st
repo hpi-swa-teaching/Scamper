@@ -10,7 +10,7 @@ displayTextHtmlPage: newSource
 		requestUrl: currentUrl;
 	 	responseUrl: currentUrl.
 	self status: 'laying out...' translated.
-	document stylesheets do: [:stylesheet | stylesheet setContent].
+	document stylesheets do: [:stylesheet | stylesheet loadStyles].
 	document applyStyles.
 	formatter := HtmlFormatter preferredFormatterClass new.
 	formatter browser: self.

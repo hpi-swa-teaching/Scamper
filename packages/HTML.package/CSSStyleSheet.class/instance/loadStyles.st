@@ -1,5 +1,5 @@
 accessing
-setContent
+loadStyles
 
 	| doc |
 
