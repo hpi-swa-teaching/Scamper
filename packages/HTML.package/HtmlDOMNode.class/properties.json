@@ -15,7 +15,10 @@
 		"endTagMissing",
 		"styles",
 		"id",
-		"classes" ],
+		"classes",
+		"htmlMorph",
+		"isInline",
+		"associatedForm" ],
 	"name" : "HtmlDOMNode",
 	"pools" : [
 		 ],
