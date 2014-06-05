@@ -1,8 +1,12 @@
 document handling
 displayTextHtmlPage: newSource
 	"HTML page--format it"
+	| utf8mode |
 	currentUrl := newSource url.
-	pageSource := newSource content.
+	utf8mode := UTF8TextConverter strictUtf8Conversions.
+	UTF8TextConverter strictUtf8Conversions: false.
+	pageSource := newSource content utf8ToSqueak.
+	UTF8TextConverter strictUtf8Conversions: utf8mode.
 	self status: 'parsing...' translated.
 	document := (HtmlDocument new parseContents: (ReadStream on: pageSource)).
 	document requestUrl: currentUrl;
