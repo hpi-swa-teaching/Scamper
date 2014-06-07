@@ -18,7 +18,8 @@
 		"classes",
 		"htmlMorph",
 		"isInline",
-		"associatedForm" ],
+		"associatedForm",
+		"computedStyles" ],
 	"name" : "HtmlDOMNode",
 	"pools" : [
 		 ],

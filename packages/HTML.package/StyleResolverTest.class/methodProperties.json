@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "rs 6/7/2014 12:49:03.05",
+		"styleResolver" : "rs 6/7/2014 12:48:53.095",
+		"styleResolver:" : "rs 6/7/2014 12:48:53.124",
+		"test01StylesShouldBeForwardedToTheCorrectFormatter" : "rs 6/7/2014 12:51:21.832",
+		"test02LastRuleShouldOverrideAllOthers" : "rs 6/7/2014 12:56:39.837" } }
