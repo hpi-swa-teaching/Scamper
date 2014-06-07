@@ -1,3 +1,3 @@
-as yet unclassified
+rendering
 flushBlockNode: blockNode to: aHtmlMorph
 	blockNode addToHtmlMorph: aHtmlMorph.

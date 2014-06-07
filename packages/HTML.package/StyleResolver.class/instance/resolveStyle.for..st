@@ -1,4 +1,4 @@
-as yet unclassified
+private-resolution
 resolveStyle: attributeKey for: aDomNode
 	| parentStyle |
 	(aDomNode computedStyles includesKey: attributeKey)

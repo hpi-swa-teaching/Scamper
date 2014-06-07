@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addToFormatter: formatter
 	| form |
 	form := self associatedForm.

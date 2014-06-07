@@ -1,4 +1,4 @@
-as yet unclassified
+formatter-resolution
 cssPrefixMap
 	^ cssPrefixMap ifNil: [
 		cssPrefixMap := Dictionary newFrom: {

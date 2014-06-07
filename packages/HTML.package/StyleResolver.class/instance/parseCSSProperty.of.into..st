@@ -1,4 +1,4 @@
-as yet unclassified
+private-resolution
 parseCSSProperty: aCSSProperty of: aDomNode into: aContext
 	
 	| resolveParentAttr |

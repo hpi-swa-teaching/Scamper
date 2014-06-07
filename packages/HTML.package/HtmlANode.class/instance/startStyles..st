@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 startStyles: aFormatter
 
 	href := self attributes at: 'href' ifAbsent: [nil].	

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 for: aDomNode
 	^ self new
 		domNode: aDomNode;

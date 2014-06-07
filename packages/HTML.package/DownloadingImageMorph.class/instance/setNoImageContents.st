@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 setNoImageContents
 	"set up our morphic contents in case image download/decoding failed"
 	| stringMorph outlineMorph extent |

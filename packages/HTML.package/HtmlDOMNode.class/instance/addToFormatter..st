@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addToFormatter: aFormatter
 	self boxType == #inline ifTrue: [
 		self startStyles: aFormatter.

@@ -1,4 +1,4 @@
-as yet unclassified
+resolution
 getStyle: attributeKey for: aDomNode
 	
 	aDomNode computedStyles ifNil: [ self evaluateLocalStylesFor: aDomNode ].

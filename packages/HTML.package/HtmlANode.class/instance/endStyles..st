@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 endStyles: aFormatter
 
 	href ifNotNil: [:value | aFormatter endLink: value ]

@@ -1,4 +1,4 @@
-as yet unclassified
+stepping and presenter
 step
 	| doc |
 	downloadQueue size > 0 ifTrue: [

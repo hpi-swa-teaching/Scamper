@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 boxType
 
 	^ ((StyleResolver for: self) getStyle: #block) ifNil: [ #inline ]

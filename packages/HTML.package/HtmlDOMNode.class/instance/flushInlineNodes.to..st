@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 flushInlineNodes: inlineNodes to: aHtmlBlockMorph
 	| formatter htmlInlineMorph |
 	inlineNodes ifNotEmpty: [

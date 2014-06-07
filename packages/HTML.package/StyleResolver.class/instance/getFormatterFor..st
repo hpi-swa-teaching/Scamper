@@ -1,4 +1,4 @@
-as yet unclassified
+formatter-resolution
 getFormatterFor: aCSSProperty
 	| prefix |
 	prefix := self getPrefixOf: aCSSProperty propertyName.

@@ -1,4 +1,4 @@
-as yet unclassified
+private-resolution
 evaluateLocalStylesFor: aDomNode
 	| styles |
 	styles := Dictionary new.

@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addCheckBoxButtonToFormatter: formatter
 	| name formData checked button buttonInput |
 

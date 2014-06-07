@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 addDefaultStyle
 	| styles |
 	styles := Dictionary newFrom: {

@@ -1,4 +1,4 @@
-as yet unclassified
+formatter-resolution
 getPrefixOf: aString
 
 	^(aString splitBy: '-') first.

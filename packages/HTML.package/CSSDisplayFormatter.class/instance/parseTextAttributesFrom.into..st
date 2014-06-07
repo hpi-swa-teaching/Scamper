@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseTextAttributesFrom: aCSSProperty into: aContext
 	aCSSProperty propertyName = 'display' ifTrue: [
 		| values |

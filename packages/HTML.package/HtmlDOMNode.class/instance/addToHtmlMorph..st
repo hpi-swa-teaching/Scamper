@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addToHtmlMorph: aHtmlBlockMorph
 	| inlineNodes |
 	
