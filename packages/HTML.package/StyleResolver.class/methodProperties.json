@@ -5,11 +5,11 @@
 	"instance" : {
 		"cssPrefixMap" : "rs 6/7/2014 11:04:29.689",
 		"domNode:" : "rs 6/7/2014 11:23:34.652",
-		"evaluateLocalStylesFor:" : "rs 6/7/2014 11:03:34.075",
+		"evaluateLocalStylesFor:" : "rs 6/7/2014 13:22:25.554",
 		"getFormatterFor:" : "rs 6/7/2014 11:03:56.424",
 		"getPrefixOf:" : "rs 6/7/2014 11:04:08.312",
 		"getStyle:" : "rs 6/7/2014 11:23:00.614",
 		"getStyle:for:" : "rs 6/7/2014 11:05:56.916",
 		"ifStyleNotNil:do:" : "rs 6/7/2014 11:27:59.686",
-		"parseCSSProperty:into:" : "rs 6/7/2014 11:03:49.295",
+		"parseCSSProperty:of:into:" : "rs 6/7/2014 13:27:00.006",
 		"resolveStyle:for:" : "rs 6/7/2014 11:18:40.612" } }

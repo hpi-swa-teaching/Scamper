@@ -5,8 +5,7 @@ readFontSizeAttribute: aString to: aContext
 	defaultSize := TextStyle default defaultFontIndex.
 	((aString endsWith: '%') or: (aString endsWith: 'em')) ifTrue: [
 		| parentFontSize |
-		"This is actually not the parent font size but the font size of a rule that should be overridden"
-		parentFontSize := aContext at: #size ifAbsent: [ defaultSize ].
+		parentFontSize := (parentResolver value: #size) ifNil: [ defaultSize ].
 		aString asNumber ifNotNil: [:value |
 			(aString endsWith: '%')
 				ifTrue: [	aContext at: #size put: ((parentFontSize * (value / 100)) max: 1) asInteger ]
