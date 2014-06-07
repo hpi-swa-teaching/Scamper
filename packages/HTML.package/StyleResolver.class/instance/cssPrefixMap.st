@@ -3,5 +3,6 @@ cssPrefixMap
 	^ cssPrefixMap ifNil: [
 		cssPrefixMap := Dictionary newFrom: {
 			'font' -> CSSFontFormatter new.
-			'color' -> CSSColorFormatter new
+			'color' -> CSSColorFormatter new.
+			'display' -> CSSDisplayFormatter new.
 		}]

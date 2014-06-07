@@ -3,9 +3,9 @@ addToHtmlMorph: aHtmlBlockMorph
 	| inlineNodes |
 	
 	inlineNodes := OrderedCollection new.
-	htmlMorph := HtmlBlockMorph newFor: self.
+	htmlMorph := self defaultBlockMorph newFor: self.
 
-	self children do: [ :child | child isInline
+	self children do: [ :child | child isRenderedInline
 			ifTrue: [ inlineNodes add: child ]
 			ifFalse: [ self flushInlineNodes: inlineNodes to: htmlMorph;
 						flushBlockNode: child to: htmlMorph]

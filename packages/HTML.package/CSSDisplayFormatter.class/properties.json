@@ -1,14 +1,14 @@
 {
-	"category" : "HTML-DOM",
+	"category" : "HTML-Formatter",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"href" ],
-	"name" : "HtmlANode",
+		 ],
+	"name" : "CSSDisplayFormatter",
 	"pools" : [
 		 ],
-	"super" : "HtmlDOMNode",
+	"super" : "CSSFormatter",
 	"type" : "normal" }

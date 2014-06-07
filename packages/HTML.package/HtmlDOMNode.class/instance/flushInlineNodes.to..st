@@ -7,4 +7,5 @@ flushInlineNodes: inlineNodes to: aHtmlBlockMorph
 		htmlInlineMorph := formatter htmlInlineMorph.
 		htmlInlineMorph text ifNotEmpty: [
 			htmlInlineMorph nodes: inlineNodes.
-			aHtmlBlockMorph addChild: htmlInlineMorph ] ]
+			aHtmlBlockMorph addChild: htmlInlineMorph ].
+		inlineNodes removeAll ]

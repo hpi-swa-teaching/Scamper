@@ -1,14 +1,14 @@
 {
-	"category" : "HTML-DOM",
+	"category" : "Scamper-HTML-Morphs",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"href" ],
-	"name" : "HtmlANode",
+		 ],
+	"name" : "HtmlLinkMorph",
 	"pools" : [
 		 ],
-	"super" : "HtmlDOMNode",
+	"super" : "HtmlBlockMorph",
 	"type" : "normal" }
