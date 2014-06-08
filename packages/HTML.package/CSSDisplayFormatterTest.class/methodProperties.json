@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"displayFormatter" : "rs 6/8/2014 12:57:30.253",
+		"displayFormatter:" : "rs 6/8/2014 12:57:30.275",
+		"setUp" : "rs 6/8/2014 12:57:46.69",
+		"test01SupportedDisplayValuesShouldBeParsedCorrectly" : "rs 6/8/2014 13:04:18.131",
+		"test02OtherDisplayValuesShouldDefaultToInline" : "rs 6/8/2014 13:06:00.194",
+		"test03DefaultFallbackDisplayValueShouldNotOverrideSupportedValue" : "rs 6/8/2014 13:09:11.526" } }

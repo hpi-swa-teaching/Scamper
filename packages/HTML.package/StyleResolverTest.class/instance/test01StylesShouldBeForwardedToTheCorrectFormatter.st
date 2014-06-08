@@ -2,7 +2,9 @@ testing
 test01StylesShouldBeForwardedToTheCorrectFormatter
 	| result mappings |
 	mappings := { 
-		{CSSFontFormatter. {'font'. 'font-style'. 'font-weight'. 'font-size'}}}.
+		{CSSFontFormatter. {'font'. 'font-style'. 'font-weight'. 'font-size'}}.
+		{CSSColorFormatter. {'cOlOr'}}.
+		{CSSDisplayFormatter. {'display'}}}.
 	
 	mappings do: [:mapping |
 		mapping last do: [:attributeName |

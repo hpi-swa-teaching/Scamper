@@ -1,7 +1,7 @@
 testing
 test02LastRuleShouldOverrideAllOthers
 	"https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties"
-	| props result node |
+	| props node |
 
 	props := CSSStyleRule new 
 		addProperty: ((CSSProperty propertyNamed: 'font-style') propertyString: 'italic');
@@ -12,7 +12,7 @@ test02LastRuleShouldOverrideAllOthers
 				addStyle: props;
 				yourself.
 		
-	result := self styleResolver evaluateLocalStylesFor: node.
+	self styleResolver evaluateLocalStylesFor: node.
 
 	self assert: (node computedStyles at: #italic) equals: false.
 	self assert: (node computedStyles at: #bold) equals: false
