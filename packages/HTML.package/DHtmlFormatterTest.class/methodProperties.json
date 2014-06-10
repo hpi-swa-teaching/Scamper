@@ -8,4 +8,5 @@
 		"test03HtmlEntitiesShouldBeParsedCorrectly" : "SS 5/27/2014 22:08",
 		"test04DecimalHtmlEntitiesShouldBeParsedCorrectly" : "SS 5/27/2014 21:24",
 		"test05HexadecimalHtmlEntitiesShouldBeParsedCorrectly" : "SS 5/27/2014 22:09",
-		"test06NonHtmlEntitiesShouldBeReturned" : "SS 5/27/2014 22:09" } }
+		"test06NonHtmlEntitiesShouldBeReturned" : "SS 5/27/2014 22:09",
+		"test07HtmlEntitiesShouldBeParsedEverywhere" : "SS 6/5/2014 19:04" } }
