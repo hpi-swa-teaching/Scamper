@@ -8,4 +8,5 @@
 		"test01FontItalicBoldShouldBeParsedCorrectly" : "rs 5/21/2014 16:21:36.626",
 		"test02FontStyleItalicShouldBeParsedCorrectly" : "rs 5/21/2014 16:21:29.714",
 		"test03FontWeightBoldShouldBeParsedCorrectly" : "rs 5/21/2014 16:21:22.976",
-		"test04ComplexFontValueShouldBeParsedCorrectly" : "rs 5/21/2014 16:21:15.452" } }
+		"test04ComplexFontValueShouldBeParsedCorrectly" : "SN 6/12/2014 14:27",
+		"test05FontFamilyShouldBeParsedCorrectly" : "SN 6/12/2014 14:28" } }

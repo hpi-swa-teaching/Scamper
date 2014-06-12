@@ -2,7 +2,7 @@ parsing
 readFontSizeAttribute: aString to: aContext
 	"Lots of value types possible: http://www.w3schools.com/cssref/pr_font_font-size.asp"
 	| defaultSize sizeFactors |
-	defaultSize := TextStyle default defaultFontIndex.
+	defaultSize := TextStyle default defaultFont pointSize.
 	((aString endsWith: '%') or: (aString endsWith: 'em')) ifTrue: [
 		| parentFontSize |
 		"This is actually not the parent font size but the font size of a rule that should be overridden"
@@ -14,7 +14,7 @@ readFontSizeAttribute: aString to: aContext
 		^ self ].
 	
 	(aString endsWith: 'cm') ifTrue:
-		[ aString asNumber ifNotNil: [:value | aContext at: #size put: (value * 4) asInteger].
+		[ aString asNumber ifNotNil: [:value | aContext at: #size put: (value * defaultSize) asInteger].
 		^ self].
 
 	sizeFactors := Dictionary newFrom: {

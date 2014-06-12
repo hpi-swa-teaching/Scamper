@@ -22,6 +22,7 @@ install:
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
+   - $PROJECT_HOME/build-support/copyfonts.sh
 
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally

@@ -2,8 +2,9 @@ private-formatting
 getTextAttributesFrom: aDictionary
 	| attribs |
 	attribs := OrderedCollection new.
-	(aDictionary at: #italic ifAbsent: [nil]) ifNotNil: [:italic | italic ifTrue: [ attribs add: TextEmphasis italic ]].
-	(aDictionary at: #bold ifAbsent: [nil]) ifNotNil: [:bold | bold ifTrue: [ attribs add: TextEmphasis bold ]].
-	(aDictionary at: #size ifAbsent: [nil]) ifNotNil: [:size | attribs add: (TextFontChange fontNumber: size)].
-	(aDictionary at: #color ifAbsent: [nil]) ifNotNil: [:color | attribs add: (TextColor color: color)].
+	aDictionary at: #family ifAbsentPut: ((TextStyle named: 'Verdana') ifNil: [TextStyle default]).
+	aDictionary at: #family ifPresent: [:family | attribs add: (TextFontReference toFont: (family fontOfPointSize: (aDictionary at: #size ifAbsent: [12]))).].
+	aDictionary at: #italic ifPresent: [:italic | italic ifTrue: [ attribs add: TextEmphasis italic ]].
+	aDictionary at: #bold ifPresent: [:bold | bold ifTrue: [ attribs add: TextEmphasis bold ]].
+	aDictionary at: #color ifPresent: [:color | attribs add: (TextColor color: color)].
 	^ attribs
