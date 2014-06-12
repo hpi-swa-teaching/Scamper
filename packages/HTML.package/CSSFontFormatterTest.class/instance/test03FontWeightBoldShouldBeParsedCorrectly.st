@@ -1,6 +1,7 @@
 testing
 test03FontWeightBoldShouldBeParsedCorrectly
 	| prop result |
+	<timeout: 300>
 	result := Dictionary new.
 	prop := CSSProperty new
 				propertyName: 'font-weight';

@@ -1,6 +1,7 @@
 testing
 test05FontFamilyShouldBeParsedCorrectly
 	| prop result |
+	<timeout: 300>
 	result := Dictionary new.
 	prop := CSSProperty new
 				propertyName: 'font-family';
