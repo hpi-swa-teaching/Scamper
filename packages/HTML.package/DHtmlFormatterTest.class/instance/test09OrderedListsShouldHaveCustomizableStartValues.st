@@ -1,5 +1,5 @@
 testing
-test08OrderedListsShouldHaveCustomizableStartValues
+test09OrderedListsShouldHaveCustomizableStartValues
 	| document |
 	document := HtmlDocument new.
 	document parseContents: (ReadStream on:'<ol start="5"><li>First</li><li>Second</li></ol>').

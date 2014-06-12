@@ -1,5 +1,5 @@
 testing
-test09OrderedListsShouldHaveCustomizableItemValues
+test10OrderedListsShouldHaveCustomizableItemValues
 	| document |
 	document := HtmlDocument new.
 	document parseContents: (ReadStream on:'<ol><li>First</li><li value="4">Second</li><li>Third</li></ol>').

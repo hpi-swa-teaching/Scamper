@@ -1,5 +1,5 @@
 testing
-test07OrderedListsShouldHaveNumbers
+test08OrderedListsShouldHaveNumbers
 	| document |
 	document := HtmlDocument new.
 	document parseContents: (ReadStream on:'<ol><li>First</li><li>Second</li></ol>').
