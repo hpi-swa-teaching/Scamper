@@ -9,7 +9,6 @@
 	"instvars" : [
 		"browser",
 		"baseUrl",
-		"formDatas",
 		"outputStream",
 		"preformattedLevel",
 		"indentLevel",

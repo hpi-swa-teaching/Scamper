@@ -8,7 +8,7 @@ addRadioButtonToFormatter: formatter
 	value := self attributes at: 'value' ifAbsent: [nil].
 	value ifNil: [ ^value ].
 	
-	formData := formatter currentFormData.
+	formData := self associatedForm.
 	formData ifNil:  [ ^self ].
 
 	checked := self attributes at: 'checked' ifAbsent: [nil].

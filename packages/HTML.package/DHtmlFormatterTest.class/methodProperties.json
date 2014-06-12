@@ -13,4 +13,5 @@
 		"test06NonHtmlEntitiesShouldBeReturned" : "SS 5/27/2014 22:09",
 		"test07OrderedListsShouldHaveNumbers" : "pf 5/29/2014 16:53",
 		"test08OrderedListsShouldHaveCustomizableStartValues" : "pf 5/29/2014 16:54",
-		"test09OrderedListsShouldHaveCustomizableItemValues" : "pf 5/29/2014 16:55" } }
+		"test09OrderedListsShouldHaveCustomizableItemValues" : "pf 5/29/2014 16:55",
+		"test07HtmlEntitiesShouldBeParsedEverywhere" : "SS 6/5/2014 19:04" } }

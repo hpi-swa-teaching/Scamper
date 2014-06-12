@@ -3,8 +3,10 @@ attributes: anObject
 	"Set the value of attributes"
 
 	| cstr |
-
-	attributes := anObject.
+	
+	attributes := Dictionary new.
+	anObject keysAndValuesDo: 
+		[ :eachKey :eachValue | attributes at: eachKey put: eachValue asUnHtml].
 	id := (attributes at: 'id' ifAbsent: [nil]).
 	cstr := attributes at: 'class' ifAbsent: [nil].
 	classes := cstr isNil ifTrue: [#()] ifFalse: [cstr findTokens: ' '].

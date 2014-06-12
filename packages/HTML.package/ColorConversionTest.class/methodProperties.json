@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"test01ConvertNameToColor" : "pf 5/28/2014 16:30",
+		"test01ConvertNameToColor" : "SS 5/29/2014 16:41",
 		"test02ConvertHexRGBToColor" : "pf 5/25/2014 12:39",
 		"test03ConvertHexRRGGBBToColor" : "pf 5/25/2014 12:41",
 		"test04ConvertRGBDecimalFunctionToColor" : "pf 5/25/2014 14:48",
-		"test05ConvertRGBPercentFunctionToColor" : "pf 5/25/2014 14:50" } }
+		"test05ConvertRGBPercentFunctionToColor" : "pf 5/25/2014 14:50",
+		"test06CSS2ColorNamesEqualsOfficialW3List" : "SS 5/29/2014 16:52" } }

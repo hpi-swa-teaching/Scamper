@@ -1,4 +1,3 @@
 access
 backgroundColor
-	^backgroundColor ifNil:
-		[self defaultBackgroundColor]
+	^self defaultBackgroundColor

@@ -12,7 +12,7 @@ addImageButtonToFormatter: formatter
 	morph url: imageUrl.
 
 	value := self attributes at: 'name' ifAbsent: ['Submit'].
-	formData := formatter currentFormData.
+	formData := self associatedForm.
 	morph
 		on: #mouseUp
 		send: #mouseUpFormData:event:linkMorph:
