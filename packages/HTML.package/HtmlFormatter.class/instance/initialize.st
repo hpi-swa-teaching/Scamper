@@ -4,7 +4,6 @@ initialize
 	preformattedLevel := 0.
 	indentLevel := boldLevel := italicsLevel := underlineLevel := strikeLevel := centerLevel := 0.
 	listLengths := OrderedCollection new.
-	listStyleTypes := OrderedCollection new.
 	listTypes := OrderedCollection new.
 	formDatas := OrderedCollection new.
 	precedingSpaces := 0.
