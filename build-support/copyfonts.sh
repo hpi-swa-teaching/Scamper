@@ -1,2 +1,1 @@
-ls
-#cp fonts Contents/Resources/Scamper
+cp $PROJECT_HOME/build-support/fonts $VM_PATH/Resources/Scamper
