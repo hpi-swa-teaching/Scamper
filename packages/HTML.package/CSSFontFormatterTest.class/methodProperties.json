@@ -4,9 +4,9 @@
 	"instance" : {
 		"fontFormatter" : "rs 5/19/2014 19:50:21.108",
 		"fontFormatter:" : "rs 5/19/2014 19:50:21.12",
-		"setUp" : "rs 5/19/2014 19:50:35.284",
-		"test01FontItalicBoldShouldBeParsedCorrectly" : "SN 6/13/2014 00:31",
-		"test02FontStyleItalicShouldBeParsedCorrectly" : "SN 6/13/2014 00:32",
-		"test03FontWeightBoldShouldBeParsedCorrectly" : "SN 6/13/2014 00:32",
-		"test04ComplexFontValueShouldBeParsedCorrectly" : "SN 6/13/2014 00:32",
-		"test05FontFamilyShouldBeParsedCorrectly" : "SN 6/13/2014 00:32" } }
+		"setUp" : "SN 6/13/2014 01:08",
+		"test01FontItalicBoldShouldBeParsedCorrectly" : "SN 6/13/2014 01:08",
+		"test02FontStyleItalicShouldBeParsedCorrectly" : "SN 6/13/2014 01:08",
+		"test03FontWeightBoldShouldBeParsedCorrectly" : "SN 6/13/2014 01:08",
+		"test04ComplexFontValueShouldBeParsedCorrectly" : "SN 6/13/2014 01:08",
+		"test05FontFamilyShouldBeParsedCorrectly" : "SN 6/13/2014 01:08" } }

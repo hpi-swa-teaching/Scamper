@@ -1,7 +1,6 @@
 testing
 test01FontItalicBoldShouldBeParsedCorrectly
 	| prop result |
-	<timeout: 300>
 	result := Dictionary new.
 	prop := CSSProperty new
 				propertyName: 'font';
