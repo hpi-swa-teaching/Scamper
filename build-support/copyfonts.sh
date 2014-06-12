@@ -1,1 +1,2 @@
-cp fonts Contents/Resources/Scamper
+ls
+#cp fonts Contents/Resources/Scamper
