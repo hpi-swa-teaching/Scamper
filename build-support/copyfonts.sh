@@ -1,2 +1,2 @@
-mkdir -p -v $VM_PATH/Resources/Scamper/fonts
-cp -R -v $PROJECT_HOME/build-support/fonts $VM_PATH/Resources/Scamper/
+mkdir -p -v ${BUILD_PATH}/travisCI/Scamper/fonts
+cp -R -v $PROJECT_HOME/build-support/fonts ${BUILD_PATH}/travisCI/Scamper/
