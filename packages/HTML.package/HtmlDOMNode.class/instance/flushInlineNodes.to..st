@@ -6,6 +6,6 @@ flushInlineNodes: inlineNodes to: aHtmlBlockMorph
 		inlineNodes do: [ :node | node addToFormatter: formatter ].
 		htmlInlineMorph := formatter htmlInlineMorph.
 		htmlInlineMorph text ifNotEmpty: [
-			htmlInlineMorph nodes: inlineNodes.
+			htmlInlineMorph nodes: inlineNodes copy.
 			aHtmlBlockMorph addChild: htmlInlineMorph ].
 		inlineNodes removeAll ]

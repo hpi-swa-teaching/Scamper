@@ -15,4 +15,5 @@
 		"test08BlockElementsShouldNeverBeRenderedInline" : "rs 6/8/2014 14:39:00.796",
 		"test09InlineElementsShouldBeRenderedAsBlockIfContainingBlockChildren" : "rs 6/8/2014 14:40:37.316",
 		"test10BoxTypeShouldDefaultToInline" : "rs 6/8/2014 14:41:27.043",
-		"test11BoxTypeShouldBeResolvedToCSSAttribute" : "rs 6/8/2014 14:45:01.545" } }
+		"test11BoxTypeShouldBeResolvedToCSSAttribute" : "rs 6/8/2014 14:45:01.545",
+		"test12InlineNodesShouldAssignedToHtmlInlineMorph" : "rs 6/13/2014 19:49:12.169" } }
