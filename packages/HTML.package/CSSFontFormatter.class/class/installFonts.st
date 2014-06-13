@@ -1,6 +1,10 @@
 class initialization
 installFonts
-	((FileDirectory uri: 'Scamper/fonts/') fileNamesMatching: '*.ttf')
+	Transcript show: (FileDirectory uri: 'Scamper' , FileDirectory slash , 'fonts');
+				cr;
+				show: ((FileDirectory uri: 'Scamper' , FileDirectory slash , 'fonts') fileNamesMatching: '*.ttf');
+				cr.
+	((FileDirectory uri: 'Scamper' , FileDirectory slash , 'fonts') fileNamesMatching: '*.ttf')
 		do: [:fontfile | TTCFont newTextStyleFromTTFile:
-									(FileDirectory uri: 'Scamper/fonts/') fullName,'/',fontfile].
+									(FileDirectory uri: 'Scamper' , FileDirectory slash , 'fonts') fullName , FileDirectory slash , fontfile].
 	fontsInstalled := true.
