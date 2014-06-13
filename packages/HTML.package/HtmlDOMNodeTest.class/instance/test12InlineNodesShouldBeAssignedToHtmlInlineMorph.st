@@ -1,5 +1,5 @@
 testing
-test12InlineNodesShouldAssignedToHtmlInlineMorph
+test12InlineNodesShouldBeAssignedToHtmlInlineMorph
 
 	| doc result inlineNodes |
 	doc := HtmlDocument new 
