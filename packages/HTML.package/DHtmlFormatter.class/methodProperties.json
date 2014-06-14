@@ -2,21 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"cssPrefixMap" : "rs 5/30/2014 16:12:55.942",
 		"decreaseFontBy:" : "bolot 5/18/2000 11:55",
 		"endFont:" : "bolot 5/18/2000 11:23",
-		"endHeader:" : "rs 5/18/2014 14:16:30.63",
 		"endStyles" : "rs 5/18/2014 14:00:49.41",
-		"getFormatterFor:" : "rs 5/21/2014 12:18:05.082",
-		"getPrefixOf:" : "pf 5/25/2014 11:03",
-		"getTextAttributesFrom:" : "pf 5/25/2014 14:15",
-		"headerFont:" : "rs 5/18/2014 14:15:07.55",
 		"increaseFontBy:" : "bolot 5/18/2000 11:50",
 		"lastFontSize" : "LaurentLaffont 2/26/2010 23:13",
-		"parseCSSProperty:into:" : "rs 5/21/2014 12:18:30.34",
-		"parseTextAttributes:" : "rs 5/21/2014 12:22:27.848",
+		"parseTextAttributesFor:" : "rs 6/7/2014 11:34:20.811",
 		"resetFont" : "bolot 5/18/2000 11:57",
 		"setAttributes" : "LaurentLaffont 2/26/2010 23:13",
 		"startFont:" : "rs 5/18/2014 13:53:54.124",
-		"startHeader:" : "rs 5/18/2014 14:14:54.344",
-		"startStyles:" : "rs 5/18/2014 14:01:58.816" } }
+		"startStyles:" : "rs 6/7/2014 11:51:33.101" } }

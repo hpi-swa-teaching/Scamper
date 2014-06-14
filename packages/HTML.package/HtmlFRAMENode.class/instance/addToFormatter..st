@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addToFormatter: formatter
 	| src |
 	src := self attributes at: 'src' ifAbsent: [nil].

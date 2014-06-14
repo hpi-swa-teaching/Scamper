@@ -1,3 +1,3 @@
-as yet unclassified
+parsing
 parseTextAttributesFrom: styles into: aContext
 	self subclassResponsibility

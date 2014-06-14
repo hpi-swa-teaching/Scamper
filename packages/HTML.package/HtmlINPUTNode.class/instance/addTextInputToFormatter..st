@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addTextInputToFormatter: formatter
 	"is it a submit button?"
 	| inputMorph size |

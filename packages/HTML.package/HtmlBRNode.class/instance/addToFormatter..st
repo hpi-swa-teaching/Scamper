@@ -1,3 +1,3 @@
-as yet unclassified
+rendering
 addToFormatter: formatter
 	formatter addChar: Character cr.

@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 createImpliedNodes
 
 	(self children detect: [:ea | ea tag = 'html'] ifNone:[nil]) ifNil: 

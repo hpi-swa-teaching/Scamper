@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 altText: aString
 	"set the text to be displayed while downloading"
 	altText := aString.

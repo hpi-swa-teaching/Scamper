@@ -1,0 +1,15 @@
+{
+	"category" : "HTML-Formatter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cssPrefixMap",
+		"domNode" ],
+	"name" : "StyleResolver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

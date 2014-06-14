@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aNode" : "rs 6/8/2014 13:51:33.499",
+		"aNode:" : "rs 6/8/2014 13:51:33.645",
+		"setUp" : "rs 6/8/2014 13:52:01.172",
+		"test01AShouldRenderAsHtmlLinkMorphIfDisplayIsBlock" : "rs 6/8/2014 13:57:05.936" } }
