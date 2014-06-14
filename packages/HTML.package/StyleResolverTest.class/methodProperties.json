@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "rs 6/7/2014 12:49:03.05",
+		"styleResolver" : "rs 6/7/2014 12:48:53.095",
+		"styleResolver:" : "rs 6/7/2014 12:48:53.124",
+		"test01StylesShouldBeForwardedToTheCorrectFormatter" : "rs 6/8/2014 14:02:56.474",
+		"test02LastRuleShouldOverrideAllOthers" : "rs 6/8/2014 14:10:01.646",
+		"test03CSSRulesShouldBeWrittenToComputedStyles" : "rs 6/8/2014 14:10:53.384",
+		"test04UndefinedCSSAttributeShouldBeInheritedFromParentElement" : "rs 6/8/2014 14:15:55.708",
+		"test05NotInheritableCSSAttributesShouldNotBeInheritedFromParentElement" : "rs 6/8/2014 14:16:50.393",
+		"test06InheritedCSSAttributeShouldBeCached" : "rs 6/8/2014 14:19:35.267" } }

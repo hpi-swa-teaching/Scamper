@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addImageButtonToFormatter: formatter
 	"is it a submit button?"
 	| formData imageUrl morph |

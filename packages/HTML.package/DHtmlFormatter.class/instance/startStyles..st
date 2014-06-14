@@ -1,6 +1,6 @@
 formatting commands
-startStyles: styles
+startStyles: aDomNode
 	| textAttributes |
-	textAttributes := self parseTextAttributes: styles.
+	textAttributes := self parseTextAttributesFor: aDomNode.
 	self startFont: textAttributes.
 	self setAttributes

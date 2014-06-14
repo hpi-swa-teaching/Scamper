@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 type
 	^(self attributes at:'type' ifAbsent: ['text']) asLowercase

@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseTextAttributesFrom: aCSSProperty into: aContext
 	aCSSProperty propertyName = 'color' ifFalse: [^nil].
 	(Color fromHTMLString: aCSSProperty propertyString) ifNotNilDo:

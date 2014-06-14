@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addRadioButtonToFormatter: formatter
 	| name formData checked buttonSet button buttonInput |
 

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 alt
 	^self attributes at: 'alt' ifAbsent: ['[image]']

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 closeTagIsOptional
 
 	^self dtd tagCloseIsOptional: self dtdTag

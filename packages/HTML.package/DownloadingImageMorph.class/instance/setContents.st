@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 setContents
 	"set up our morphic contents"
 	| imageMorph imageMap |

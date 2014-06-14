@@ -1,4 +1,4 @@
-as yet unclassified
+events
 mouseUpFormData: formData event: event linkMorph: linkMorph
 	| aPoint |
 	aPoint := event cursorPoint - linkMorph topLeft.

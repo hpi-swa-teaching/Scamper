@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addFileInputToFormatter: formatter
 	"is it a submit button?"
 	| inputMorph size fileInput |

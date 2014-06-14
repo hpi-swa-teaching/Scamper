@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseAttributes: attrString
 
 	| attrs in s |

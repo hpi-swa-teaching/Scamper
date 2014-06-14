@@ -1,3 +1,3 @@
-accessing
+rendering
 startStyles: aFormatter
 	"Do nothing"
