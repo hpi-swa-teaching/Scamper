@@ -1,8 +1,9 @@
 formatting commands
 startListItem
 	"begin a new list item"
-	listTypes size = 0 ifTrue: [ ^self ].
+	(listTypes isEmpty or: [listStyleTypes isEmpty]) ifTrue: [ ^self ].
 	self ensureNewlines: 1.
+	listStyleTypes last = 'none' ifTrue: [ ^self ].
 	listTypes last = #unordered
 		ifTrue: [ self addString: '¥ ' ]
 		ifFalse: [ self addString: (listLengths last + 1) printString.
