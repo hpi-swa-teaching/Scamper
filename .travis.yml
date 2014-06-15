@@ -27,6 +27,6 @@ install:
 
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally
-script: $BUILDER_CI_HOME/testTravisCI.sh # -verbose 
+script: $PROJECT_HOME/build-support/testTravisCI.sh # -verbose 
 after_success:
    - $PROJECT_HOME/build-support/screenshots.sh
