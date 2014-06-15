@@ -3,6 +3,7 @@ readFontStyleAttribute: aString to: aContext
 	| map |
 	map := Dictionary newFrom: {
 		'italic' -> true.
+		'oblique' -> true.
 		'normal' -> false
 	}.
 	

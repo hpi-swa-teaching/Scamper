@@ -1,1 +1,0 @@
-(name 'HTML-tb.3'message 'Fixed empty attribute value bug reporting no quotes, also check to see if empty attribute value has a constrained name same as attribute name - if so I let it pass in HTML.'id '4dbe9641-1701-4be5-a209-fb0bfad5c09c'date '9 December 2005'time '11:31:49 pm'author 'tb'ancestors ((id 'f5e941bd-3c34-47db-9890-8fd4ff6e37a1'))stepChildren ())

@@ -1,1 +1,0 @@
-(name 'HTML-SebastianSastre.53'message 'updated for Pharo-1.4 that has deprecated #withBlanksTrimmed in favor of #trimBoth'id '3488d0e8-10fc-4230-939c-14695f4d5c3b'date '15 January 2012'time '4:45:57 pm'author 'SebastianSastre'ancestors ((id 'b7dc9766-3d1e-41f3-9c2b-d8f71e631224'))stepChildren ())

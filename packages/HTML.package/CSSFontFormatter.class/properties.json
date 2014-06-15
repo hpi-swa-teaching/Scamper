@@ -1,12 +1,13 @@
 {
 	"category" : "HTML-Formatter",
 	"classinstvars" : [
-		 ],
+		"fontsInstalled" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"attributeMap" ],
+		"attributeMap",
+		"fontMap" ],
 	"name" : "CSSFontFormatter",
 	"pools" : [
 		 ],

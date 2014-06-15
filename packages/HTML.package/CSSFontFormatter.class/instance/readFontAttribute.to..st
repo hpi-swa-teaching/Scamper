@@ -4,7 +4,8 @@ readFontAttribute: aString to: aContext
 	shorthandContext := Dictionary newFrom: {
 		#italic -> false.
 		#bold -> false.
-		#size -> TextStyle default defaultFontIndex
+		#size -> TextStyle default defaultFontIndex.
+		#family -> ((TextStyle named: 'Verdana') ifNil: [TextStyle default]).
 	}.
 	
 	values := aString splitOn: ' '.
@@ -18,5 +19,5 @@ readFontAttribute: aString to: aContext
 			ifFalse: [ 
 				(self isValidWeightValue: values first)
 					ifTrue: [self readFontWeightAttribute: values first to: shorthandContext ]]].
-	
+	values last ifNotNilDo: [:val | self readFontFamilyAttribute: val to: shorthandContext].
 	aContext addAll: shorthandContext
