@@ -9,4 +9,9 @@
 		"test04DecimalHtmlEntitiesShouldBeParsedCorrectly" : "SS 5/27/2014 21:24",
 		"test05HexadecimalHtmlEntitiesShouldBeParsedCorrectly" : "SS 5/27/2014 22:09",
 		"test06NonHtmlEntitiesShouldBeReturned" : "SS 5/27/2014 22:09",
-		"test07HtmlEntitiesShouldBeParsedEverywhere" : "SS 6/5/2014 19:04" } }
+		"test07HtmlEntitiesShouldBeParsedEverywhere" : "SS 6/5/2014 19:04",
+		"test08OrderedListsShouldHaveNumbers" : "pf 6/12/2014 12:16",
+		"test09OrderedListsShouldHaveCustomizableStartValues" : "pf 6/12/2014 12:16",
+		"test10OrderedListsShouldHaveCustomizableItemValues" : "pf 6/12/2014 12:17",
+		"test11OrderedListsShouldSupportListStyleTypeNone" : "pf 6/14/2014 17:21",
+		"test12UnorderedListsShouldSupportListStyleTypeNone" : "pf 6/14/2014 17:29" } }

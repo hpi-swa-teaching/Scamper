@@ -1,1 +1,0 @@
-(name 'HTML-LaurentLaffont.4'message 'Add missing AttributedTextStream (which was in Squeak) needed by HtmlFormatter>>initialize'id '7c786d4e-73ba-44ff-9945-c70265c92350'date '31 May 2010'time '9:03:13 pm'author 'LaurentLaffont'ancestors ((id '716a1f63-f366-4a1a-8c39-1abcdc616cd3') (id '12af4214-5bc7-42a6-8d1a-355c4b2e077c'))stepChildren ())

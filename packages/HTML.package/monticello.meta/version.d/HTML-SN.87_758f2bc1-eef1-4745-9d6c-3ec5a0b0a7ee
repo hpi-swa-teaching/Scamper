@@ -1,1 +1,0 @@
-(name 'HTML-SN.87'message 'Move readFrom to html package and remove Transcript>>endEntry because endEntry is not implemented in Travis'' Transcript.'id '758f2bc1-eef1-4745-9d6c-3ec5a0b0a7ee'date '15 June 2014'time '12:07:32.254 pm'author 'SN'ancestors ((id '23445b23-261c-6345-8f33-7ae8378c36cd'))stepChildren ())
