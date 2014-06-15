@@ -1,0 +1,14 @@
+{
+	"category" : "Scamper-HTML-Morphs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"alignmentMorph" ],
+	"name" : "HtmlTableRowMorph",
+	"pools" : [
+		 ],
+	"super" : "HtmlBlockMorph",
+	"type" : "normal" }
