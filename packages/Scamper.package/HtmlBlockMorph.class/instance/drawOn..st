@@ -1,22 +1,20 @@
 drawing
 drawOn: aCanvas
-	| imageUrl fillStyle fillColor |
+	| imageUrl resolver repeat |
+	resolver := StyleResolver for: self node.
 	
+	(resolver getStyle: #backgroundColor)
+		ifNotNilDo: [ :fillColor |
+			self drawBackgroundColor: fillColor On: aCanvas ].
 	
-	fillColor := (StyleResolver for: self node) getStyle: #backgroundColor.
-	fillColor ifNotNilDo: [ :whatever |
-	fillStyle := SolidFillStyle color: fillColor.
-	aCanvas fillRectangle: self bounds fillStyle: fillStyle borderStyle: self borderStyle.].
-	
-	
-	self backgroundImage ifNotNil: [ :img | 
-		fillStyle := BitmapFillStyle fromForm: img.
-		aCanvas fillRectangle: self bounds fillStyle: fillStyle borderStyle: self borderStyle
+	self backgroundImage ifNotNil: [ :img |
+		repeat := (resolver getStyle: #backgroundRepeat) ifNil: [ #repeat ].
+		self drawBackground: img withRepeat: repeat On: aCanvas
 	].
 	
 	self hasBackgroundImage ifNil: [
 		self hasBackgroundImage: false.
-		imageUrl := ((StyleResolver for: self node) getStyle: #backgroundImage).
+		imageUrl := resolver getStyle: #backgroundImage.
 		imageUrl ifNotNil: [ :url |
 			self hasBackgroundImage: true.
 			(url asString beginsWith: 'http') ifFalse: [

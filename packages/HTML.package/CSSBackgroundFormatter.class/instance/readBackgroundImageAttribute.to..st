@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 readBackgroundImageAttribute: aCSSProperty to: aContext 
 	(aCSSProperty propertyString beginsWith: 'url')
 		ifTrue: [ 

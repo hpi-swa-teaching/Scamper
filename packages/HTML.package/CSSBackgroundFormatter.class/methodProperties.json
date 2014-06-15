@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"parseTextAttributesFrom:into:" : "js 6/15/2014 13:00",
+		"parseTextAttributesFrom:into:" : "rs 6/15/2014 14:06:55.548",
 		"readBackgroundColorAttribute:to:" : "js 6/15/2014 13:38",
-		"readBackgroundImageAttribute:to:" : "rs 6/15/2014 12:46:07.66" } }
+		"readBackgroundImageAttribute:to:" : "rs 6/15/2014 12:46:07.66",
+		"readBackgroundRepeatAttribute:to:" : "rs 6/15/2014 12:58:41.762" } }
