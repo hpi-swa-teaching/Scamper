@@ -1,6 +1,14 @@
 drawing
 drawOn: aCanvas
-	| imageUrl fillStyle |
+	| imageUrl fillStyle fillColor |
+	
+	
+	fillColor := (StyleResolver for: self node) getStyle: #backgroundColor.
+	fillColor ifNotNilDo: [ :whatever |
+	fillStyle := SolidFillStyle color: fillColor.
+	aCanvas fillRectangle: self bounds fillStyle: fillStyle borderStyle: self borderStyle.].
+	
+	
 	self backgroundImage ifNotNil: [ :img | 
 		fillStyle := BitmapFillStyle fromForm: img.
 		aCanvas fillRectangle: self bounds fillStyle: fillStyle borderStyle: self borderStyle
