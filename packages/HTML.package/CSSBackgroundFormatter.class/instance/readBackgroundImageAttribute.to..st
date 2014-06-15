@@ -9,5 +9,5 @@ readBackgroundImageAttribute: aCSSProperty to: aContext
 			urlString := (aCSSProperty propertyString copyFrom: openBracketPosition + 1 to: closingBracketPosition - 1) 
 					trimBoth: [:char | char isSeparator or: [char = $"] or: [char = $']].
 			url := urlString.
-			aCSSProperty stylesheet ifNotNil: [ :stylesheet | url := url asUrlRelativeTo: stylesheet url ].
+			aCSSProperty stylesheetDocument ifNotNil: [ :stylesheet | url := url asUrlRelativeTo: stylesheet url ].
 			aContext at: #backgroundImage put: url ]
