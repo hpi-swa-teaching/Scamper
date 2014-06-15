@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 downloadStateIn: aScamper
 	"download the image"
 	| doc |

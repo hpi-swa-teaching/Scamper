@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"handleMouseDown:" : "rs 6/7/2014 19:39:28.7",
+		"handleMouseMove:" : "rs 6/7/2014 19:36:14.295",
+		"handlesMouseDown:" : "rs 6/7/2014 19:42:59.715",
+		"handlesMouseOver:" : "rs 6/7/2014 19:35:14.035",
+		"mouseDown:" : "rs 6/7/2014 19:41:29.499",
+		"mouseLeave:" : "rs 6/7/2014 19:07:59.465",
+		"mouseMove:" : "rs 6/7/2014 19:42:22.534" } }

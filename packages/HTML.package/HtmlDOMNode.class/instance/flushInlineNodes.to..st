@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 flushInlineNodes: inlineNodes to: aHtmlBlockMorph
 	| formatter htmlInlineMorph |
 	inlineNodes ifNotEmpty: [
@@ -6,5 +6,6 @@ flushInlineNodes: inlineNodes to: aHtmlBlockMorph
 		inlineNodes do: [ :node | node addToFormatter: formatter ].
 		htmlInlineMorph := formatter htmlInlineMorph.
 		htmlInlineMorph text ifNotEmpty: [
-			htmlInlineMorph nodes: inlineNodes.
-			aHtmlBlockMorph addChild: htmlInlineMorph ] ]
+			htmlInlineMorph nodes: inlineNodes copy.
+			aHtmlBlockMorph addChild: htmlInlineMorph ].
+		inlineNodes removeAll ]

@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseContents: aStream
 
 	"tagParent: parent contents: aString stream: aStream"

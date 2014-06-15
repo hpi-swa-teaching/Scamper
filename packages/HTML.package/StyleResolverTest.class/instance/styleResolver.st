@@ -1,0 +1,4 @@
+accessing
+styleResolver
+
+	^ styleResolver

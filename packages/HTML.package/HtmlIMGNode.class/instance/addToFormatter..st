@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addToFormatter: formatter
 	| morph url |
 	self src isNil ifTrue: [ ^self ].

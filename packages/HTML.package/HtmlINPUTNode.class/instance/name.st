@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 name
 	^self attributes at: 'name' ifAbsent: [nil]

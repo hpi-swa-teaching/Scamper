@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 imageExtent
 	"the image extent, according to the WIDTH and HEIGHT attributes.  returns nil if either WIDTH or HEIGHT is not specified"
 	| widthText heightText |

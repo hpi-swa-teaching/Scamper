@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 alt
 	(self type = 'image')
 		ifTrue: [^self attributes at: 'alt' ifAbsent: ['[image]']]
