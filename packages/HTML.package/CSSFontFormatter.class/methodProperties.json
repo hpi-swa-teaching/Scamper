@@ -1,12 +1,18 @@
 {
 	"class" : {
-		 },
+		"initialize" : "SN 6/15/2014 11:47",
+		"installFonts" : "SN 6/15/2014 14:19",
+		"installFontsIfNecessary" : "SN 6/12/2014 22:16",
+		"uninstallFonts" : "SN 6/12/2014 22:13" },
 	"instance" : {
-		"attributeMap" : "rs 5/21/2014 12:46:49.11",
+		"attributeMap" : "SN 6/11/2014 22:54",
+		"fontMap" : "SN 6/12/2014 14:31",
 		"isValidStyleValue:" : "rs 5/21/2014 15:44:29.914",
 		"isValidWeightValue:" : "rs 5/21/2014 15:43:47.846",
-		"parseTextAttributesFrom:into:" : "rs 6/7/2014 13:29:31.21",
-		"readFontAttribute:to:" : "rs 5/21/2014 16:06:04.462",
-		"readFontSizeAttribute:to:" : "rs 6/7/2014 13:32:04.925",
-		"readFontStyleAttribute:to:" : "rs 5/21/2014 11:48:15.832",
-		"readFontWeightAttribute:to:" : "rs 5/21/2014 11:48:27.886" } }
+		"parseTextAttributesFrom:into:" : "SN 6/12/2014 22:14",
+		"readFontAttribute:to:" : "SN 6/12/2014 14:26",
+		"readFontFamilyAttribute:to:" : "SN 6/15/2014 13:06",
+		"readFontSizeAttribute:to:" : "SN 6/12/2014 12:11",
+		"readFontStyleAttribute:to:" : "SN 6/12/2014 14:20",
+		"readFontWeightAttribute:to:" : "rs 5/21/2014 11:48:27.886",
+		"styleForFamily:" : "SN 6/12/2014 10:07" } }
