@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"node",
-		"children" ],
+		"children",
+		"backgroundImage",
+		"hasBackgroundImage" ],
 	"name" : "HtmlBlockMorph",
 	"pools" : [
 		 ],
