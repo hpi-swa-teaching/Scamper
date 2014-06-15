@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"parseTextAttributesFrom:into:" : "rs 6/15/2014 12:27:26.288",
+		"parseTextAttributesFrom:into:" : "js 6/15/2014 13:00",
+		"readBackgroundColorAttribute:to:" : "js 6/15/2014 13:38",
 		"readBackgroundImageAttribute:to:" : "rs 6/15/2014 12:46:07.66" } }
