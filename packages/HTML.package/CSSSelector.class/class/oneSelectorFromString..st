@@ -68,7 +68,8 @@ oneSelectorFromString: aString
 							sel selectors isEmpty 
 								ifFalse: [sel addSelector: comb] 
 								ifTrue: [sel := comb]. 
-							comb addSelector: (self oneSelectorFromString: in upToEnd)
+							in atEnd ifFalse: 
+								[comb addSelector: (self oneSelectorFromString: in upToEnd)].
 						]
 					]
 				]

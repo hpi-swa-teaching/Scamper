@@ -5,5 +5,6 @@ cssPrefixMap
 			'font' -> CSSFontFormatter new.
 			'color' -> CSSColorFormatter new.
 			'display' -> CSSDisplayFormatter new.
+			'list' -> CSSListFormatter new.
 			'background' -> CSSBackgroundFormatter new.
 		}]
