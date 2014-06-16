@@ -1,3 +1,3 @@
 accessing
 startStyles: aFormatter
-	aFormatter startUnorderedList
+	aFormatter startUnorderedListWithType: (self computedStyles at: #'list-style-type' ifAbsent: ['disc']).
