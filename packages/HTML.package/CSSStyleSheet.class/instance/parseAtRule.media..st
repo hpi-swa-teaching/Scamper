@@ -10,9 +10,7 @@ parseAtRule: aStream media: anArray
 		s := aStream position.
 		aStream next.
 		aStream skipSeparators.
-		aStream peek isLetter 
-			ifTrue: [label nextPut: aStream next]
-			ifFalse: [self halt].
+
 		[aStream peek isLetter or: [aStream peek isDigit or:['-_' includes: aStream peek]]] 
 			whileTrue: [label nextPut: aStream next].
 
