@@ -1,0 +1,15 @@
+{
+	"category" : "Scamper-HTML-Morphs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"width",
+		"x" ],
+	"name" : "HtmlGridColumn",
+	"pools" : [
+		 ],
+	"super" : "HtmlGridSpace",
+	"type" : "normal" }
