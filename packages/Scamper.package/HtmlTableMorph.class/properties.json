@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"alignmentMorph",
-		"currentTableRow" ],
+		 ],
 	"name" : "HtmlTableMorph",
 	"pools" : [
 		 ],
