@@ -3,9 +3,8 @@ drawOn: aCanvas
 	| imageUrl resolver repeat |
 	resolver := StyleResolver for: self node.
 	
-	(resolver getStyle: #backgroundColor)
-		ifNotNilDo: [ :fillColor |
-			self drawBackgroundColor: fillColor On: aCanvas ].
+	resolver ifStyleNotNil: #backgroundColor do: 
+		 [ :fillColor |	self drawBackgroundColor: fillColor On: aCanvas ].
 	
 	self backgroundImage ifNotNil: [ :img |
 		repeat := (resolver getStyle: #backgroundRepeat) ifNil: [ #repeat ].
