@@ -20,9 +20,12 @@ drawOn: aCanvas
 				url := url asUrlRelativeTo: self node document url ].
 			(self downloadBackgroundImageAsync: url )
 				then: [ :document |
-					| image |
+					| image bgPosition |
 					image := ImageReadWriter formFromStream: document contentStream binary.
-					self backgroundImage: image]]].
+					bgPosition := resolver getStyle: #backgroundPosition.
+					((self width < image width or: [ self height < image height ]) or: [ bgPosition notNil ])
+						ifTrue: [ 
+							self backgroundImage: (self clip: image withOrigin: bgPosition) ]
+						ifFalse: [ self backgroundImage: image ]]]].
 		
 	^ super drawOn: aCanvas
-	

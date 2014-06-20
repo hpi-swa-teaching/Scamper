@@ -1,5 +1,5 @@
 parsing
-readBackgroundRepeatAttribute: aCSSProperty to: aContext
+readBackgroundRepeatAttribute: propertyString to: aContext
 	| values |
 	values := Dictionary newFrom: {
 		'no-repeat' -> #noRepeat.
@@ -7,5 +7,5 @@ readBackgroundRepeatAttribute: aCSSProperty to: aContext
 		'repeat-y' -> #repeatY.
 		'repeat' -> #repeat
 	}.
-	values at: aCSSProperty propertyString asLowercase
+	values at: propertyString asLowercase
 		ifPresent: [:value | aContext at: #backgroundRepeat put: value ]
