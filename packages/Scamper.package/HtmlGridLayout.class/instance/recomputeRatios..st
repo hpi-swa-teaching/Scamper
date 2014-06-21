@@ -1,6 +1,6 @@
 layout
 recomputeRatios: aGridSpaceCollection
-	"recompute ratios based on initial breadth"
+	"Recompute ratios based on initial breadth"
 	| pos totalBreadth |
 	totalBreadth := self totalBreadth: aGridSpaceCollection.
 	pos := 0.

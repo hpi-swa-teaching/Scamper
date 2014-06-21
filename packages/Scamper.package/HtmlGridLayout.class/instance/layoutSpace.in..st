@@ -4,7 +4,7 @@ layoutSpace: aSpaceCollection in: newBreadth
 	
 	pos := self computeSpacePositions: aSpaceCollection in: newBreadth.
 	
-	" if not enough, iterate until done or no more resizable columns"
+	"If still space left, iterate until done or no more resizable columns"
 	pos < newBreadth ifTrue: [ | n |
 		[ n := (aSpaceCollection select: [ :ea | ea breadth < ea max ]) size.
 		 (pos < newBreadth) and: [n > 0]] whileTrue: [ | bsup |

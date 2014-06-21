@@ -3,7 +3,7 @@ computeSpacePositions: aSpaceCollection in: newBreadth
 
 	|  pos |
 	
-	" calcul des hauteurs"
+	"Compute the new positions"
 	pos := 0.
 	aSpaceCollection do: [ :ea | | b |
 		b := (newBreadth * (ea ratio)) asInteger.
