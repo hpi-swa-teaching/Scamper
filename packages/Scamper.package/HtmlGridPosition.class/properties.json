@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"col",
+		"column",
 		"row",
-		"ncols",
+		"ncolumns",
 		"nrows" ],
 	"name" : "HtmlGridPosition",
 	"pools" : [

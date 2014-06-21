@@ -4,27 +4,27 @@ layout: aMorph in: newBounds
 "
 	|  origin x y w h |
 	aMorph hasSubmorphs ifFalse: [^self].
-	self colsAndRows.
+	self
+		recomputeRatios: columns;
+		recomputeRatios: rows.
 	origin := newBounds origin asIntegerPoint.
 	
-	self layoutColumnsIn: newBounds.
-	self layoutRowsIn: newBounds.
+	self layoutSpace: columns in: newBounds width.
+	self layoutSpace: rows in: newBounds height..
 
 	aMorph submorphs do: [ :m |
 		| p col row b startcol startrow ncols nrows |
 		p := m valueOfProperty: #gridPosition.
-		startcol := p col.
-		ncols := p ncols.
+		startcol := p column.
+		ncols := p ncolumns.
 		startrow := p row.
 		nrows := p nrows.		
-		col := cols at: startcol.
+		col := columns at: startcol.
 		row := rows at: startrow.
-		x := col x.
-		y := row y.
-		w := 0.
-		1 to: ncols do: [ :n | w := w + ((cols at: (startcol + n - 1)) width). ].
-		h := 0.
-		1 to: nrows do: [ :n | h := h + ((rows at: (startrow + n - 1)) height). ].
+		x := col position.
+		y := row position.
+		w := self partialBreadth: columns from: startcol to: startcol + ncols - 1.
+		h := self partialBreadth: rows from: startrow to: startrow + nrows - 1.
 		b := (origin + (x@y)) corner: (origin + (x@y) + (w@h)).
 		m layoutInBounds: b
 	].

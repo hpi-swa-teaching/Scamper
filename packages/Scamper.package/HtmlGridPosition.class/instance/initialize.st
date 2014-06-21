@@ -2,4 +2,4 @@ initialize
 initialize
 	super initialize.
 	nrows := 1.
-	ncols := 1.
+	ncolumns := 1.

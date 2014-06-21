@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"cols" : "pf 6/17/2014 21:13",
-		"cols:rows:" : "pf 6/17/2014 21:13",
-		"colsAndRows" : "pf 6/17/2014 21:14",
-		"initialize" : "pf 6/17/2014 21:14",
-		"layout:in:" : "pf 6/19/2014 10:22",
-		"layoutColumnsIn:" : "pf 6/17/2014 21:14",
-		"layoutRowsIn:" : "pf 6/17/2014 21:14",
-		"rows" : "pf 6/17/2014 21:13",
-		"xtot" : "pf 6/17/2014 21:15",
-		"ytot" : "pf 6/17/2014 21:15" } }
+		"columns" : "pf 6/21/2014 10:25",
+		"columns:" : "pf 6/21/2014 10:39",
+		"computeSpacePositions:in:" : "pf 6/21/2014 11:02",
+		"initialize" : "pf 6/21/2014 10:26",
+		"layout:in:" : "pf 6/21/2014 11:03",
+		"layoutSpace:in:" : "pf 6/21/2014 11:02",
+		"partialBreadth:from:to:" : "pf 6/21/2014 10:47",
+		"recomputeRatios:" : "pf 6/21/2014 10:52",
+		"rows" : "pf 6/21/2014 10:25",
+		"rows:" : "pf 6/21/2014 10:40",
+		"totalBreadth:" : "pf 6/21/2014 10:37" } }

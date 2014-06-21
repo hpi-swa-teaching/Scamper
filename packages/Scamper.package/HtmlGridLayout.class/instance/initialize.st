@@ -1,5 +1,5 @@
 initialize-release
 initialize
 	super initialize.
-	cols := OrderedCollection new.
+	columns := OrderedCollection new.
 	rows := OrderedCollection new.
