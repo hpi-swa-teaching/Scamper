@@ -19,7 +19,11 @@ they were in text."
 												rest second asLowercase = $x ifTrue: 
 													[rest := '#16r', rest allButFirst allButFirst].
 												Character value: rest allButFirst asNumber]
-											ifFalse: ['&', rest, ';']]) asString]
+											ifFalse: [
+												in last = $;
+													ifTrue: ['&', rest, ';']
+													ifFalse: ['&', rest]
+													]]) asString]
 						ifFalse: [out nextPut: char]].
 		].
 	^ out contents
