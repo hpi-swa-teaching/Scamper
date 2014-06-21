@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Formatter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSSBackgroundFormatter",
+	"pools" : [
+		 ],
+	"super" : "CSSFormatter",
+	"type" : "normal" }
