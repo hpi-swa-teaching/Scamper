@@ -6,7 +6,6 @@
 		"preferredFormatterClass" : "bolot 5/18/2000 11:36" },
 	"instance" : {
 		"addChar:" : "LaurentLaffont 2/26/2010 23:13",
-		"addImageMap:" : "bolot 11/4/1999 00:36",
 		"addIncompleteMorph:" : "ls 9/5/1998 18:09",
 		"addLink:url:" : "LaurentLaffont 2/26/2010 23:13",
 		"addMorph:" : "LaurentLaffont 2/26/2010 23:13",
@@ -25,7 +24,6 @@
 		"ensureSpaces:" : "ls 8/16/1998 11:34",
 		"hr" : "LaurentLaffont 2/26/2010 23:13",
 		"htmlInlineMorph" : "SN 5/25/2014 15:34",
-		"imageMapNamed:" : "bolot 11/4/1999 00:37",
 		"incompleteMorphs" : "ls 9/5/1998 18:08",
 		"increaseIndent" : "LaurentLaffont 2/26/2010 23:13",
 		"increasePreformatted" : "LaurentLaffont 2/26/2010 23:13",
