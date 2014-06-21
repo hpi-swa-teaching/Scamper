@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addChild: aHtmlTableRowMorph
 	| count |
 	self layoutPolicy rows addLast: (HtmlGridSpace new breadth: 10; min: 0; max: 9999).
