@@ -3,7 +3,6 @@ processBackgroundImage: aUrl at: aPosition
 	| absoluteUrl |
 	aUrl ifNil: [ ^ self ].
 	
-	self hasBackgroundImage: true.
 	absoluteUrl := aUrl.
 	(aUrl asString beginsWith: 'http') 
 		ifFalse: [ absoluteUrl := aUrl asUrlRelativeTo: self node document url ].
