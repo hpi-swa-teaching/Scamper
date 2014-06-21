@@ -1,7 +1,7 @@
 parsing
 readFontSizeAttribute: aString to: aContext
 	| defaultSize parentFontSize|
-	defaultSize := TextStyle default defaultFont pointSize.
+	defaultSize := self class defaultSize.
 	parentFontSize := (self parentResolver value: #size) ifNil: [ defaultSize ].
 	
 	self isRelativeSize: aString

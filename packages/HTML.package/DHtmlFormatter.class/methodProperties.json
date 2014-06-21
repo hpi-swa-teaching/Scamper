@@ -2,13 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"decreaseFontBy:" : "bolot 5/18/2000 11:55",
 		"endFont:" : "bolot 5/18/2000 11:23",
 		"endStyles" : "rs 5/18/2014 14:00:49.41",
-		"increaseFontBy:" : "bolot 5/18/2000 11:50",
-		"lastFontSize" : "LaurentLaffont 2/26/2010 23:13",
 		"parseTextAttributesFor:" : "SN 6/15/2014 13:38",
-		"parseTextStyleAttributesFor:in:" : "SN 6/15/2014 13:39",
+		"parseTextStyleAttributesFor:in:" : "SN 6/21/2014 15:33",
 		"resetFont" : "bolot 5/18/2000 11:57",
 		"setAttributes" : "LaurentLaffont 2/26/2010 23:13",
 		"startFont:" : "rs 5/18/2014 13:53:54.124",

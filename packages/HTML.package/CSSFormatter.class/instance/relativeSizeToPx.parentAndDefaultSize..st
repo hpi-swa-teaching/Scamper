@@ -1,12 +1,11 @@
 size-conversion
 relativeSizeToPx: aString parentAndDefaultSize: aNumber
-	| value parent |
+	| value |
 	aString ifNil: [^aNumber].
 	value := aString asNumber.
 	value ifNil: [^aNumber].
-	parent := aNumber ifNil: [TextStyle defaultFont pixelSize].
 	
-	((aString endsWith: 'em') or: [aString endsWith: 'ex']) ifTrue: [ ^value * parent ].
-	(aString endsWith: '%') ifTrue: [ ^value / 100 * parent ].
+	((aString endsWith: 'em') or: [aString endsWith: 'ex']) ifTrue: [ ^value * aNumber ].
+	(aString endsWith: '%') ifTrue: [ ^value / 100 * aNumber ].
 
-	^parent.
+	^aNumber.
