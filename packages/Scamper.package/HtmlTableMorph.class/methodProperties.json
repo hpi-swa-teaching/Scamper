@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChild:" : "pf 6/21/2014 11:31",
-		"ensureColumns:" : "pf 6/21/2014 11:32",
+		"addChild:" : "pf 6/21/2014 11:59",
+		"ensureColumns:" : "pf 6/21/2014 11:57",
+		"ensureHeight:ofRow:" : "pf 6/21/2014 11:54",
+		"ensureWidth:ofColumn:" : "pf 6/21/2014 11:52",
 		"initialize" : "pf 6/21/2014 11:30" } }
