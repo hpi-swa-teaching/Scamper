@@ -5,4 +5,8 @@
 		"backgroundFormatter" : "js 6/15/2014 13:43",
 		"backgroundFormatter:" : "js 6/15/2014 13:43",
 		"setUp" : "js 6/15/2014 13:44",
-		"test01BackgroundColorShouldBeParsedCorrectly" : "js 6/15/2014 13:46" } }
+		"test01BackgroundColorShouldBeParsedCorrectly" : "js 6/15/2014 13:46",
+		"test02BackgroundImageShouldBeParsedCorrectly" : "rs 6/21/2014 10:55:44.07",
+		"test03BackgroundPositionShouldBeParsedCorrectly" : "rs 6/21/2014 10:56:52.099",
+		"test04BackgroundRepeatShouldBeParsedCorrectly" : "rs 6/21/2014 10:57:36.951",
+		"test05BackgroundShouldBeParsedCorrectly" : "rs 6/21/2014 11:00:56.912" } }

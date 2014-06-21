@@ -9,7 +9,7 @@
 		"node",
 		"children",
 		"backgroundImage",
-		"hasBackgroundImage" ],
+		"processedBackgroundImage" ],
 	"name" : "HtmlBlockMorph",
 	"pools" : [
 		 ],

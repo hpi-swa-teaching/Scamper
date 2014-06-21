@@ -16,7 +16,7 @@ readBackgroundAttribute: propertyValue of: aCSSProperty to: aContext
 		(self isValidRepeatValue: each) 
 			ifTrue: [ self readBackgroundRepeatAttribute: each to: shorthandContext ]
 			ifFalse: [
-		((positionValues size < 2) and: [ self isNumber: each ])
+		((positionValues size < 2) and: [ each asInteger notNil ])
 			ifTrue: [ positionValues add: each ]
 			ifFalse: [
 		(index = 1) 
