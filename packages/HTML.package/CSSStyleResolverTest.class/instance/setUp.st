@@ -1,3 +1,3 @@
 running
 setUp
-	self styleResolver: StyleResolver new
+	self styleResolver: CSSStyleResolver new

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "rs 6/7/2014 12:49:03.05",
+		"setUp" : "SS 6/23/2014 11:52",
 		"styleResolver" : "rs 6/7/2014 12:48:53.095",
 		"styleResolver:" : "rs 6/7/2014 12:48:53.124",
 		"test01StylesShouldBeForwardedToTheCorrectFormatter" : "rs 6/8/2014 14:02:56.474",
