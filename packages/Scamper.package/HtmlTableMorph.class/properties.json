@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"layoutFinished" ],
 	"name" : "HtmlTableMorph",
 	"pools" : [
 		 ],

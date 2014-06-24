@@ -14,6 +14,7 @@ layout: aMorph in: newBounds
 	aMorph submorphs do: [ :m |
 		| p col row b startcol startrow ncols nrows |
 		p := m valueOfProperty: #gridPosition.
+		p notNil ifTrue: [
 		startcol := p column.
 		ncols := p ncolumns.
 		startrow := p row.
@@ -25,5 +26,5 @@ layout: aMorph in: newBounds
 		w := self partialBreadth: columns from: startcol to: startcol + ncols - 1.
 		h := self partialBreadth: rows from: startrow to: startrow + nrows - 1.
 		b := (origin + (x@y)) corner: (origin + (x@y) + (w@h)).
-		m layoutInBounds: b
+		m layoutInBounds: b ]
 	].

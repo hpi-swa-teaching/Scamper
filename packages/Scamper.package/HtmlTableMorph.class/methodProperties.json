@@ -3,7 +3,11 @@
 		 },
 	"instance" : {
 		"addChild:" : "pf 6/21/2014 11:59",
+		"addHorizontalTableLines" : "pf 6/24/2014 21:15",
+		"addTableLines" : "pf 6/24/2014 21:12",
+		"addVerticalTableLines" : "pf 6/24/2014 21:15",
 		"ensureColumns:" : "pf 6/21/2014 11:57",
 		"ensureHeight:ofRow:" : "pf 6/21/2014 11:54",
 		"ensureWidth:ofColumn:" : "pf 6/21/2014 11:52",
-		"initialize" : "pf 6/21/2014 11:30" } }
+		"initialize" : "pf 6/24/2014 21:11",
+		"layoutChanged" : "pf 6/24/2014 21:09" } }
