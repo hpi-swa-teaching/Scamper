@@ -1,14 +1,15 @@
 {
-	"category" : "HTML-Tests",
+	"category" : "HTML-Formatter",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"styleResolver" ],
-	"name" : "StyleResolverTest",
+		"cssPrefixMap",
+		"domNode" ],
+	"name" : "CSSStyleResolver",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }
