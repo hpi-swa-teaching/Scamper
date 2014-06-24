@@ -1,7 +1,7 @@
 drawing
 drawOn: aCanvas
 	| resolver |
-	resolver := StyleResolver for: self node.
+	resolver := CSSStyleResolver for: self node.
 	
 	resolver ifStyleNotNil: #backgroundColor do: 
 		 [ :fillColor |	self drawBackgroundColor: fillColor On: aCanvas ].

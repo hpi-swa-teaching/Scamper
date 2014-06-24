@@ -3,7 +3,7 @@ parseTextAttributesFor: aDomNode
 	
 	| attributes resolver |
 	attributes := OrderedCollection new.
-	resolver := StyleResolver for: aDomNode.
+	resolver := CSSStyleResolver for: aDomNode.
 	
 	self parseTextStyleAttributesFor: resolver in: attributes.
 	
