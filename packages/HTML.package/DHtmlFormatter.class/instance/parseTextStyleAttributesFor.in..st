@@ -9,5 +9,4 @@ parseTextStyleAttributesFor: aStyleResolver in: anOrderedCollection
 
 	((aStyleResolver getStyle: #family) notNil or: [(aStyleResolver getStyle: #size) notNil])
 			ifTrue: [anOrderedCollection add:
-					(TextFontReference toFont:
-						(family fontOfPointSize: (TextStyle pixelsToPoints: size)))].
+					(TextFontReference toFont: (self fontWith: family and: size))].
