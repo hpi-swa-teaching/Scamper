@@ -10,6 +10,10 @@ addChild: aHtmlTableRowMorph
 			ensureHeight: ea height ofRow: self layoutPolicy rows size; 
 			addMorphBack: (ea
 				hResizing: #spaceFill;
-				setProperty: #gridPosition toValue: (HtmlGridPosition new column: count ; row: self layoutPolicy rows size) ).
+				setProperty: #gridPosition toValue:
+					(HtmlGridPosition new
+						column: count;
+						row: self layoutPolicy rows size)
+			).
 		self children addLast: ea.
-].
+	].
