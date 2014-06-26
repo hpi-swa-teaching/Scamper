@@ -9,19 +9,18 @@ layout: aMorph in: newBounds
 	origin := newBounds origin asIntegerPoint.
 	
 	self layoutSpace: columns in: newBounds width.
-	self layoutSpace: rows in: newBounds height..
+	self layoutSpace: rows in: newBounds height.
 
-	aMorph submorphs do: [ :m |
-		| p column row b |
-		p := m valueOfProperty: #gridPosition.
-		p notNil ifTrue: [
-			column := columns at: p column.
-			row := rows at: p row.
+	aMorph submorphs do: [ :morph | | gridPosition |
+		gridPosition := morph valueOfProperty: #gridPosition.
+		gridPosition notNil ifTrue: [ | column morphBounds row |
+			column := columns at: gridPosition column.
+			row := rows at: gridPosition row.
 			x := column position.
 			y := row position.
 			w := column breadth.
 			h := row breadth.
-			b := (origin + (x@y)) corner: (origin + (x@y) + (w@h)).
-			m layoutInBounds: b
+			morphBounds := (origin + (x@y)) corner: (origin + (x@y) + (w@h)).
+			morph layoutInBounds: morphBounds.
 		]
 	].
