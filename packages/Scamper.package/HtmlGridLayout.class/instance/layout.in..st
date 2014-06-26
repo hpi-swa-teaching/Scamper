@@ -12,19 +12,15 @@ layout: aMorph in: newBounds
 	self layoutSpace: rows in: newBounds height..
 
 	aMorph submorphs do: [ :m |
-		| p col row b startcol startrow ncols nrows |
+		| p column row b |
 		p := m valueOfProperty: #gridPosition.
 		p notNil ifTrue: [
-			startcol := p column.
-			ncols := p ncolumns.
-			startrow := p row.
-			nrows := p nrows.		
-			col := columns at: startcol.
-			row := rows at: startrow.
-			x := col position.
+			column := columns at: p column.
+			row := rows at: p row.
+			x := column position.
 			y := row position.
-			w := self partialBreadth: columns from: startcol to: startcol + ncols - 1.
-			h := self partialBreadth: rows from: startrow to: startrow + nrows - 1.
+			w := column breadth.
+			h := row breadth.
 			b := (origin + (x@y)) corner: (origin + (x@y) + (w@h)).
 			m layoutInBounds: b
 		]
