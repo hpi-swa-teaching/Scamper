@@ -2,5 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
+		"absoluteSizeToPx:defaultSize:" : "SN 6/21/2014 13:15",
+		"cmToIn:" : "SN 6/21/2014 11:31",
+		"inToPx:" : "SN 6/21/2014 11:38",
+		"isAbsoluteSize:" : "SN 6/25/2014 00:06",
+		"isAbsoluteSize:ifTrue:" : "SN 6/21/2014 12:16",
+		"isRelativeSize:" : "SN 6/25/2014 00:06",
+		"isRelativeSize:ifTrue:" : "SN 6/21/2014 12:16",
+		"mmToIn:" : "SN 6/21/2014 11:31",
+		"parentResolver" : "SN 6/21/2014 14:04",
+		"parentResolver:" : "SN 6/21/2014 14:03",
 		"parseTextAttributesFrom:into:" : "rs 6/7/2014 13:30:00.265",
-		"parseTextAttributesFrom:into:withParentAttributeResolver:" : "rs 6/7/2014 13:32:23.267" } }
+		"parseTextAttributesFrom:into:withParentAttributeResolver:" : "SN 6/21/2014 14:05",
+		"pcToIn:" : "SN 6/21/2014 11:31",
+		"ptToIn:" : "SN 6/21/2014 11:31",
+		"relativeSizeToPx:parentAndDefaultSize:" : "SN 6/21/2014 15:44" } }

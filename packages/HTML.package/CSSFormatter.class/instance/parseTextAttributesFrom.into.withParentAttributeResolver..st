@@ -1,4 +1,4 @@
 parsing
 parseTextAttributesFrom: styles into: aContext withParentAttributeResolver: aParentResolver
-	parentResolver := aParentResolver.
-	self parseTextAttributesFrom: styles into: aContext
+	self parentResolver: aParentResolver;
+		parseTextAttributesFrom: styles into: aContext
