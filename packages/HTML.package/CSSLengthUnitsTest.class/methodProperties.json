@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "SN 6/21/2014 13:35",
+		"test01EmShouldBeParsedCorrectly" : "SN 6/21/2014 15:58",
+		"test02ExShouldBeParsedCorrectly" : "SN 6/21/2014 15:58",
+		"test03PercentageShouldBeParsedCorrectly" : "SN 6/21/2014 15:59",
+		"test04CmShouldBeParsedCorrectly" : "SN 6/21/2014 13:50",
+		"test05MmShouldBeParsedCorrectly" : "SN 6/21/2014 13:51",
+		"test06InShouldBeParsedCorrectly" : "SN 6/21/2014 13:52",
+		"test07PtShouldBeParsedCorrectly" : "SN 6/21/2014 13:52",
+		"test08PcShouldBeParsedCorrectly" : "SN 6/21/2014 13:55" } }
