@@ -3,5 +3,5 @@
 		 },
 	"instance" : {
 		"test01TableShouldRenderAsHtmlTableMorph" : "pf 6/26/2014 18:43",
-		"test02TableElementsInColumnShouldHaveSameXPositions" : "pf 6/26/2014 18:42",
-		"test03TableElementsInRowsShouldHaveSameYPositions" : "pf 6/26/2014 18:43" } }
+		"test02TableElementsInColumnShouldHaveSameXPositions" : "pf 6/27/2014 00:01",
+		"test03TableElementsInRowsShouldHaveSameYPositions" : "pf 6/27/2014 00:01" } }

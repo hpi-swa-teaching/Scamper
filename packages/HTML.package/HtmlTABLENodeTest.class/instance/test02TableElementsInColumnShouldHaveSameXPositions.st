@@ -10,4 +10,4 @@ test02TableElementsInColumnShouldHaveSameXPositions
 	table := document children first getHtmlBlockMorph.
 	table layoutInBounds: table bounds.
 	self assert: table children first bounds origin x equals: table children third bounds origin x.
-	self assert: table children second bounds origin x == table children fourth bounds origin x.
+	self assert: table children second bounds origin x equals: table children fourth bounds origin x.
