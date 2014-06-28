@@ -2,6 +2,6 @@ initialize-release
 addDefaultStyle
 	| styles |
 	styles := Dictionary newFrom: {
-		'display' -> 'block'.
+		'display' -> 'table-row'.
 	}.
 	self addStyle: (CSSStyleRule fromDictionary: styles)
