@@ -7,7 +7,7 @@
 		"inToPx:" : "SN 6/21/2014 11:38",
 		"isAbsoluteSize:" : "SN 6/25/2014 00:06",
 		"isAbsoluteSize:ifTrue:" : "SN 6/21/2014 12:16",
-		"isRelativeSize:" : "SN 6/25/2014 00:06",
+		"isRelativeSize:" : "SN 6/28/2014 10:29",
 		"isRelativeSize:ifTrue:" : "SN 6/21/2014 12:16",
 		"mmToIn:" : "SN 6/21/2014 11:31",
 		"parentResolver" : "SN 6/21/2014 14:04",
@@ -16,4 +16,4 @@
 		"parseTextAttributesFrom:into:withParentAttributeResolver:" : "SN 6/21/2014 14:05",
 		"pcToIn:" : "SN 6/21/2014 11:31",
 		"ptToIn:" : "SN 6/21/2014 11:31",
-		"relativeSizeToPx:parentAndDefaultSize:" : "SN 6/21/2014 15:44" } }
+		"relativeSizeToPx:parentAndDefaultSize:" : "SN 6/28/2014 10:47" } }
