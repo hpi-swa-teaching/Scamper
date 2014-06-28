@@ -1,3 +1,3 @@
 size-conversion
 isRelativeSize: aString
-	^aString endsWithAnyOf: {'em' . 'ex'. '%'}
+	^aString endsWithAnyOf: {'em' . 'ex'. '%' . 'larger' . 'smaller'}

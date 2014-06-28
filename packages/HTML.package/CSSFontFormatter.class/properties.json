@@ -1,7 +1,8 @@
 {
 	"category" : "HTML-Formatter",
 	"classinstvars" : [
-		"fontsInstalled" ],
+		"fontsInstalled",
+		"fontSizeFactorMap" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

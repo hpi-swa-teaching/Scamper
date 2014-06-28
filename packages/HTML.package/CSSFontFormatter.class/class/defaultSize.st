@@ -1,4 +1,4 @@
-class initialization
+font parameters
 defaultSize
 	self installFontsIfNecessary.
 	^TextStyle pointsToPixels:

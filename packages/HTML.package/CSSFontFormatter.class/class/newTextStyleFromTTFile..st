@@ -1,4 +1,4 @@
-class initialization
+font installation
 newTextStyleFromTTFile: fileName
 	| description array style |
 	description := TTFontDescription addFromTTFile: fileName.
