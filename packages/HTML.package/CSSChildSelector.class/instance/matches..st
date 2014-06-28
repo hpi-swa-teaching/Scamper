@@ -6,6 +6,7 @@ matches: aNode
 	node := aNode.
 	selectors reverseDo: [ :ea |
 		node ifNil: [^false].
-		(ea matches: node) ifFalse:[^false]. node := node parent
+		(ea matches: node) ifFalse: [^false].
+		node := node parent.
 	].
 	^true
