@@ -1,8 +1,8 @@
 accessing
-test06VariableShouldBeUnifont
+test06TeletypeShouldBeAccushi
 	| document node |
 	document := HtmlDocument new.
-	document parseContents: (ReadStream on: '<var>sample variable</var>').
+	document parseContents: (ReadStream on: '<tt>teletype text</tt>').
 	node := document children first.
 	self assert: (self styleResolver getStyle: #family for: node) 
-		equals: (TextStyle named: 'Unifont').
+		equals: (TextStyle named: 'Accushi').

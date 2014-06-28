@@ -2,6 +2,6 @@ accessing
 addDefaultStyle
 	| styles |
 	styles := Dictionary newFrom: {
-		'font-family' -> 'Courier New'.
+		'font-family' -> 'Georgia'.
 	}.
 	self addStyle: (CSSStyleRule fromDictionary: styles)

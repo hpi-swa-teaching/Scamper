@@ -10,8 +10,8 @@
 		"test01EmphasizedTextShouldBeItalic" : "SS 6/28/2014 19:41",
 		"test02StrongTextShouldBeBold" : "SS 6/28/2014 19:42",
 		"test03DefinitionShouldBeItalicAndTimes" : "SS 6/28/2014 19:53",
-		"test04CodeShouldBeUnifont" : "SS 6/28/2014 19:54",
-		"test05OutputShouldBeCourierNew" : "SS 6/28/2014 20:00",
+		"test04CodeShouldBeCourierNew" : "SS 6/28/2014 20:50",
+		"test05OutputShouldBeGeorgia" : "SS 6/28/2014 20:49",
 		"test06InputShouldBeAccushi" : "SS 6/28/2014 20:01",
-		"test06TeletypeShouldBeItalicAndAccushi" : "SS 6/28/2014 20:07",
-		"test06VariableShouldBeUnifont" : "SS 6/28/2014 20:01" } }
+		"test06TeletypeShouldBeAccushi" : "SS 6/28/2014 20:46",
+		"test06VariableShouldBeCourierNew" : "SS 6/28/2014 20:49" } }
