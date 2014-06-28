@@ -5,7 +5,10 @@ parseTextAttributesFrom: aCSSProperty into: aContext
 		values := Dictionary newFrom: {
 			'inline' -> #inline.
 			'inline-block' -> #inlineBlock.
-			'block' -> #block
+			'block' -> #block.
+			'table' -> #table.
+			'table-row' -> #tableRow.
+			'table-cell' -> #tableCell
 		}.
 		values at: aCSSProperty propertyString asLowercase
 			ifPresent: [:value | aContext at: #block put: value ]

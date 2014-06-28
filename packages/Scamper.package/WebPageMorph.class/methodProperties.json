@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"on:" : "SN 5/25/2014 14:26" },
+		"on:" : "pf 6/28/2014 11:55" },
 	"instance" : {
 		"document" : "SN 5/25/2014 14:01",
 		"document:" : "SN 5/25/2014 14:10",
 		"documentMorph" : "SN 5/25/2014 14:01",
 		"documentMorph:" : "SN 5/25/2014 15:01",
+		"initialize" : "pf 6/28/2014 11:51",
 		"layoutChanged" : "SN 5/25/2014 13:56",
 		"resetExtent" : "SN 5/25/2014 16:09",
 		"scamper" : "SN 5/25/2014 14:25",
