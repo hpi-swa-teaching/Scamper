@@ -16,7 +16,7 @@ fontMap
 			'cursive' -> 'URWChanceryL'.
 			'URW Chancery L' -> 'URWChanceryL'.
 			'monospace' -> 'NimbusMonoL'.
-			'Courier New' -> 'NimubsMonoL'.
+			'Courier New' -> 'NimbusMonoL'.
 			'Nimbus Mono L' -> 'NimbusMonoL'.
 			'Trebuchet MS' -> 'TrebuchetMS'.
 			'Andale Mono' -> 'AndaleMono'.
