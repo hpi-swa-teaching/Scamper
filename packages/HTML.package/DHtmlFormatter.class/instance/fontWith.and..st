@@ -1,5 +1,8 @@
 private-formatting
 fontWith: aTextStyle and: aFontSize
-	| size |
-	size := TextStyle pixelsToPoints: aFontSize.
-	^aTextStyle fonts detectMin: [ :font | (size - font pointSize) abs]
+	| size font |
+	size := (CSSFontFormatter sizeFactorFor: aTextStyle)
+				 * (TextStyle pixelsToPoints: aFontSize) ceiling.
+	font := aTextStyle fonts detect: [:f | f pointSize = size]
+							   ifNone: [ aTextStyle addNewFontSize: size].
+	^font
