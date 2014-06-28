@@ -11,6 +11,7 @@ matches: aNode
 			[
 				selectors first == ea ifFalse:
 				[
+					node parent ifNil: [^false].
 					node := node parent children before: node ifAbsent:[^false]
 				]
 			]
