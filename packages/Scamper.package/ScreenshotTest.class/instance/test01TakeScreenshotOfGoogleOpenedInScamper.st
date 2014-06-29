@@ -4,6 +4,7 @@ test01TakeScreenshotOfGoogleOpenedInScamper
 	scamper := (Scamper openOnUrlAsync: 'http://google.de' asUrl) wait.
 	scamper owner runStepMethods.
 	(Delay forSeconds: 2) wait.
+	scamper extent: 800@650.
 	scamper owner runStepMethods.
 	scamper model status = 'done.' ifTrue: [ self saveScreenshotOf: scamper toFile: 'scamper.png' ].
 		
