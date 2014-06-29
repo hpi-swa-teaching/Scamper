@@ -1,8 +1,8 @@
 accessing
-test06InputShouldBeAccushi
+test07TeletypeShouldBeTrebuchetMS
 	| document node |
 	document := HtmlDocument new.
-	document parseContents: (ReadStream on: '<kbd>sample input</kbd>').
+	document parseContents: (ReadStream on: '<tt>teletype text</tt>').
 	node := document children first.
 	self assert: (self styleResolver getStyle: #family for: node) 
-		equals: (TextStyle named: 'Accushi').
+		equals: (TextStyle named: 'TrebuchetMS').

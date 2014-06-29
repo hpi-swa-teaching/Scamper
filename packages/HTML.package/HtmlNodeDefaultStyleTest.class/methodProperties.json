@@ -12,6 +12,6 @@
 		"test03DefinitionShouldBeItalicAndTimes" : "SS 6/28/2014 19:53",
 		"test04CodeShouldBeCourierNew" : "SS 6/28/2014 20:50",
 		"test05OutputShouldBeGeorgia" : "SS 6/28/2014 20:49",
-		"test06InputShouldBeAccushi" : "SS 6/28/2014 20:01",
-		"test06TeletypeShouldBeAccushi" : "SS 6/28/2014 20:46",
-		"test06VariableShouldBeCourierNew" : "SS 6/28/2014 20:49" } }
+		"test06InputShouldBeTrebuchetMS" : "SS 6/29/2014 18:14",
+		"test07TeletypeShouldBeTrebuchetMS" : "SS 6/29/2014 18:15",
+		"test08VariableShouldBeCourierNew" : "SS 6/29/2014 18:15" } }
