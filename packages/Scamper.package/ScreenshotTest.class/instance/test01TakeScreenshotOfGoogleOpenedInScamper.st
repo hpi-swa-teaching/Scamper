@@ -1,6 +1,7 @@
 testing
 test01TakeScreenshotOfGoogleOpenedInScamper
 	| scamper |
+	<timeout: 20>
 	scamper := (Scamper openOnUrlAsync: 'http://google.de' asUrl) wait.
 	scamper owner runStepMethods.
 	(Delay forSeconds: 2) wait.
