@@ -1,0 +1,15 @@
+{
+	"category" : "HTML-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"htmlFormatter",
+		"styleResolver" ],
+	"name" : "HtmlNodeDefaultStyleTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,3 +1,7 @@
 document handling
 titleOf: aHtmlDocument
-	^ (aHtmlDocument nodesSelect: [:node | node tag = 'title']) first innerContents
+	| titleNodes |
+	titleNodes := aHtmlDocument nodesSelect: [:node | node tag = 'title'].
+	titleNodes isEmpty
+		ifTrue: [^nil]
+		ifFalse: [^titleNodes first innerContents]

@@ -10,4 +10,6 @@
 		"test05MmShouldBeParsedCorrectly" : "SN 6/21/2014 13:51",
 		"test06InShouldBeParsedCorrectly" : "SN 6/21/2014 13:52",
 		"test07PtShouldBeParsedCorrectly" : "SN 6/21/2014 13:52",
-		"test08PcShouldBeParsedCorrectly" : "SN 6/21/2014 13:55" } }
+		"test08PcShouldBeParsedCorrectly" : "SN 6/21/2014 13:55",
+		"test09SmallerShouldBeParsedCorrectly" : "SN 6/28/2014 10:47",
+		"test10LargerShouldBeParsedCorrectly" : "SN 6/28/2014 10:58" } }

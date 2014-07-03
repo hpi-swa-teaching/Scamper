@@ -1,4 +1,4 @@
-class initialization
+font installation
 installFonts
 	((FileDirectory uri: 'Scamper' , FileDirectory slash , 'fonts') fileNamesMatching: '*.ttf')
 		do: [:fontfile | 
