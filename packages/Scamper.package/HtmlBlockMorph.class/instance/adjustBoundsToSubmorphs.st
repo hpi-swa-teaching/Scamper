@@ -13,9 +13,11 @@ adjustBoundsToSubmorphs
 "	for table column breadth ratio calulation"
 	| submorphCorner delta |
 	submorphCorner := self submorphs 
-		ifEmpty: [ self computedSize ]
+		ifEmpty: [ self position + self computedSize ]
 		ifNotEmpty: [ ((self submorphBounds origin extent: self computedSize) quickMerge: self submorphBounds) corner asIntegerPoint ].
 	delta := submorphCorner - self bounds corner.
 	(delta isZero)
 		ifTrue: [ ^ false ]
-		ifFalse: [ self extent: submorphCorner - self position. ^true ]
+		ifFalse: 
+			[ self extent: submorphCorner - self position. 
+			  ^true ]
