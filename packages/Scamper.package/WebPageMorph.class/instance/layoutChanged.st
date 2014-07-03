@@ -1,6 +1,8 @@
 layout
 layoutChanged
-		"compute new bounds"
-		self changed.
-		super layoutChanged.
-		self changed.
+	"compute new bounds"
+	
+	self changed.
+	super layoutChanged.
+	self changed.
+	self updateDocumentSize

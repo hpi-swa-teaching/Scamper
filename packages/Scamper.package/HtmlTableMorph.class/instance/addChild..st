@@ -1,7 +1,7 @@
 accessing
 addChild: aHtmlTableRowMorph
 	| count |
-	self layoutPolicy rows addLast: (HtmlGridSpace new breadth: 10; min: 0; max: 9999).
+	self layoutPolicy rows addLast: (HtmlGridSpace new breadth: 10; min: 1; max: 9999).
 	count := 0.
 	aHtmlTableRowMorph children do: [ :ea | count := count + 1.
 		self
