@@ -4,5 +4,4 @@ layoutChanged
 	
 	self changed.
 	super layoutChanged.
-	self changed.
-	self updateDocumentSize
+	self changed

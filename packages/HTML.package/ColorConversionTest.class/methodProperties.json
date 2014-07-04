@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"test01ConvertNameToColor" : "SS 5/29/2014 16:41",
-		"test02ConvertHexRGBToColor" : "pf 5/25/2014 12:39",
+		"test02ConvertHexRGBToColor" : "rs 7/4/2014 22:01:57.437",
 		"test03ConvertHexRRGGBBToColor" : "pf 5/25/2014 12:41",
 		"test04ConvertRGBDecimalFunctionToColor" : "pf 5/25/2014 14:48",
 		"test05ConvertRGBPercentFunctionToColor" : "pf 5/25/2014 14:50",
