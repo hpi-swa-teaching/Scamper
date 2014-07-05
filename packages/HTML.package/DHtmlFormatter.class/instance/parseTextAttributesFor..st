@@ -14,5 +14,6 @@ parseTextAttributesFor: aDomNode
 		ifStyleNotNil: #underlined do:
 				[:underlined | underlined ifTrue: [ attributes add: TextEmphasis underlined ]];
 		ifStyleNotNil: #struckOut do:
-				[:struckOut | struckOut ifTrue: [ attributes add: TextEmphasis struckOut ]].
+				[:struckOut | struckOut ifTrue: [ attributes add: TextEmphasis struckOut ]];
+		ifStyleNotNil: #align do: [:align | attributes add: (TextAlignment perform: align)].
 	^ attributes

@@ -6,5 +6,9 @@
 		"test01TextDecorationUnderlinedShouldBeParsedCorrectly" : "SN 7/5/2014 12:06",
 		"test02TextDecorationLineThroughShouldBeParsedCorrectly" : "SN 7/5/2014 12:05",
 		"test03TextDecorationUnderlinedLineThroughShouldBeParsedCorrectly" : "SN 7/5/2014 12:06",
+		"test04TextAlignCenterShouldBeParsedCorrectly" : "SN 7/5/2014 12:28",
+		"test05TextAlignLeftShouldBeParsedCorrectly" : "SN 7/5/2014 12:28",
+		"test06TextAlignRightShouldBeParsedCorrectly" : "SN 7/5/2014 12:28",
+		"test07TextAlignJustifyShouldBeParsedCorrectly" : "SN 7/5/2014 12:29",
 		"textFormatter" : "SN 7/5/2014 12:03",
 		"textFormatter:" : "SN 7/5/2014 12:03" } }
