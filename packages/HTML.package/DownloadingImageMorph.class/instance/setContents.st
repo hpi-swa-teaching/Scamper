@@ -15,4 +15,6 @@ setContents
 	defaultExtent isNil
 		ifFalse: [imageMorph extent: defaultExtent].
 	self extent ~= imageMorph extent
-		ifTrue: [	self extent: imageMorph extent ]
+		ifTrue: [	self extent: imageMorph extent ].
+	"TODO: trigger scrollbar reevaluation of WebPageMorph"
+	self owner composeToBounds

@@ -1,0 +1,3 @@
+rendering
+addToHtmlMorph: aHtmlBlockMorph
+	self renderChildrenInto: aHtmlBlockMorph
