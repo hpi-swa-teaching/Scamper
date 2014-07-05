@@ -2,7 +2,7 @@ size-conversion
 absoluteSizeToPx: aString defaultSize: aNumber
 	| value |
 	aString ifNil: [^aNumber].
-	value := aString asNumber.
+	value := (self isNumber: aString) ifTrue: [ aString asNumber] ifFalse: [nil].
 	value ifNil: [^aNumber].
 	
 	(aString endsWith: 'cm') ifTrue: [ ^self inToPx: (self cmToIn: value) ].
