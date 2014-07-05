@@ -3,7 +3,7 @@ loadStyles
 
 	| doc |
 
-	doc := (self url asUrlRelativeTo: self document requestUrl asUrl) retrieveContents.
+	doc := self absoluteUrl retrieveContents.
 	self 
 		content: doc content; 
 		start: 0; 
