@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "SN 7/5/2014 12:04",
+		"test01TextDecorationUnderlinedShouldBeParsedCorrectly" : "SN 7/5/2014 12:06",
+		"test02TextDecorationLineThroughShouldBeParsedCorrectly" : "SN 7/5/2014 12:05",
+		"test03TextDecorationUnderlinedLineThroughShouldBeParsedCorrectly" : "SN 7/5/2014 12:06",
+		"textFormatter" : "SN 7/5/2014 12:03",
+		"textFormatter:" : "SN 7/5/2014 12:03" } }
