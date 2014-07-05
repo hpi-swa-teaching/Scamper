@@ -3,7 +3,7 @@
 		"newFor:" : "SN 5/25/2014 14:54" },
 	"instance" : {
 		"addChild:" : "rs 5/28/2014 16:04:49.114",
-		"adjustBoundsToSubmorphs" : "rs 7/3/2014 13:33:50.689",
+		"adjustBoundsToSubmorphs" : "SN 7/5/2014 13:46",
 		"backgroundImage" : "rs 6/15/2014 11:41:56.559",
 		"backgroundImage:" : "rs 6/15/2014 12:30:43.079",
 		"children" : "SN 5/25/2014 15:35",
@@ -27,7 +27,7 @@
 		"layoutChanged" : "rs 7/3/2014 13:01:09.048",
 		"node" : "SN 5/25/2014 14:50",
 		"node:" : "SN 5/25/2014 14:50",
-		"preferredMinimumWidth" : "rs 6/28/2014 12:04:56.157",
+		"preferredMinimumWidth" : "SN 7/5/2014 13:50",
 		"processBackgroundImage:at:" : "rs 6/21/2014 11:22:03.987",
 		"processedBackgroundImage" : "rs 6/21/2014 11:04:00.545",
 		"processedBackgroundImage:" : "rs 6/21/2014 11:04:00.561",

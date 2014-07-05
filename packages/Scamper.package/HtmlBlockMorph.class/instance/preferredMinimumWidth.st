@@ -7,7 +7,8 @@ preferredMinimumWidth
 
 	"TODO: add support for intrinsic widths of replaced elements here"
 	"add margins and paddings and border-widths here"
-	resolver ifStyleNotNil: #absoluteWidth do: [:value | ownWidth := value ] ifNil: [ ^ ownWidth := #auto ].
+	resolver ifStyleNotNil: #absoluteWidth
+					do: [:value | ownWidth := value ] ifNil: [ ^ ownWidth := #auto ].
 
 	childrenWidth := (self submorphs 
 		collect: [ :morph | morph preferredMinimumWidth ]
