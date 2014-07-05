@@ -9,6 +9,7 @@ stylesheet
 	[
 		| doc |
 		doc := self loader documentForUrl: self href.
+		doc ifNil: [^nil].
 		stylesheet := CSSStyleSheet new parent: self; 
 			start: 0; 
 			content: doc content; 
