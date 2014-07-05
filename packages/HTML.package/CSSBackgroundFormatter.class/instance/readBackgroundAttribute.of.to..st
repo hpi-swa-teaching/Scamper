@@ -21,6 +21,8 @@ readBackgroundAttribute: propertyValue of: aCSSProperty to: aContext
 			ifFalse: [
 		(index = 1) 
 			ifTrue: [self readBackgroundColorAttribute: each to: shorthandContext ]]]]].
-	positionValues size = 2 ifTrue: [ self readBackgroundPositionAttribute: positionValues first, ' ', positionValues second to: shorthandContext ].
+	positionValues size = 2 ifTrue: [ 
+		self readBackgroundPositionAttribute: positionValues first, ' ', 
+			positionValues second to: shorthandContext ].
 	
 	aContext addAll: shorthandContext

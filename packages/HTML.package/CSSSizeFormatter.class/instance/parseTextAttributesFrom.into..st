@@ -1,7 +1,7 @@
 parsing
 parseTextAttributesFrom: aCSSProperty into: aContext
-	"TODO before merge: Test if propertyString can be parsed as a number"
-	aCSSProperty propertyName = 'height'
+
+	(aCSSProperty propertyName = 'height' and: [ self isNumber: aCSSProperty propertyString ])
 		ifTrue: [ aContext at: #height put: aCSSProperty propertyString asInteger ].
 	aCSSProperty propertyName = 'width'
 		ifTrue: [
