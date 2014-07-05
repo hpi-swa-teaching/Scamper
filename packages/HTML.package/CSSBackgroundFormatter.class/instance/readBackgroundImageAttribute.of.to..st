@@ -7,7 +7,9 @@ readBackgroundImageAttribute: propertyValue of: aCSSProperty to: aContext
 			openBracketPosition := propertyValue findString: '(' startingAt: 4.
 			closingBracketPosition := propertyValue findLastOccurrenceOfString: ')' 
 													   startingAt: openBracketPosition.
-			
+
+			openBracketPosition < closingBracketPosition ifFalse: [ ^ self ].
+
 			urlString := (propertyValue copyFrom: openBracketPosition + 1 to: closingBracketPosition - 1) 
 					trimBoth: [:char | char isSeparator or: [char = $"] or: [char = $']].
 			url := urlString.

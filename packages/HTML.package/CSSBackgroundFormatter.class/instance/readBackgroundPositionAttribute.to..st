@@ -3,8 +3,8 @@ readBackgroundPositionAttribute: propertyValue to: aContext
 	| values position |
 	values := propertyValue splitOn: ' '.
 	position := 0@0.
-	values first asNumber ifNotNil: [:xPos | position := position + ( xPos @ 0)].
-	values size > 1 ifTrue: [ 
-		values second asNumber ifNotNil: [:yPos | position := position + ( 0 @ yPos )]].
+	(self isNumber: values first) ifTrue: [position := position + ( values first asNumber @ 0)].
+	values size > 1 ifTrue: [
+		(self isNumber: values second) ifTrue: [position := position + ( 0 @ values second asNumber )]].
 	
 	aContext at: #backgroundPosition put: position

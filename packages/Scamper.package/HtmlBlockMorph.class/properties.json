@@ -9,7 +9,9 @@
 		"node",
 		"children",
 		"backgroundImage",
-		"processedBackgroundImage" ],
+		"processedBackgroundImage",
+		"computedWidth",
+		"suppressLayoutUpdates" ],
 	"name" : "HtmlBlockMorph",
 	"pools" : [
 		 ],
