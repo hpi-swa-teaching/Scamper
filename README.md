@@ -5,4 +5,4 @@ Scamper Web Browser [![Build Status](https://travis-ci.org/SWTI2014/SWTI2014-Pro
 *Note: installing will overwrite any previously installed WebClient package*
 
 ###Current build screenshot
-![screenshot](https://swt-scamper.azurewebsites.net/screenshot/scamper.png)
+![screenshot](https://github.com/SWTI2014/SWTI2014-Project-02/wiki/images/scamper.png)
