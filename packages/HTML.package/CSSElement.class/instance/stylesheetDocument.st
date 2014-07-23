@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 stylesheetDocument
 	self parent 
 		ifNil: [ ^ nil ]

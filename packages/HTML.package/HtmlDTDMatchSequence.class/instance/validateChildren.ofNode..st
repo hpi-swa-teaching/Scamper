@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 validateChildren: aStream ofNode: aNode
 
 	expression do:

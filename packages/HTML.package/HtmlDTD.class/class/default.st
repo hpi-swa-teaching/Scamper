@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 default
 
 	^self forDocType: self docType

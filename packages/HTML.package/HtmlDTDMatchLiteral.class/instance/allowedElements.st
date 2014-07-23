@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 allowedElements
 
 	^ Array with: self

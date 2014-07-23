@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 allowsItem: anItem
 
 	^self expression allowsItem: anItem

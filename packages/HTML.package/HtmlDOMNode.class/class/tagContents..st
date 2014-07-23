@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 tagContents: aTag 
 
 	| node className cls tag in out trimmedTag endsWithSlash |

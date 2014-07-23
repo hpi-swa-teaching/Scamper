@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromString: aString
 	
 	^self readFrom: (ReadStream on: aString)

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 value
 
 	^self isValid ifTrue: [valueString asNumber] ifFalse: [nil]

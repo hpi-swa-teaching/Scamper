@@ -1,4 +1,4 @@
-as yet unclassified
+resources
 dtd
 	^ '<!--
     This is HTML 4.01 Strict DTD, which excludes the presentation 

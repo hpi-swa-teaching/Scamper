@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printOn: aStream
 
 	self parent tag printOn: aStream.

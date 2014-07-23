@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 allowsItem: aTag
 
 	^(aTag asUppercase findString: 'CDATA') > 0

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 forDocType: aDocType
 
 	| dt delims |

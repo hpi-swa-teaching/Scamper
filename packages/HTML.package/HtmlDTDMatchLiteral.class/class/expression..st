@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 expression: aTag
 
 	LiteralsByTagAsSymbol isNil ifTrue: [LiteralsByTagAsSymbol := WeakValueDictionary new].

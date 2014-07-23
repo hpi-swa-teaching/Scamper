@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseContents: aStream
 
 	aStream skip: 2.

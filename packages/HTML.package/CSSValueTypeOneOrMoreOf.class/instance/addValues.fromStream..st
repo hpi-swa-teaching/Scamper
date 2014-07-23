@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 addValues: aCollection fromStream: in
 
 	| one pos |
