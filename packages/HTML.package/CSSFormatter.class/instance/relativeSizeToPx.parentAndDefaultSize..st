@@ -10,4 +10,4 @@ relativeSizeToPx: aString parentAndDefaultSize: aNumber
 	(aString endsWithAnyOf: {'em' . 'ex'}) ifTrue: [ ^value * aNumber ].
 	(aString endsWith: '%') ifTrue: [ ^value / 100 * aNumber ].
 	
-	^aNumber.
+	^aNumber

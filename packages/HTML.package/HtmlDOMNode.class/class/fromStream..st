@@ -16,4 +16,4 @@ fromStream: aStream
 	].
 	
 	html := (self tagContents: s) start: (aStream position - s size - 2); parseContents: aStream.			
-	^html docType: doctype.
+	^html docType: doctype

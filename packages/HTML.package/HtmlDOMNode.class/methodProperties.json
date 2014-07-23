@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"fromStream:" : "sebastian.sastre 9/5/2010 14:25",
-		"newForTag:" : "SebastianSastre 1/15/2012 16:40",
-		"tagContents:" : "SebastianSastre 1/15/2012 16:41" },
+		"fromStream:" : "pf 7/23/2014 15:46",
+		"newForTag:" : "pf 7/23/2014 15:46",
+		"tagContents:" : "pf 7/23/2014 15:46" },
 	"instance" : {
 		"addDefaultStyle" : "rs 6/7/2014 10:45:08.648",
 		"addStyle:" : "j.c 6/14/2007 12:24",
@@ -47,7 +47,7 @@
 		"loader" : "tb 1/8/2006 10:03",
 		"mayContainTag:" : "tb 12/5/2005 22:08",
 		"parseAttributes:" : "SebastianSastre 1/15/2012 16:40",
-		"parseContents:" : "SebastianSastre 1/15/2012 16:40",
+		"parseContents:" : "pf 7/23/2014 15:46",
 		"rawTag" : "tb 12/2/2005 20:33",
 		"recoverFromLTIn:stream:" : "tb 12/10/2005 21:41",
 		"renderChildrenInto:" : "rs 6/28/2014 14:01:31.325",

@@ -6,5 +6,5 @@ addValues: aCollection fromStream: in
 	val := self valueClass readFrom: in.
 	^(val notNil and: [val isValid]) 
 		ifTrue: [aCollection add: val. true] 
-		ifFalse: [in position: pos. false].
+		ifFalse: [in position: pos. false]
 	

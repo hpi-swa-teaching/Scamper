@@ -1,3 +1,3 @@
 accessing
 absoluteUrl
-	^self url asUrlRelativeTo: self document requestUrl asUrl.
+	^self url asUrlRelativeTo: self document requestUrl asUrl

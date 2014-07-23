@@ -1,4 +1,4 @@
 accessing
 document
 
-	^ self node.
+	^ self node

@@ -10,4 +10,4 @@ readString
 	[c := stream peek.
 		c isAlphaNumeric | ('-_.' includes: c)] whileTrue: [ out nextPut: stream next ].
 		
-	^out contents.
+	^out contents

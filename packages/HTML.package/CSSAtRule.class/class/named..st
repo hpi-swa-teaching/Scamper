@@ -11,5 +11,5 @@ named: aString
 
 	cls := Smalltalk at: out contents asSymbol ifAbsent:[nil].
 	
-	cls ifNil: [^CSSAtIgnoreRule new.].
-	^cls new.
+	cls ifNil: [^CSSAtIgnoreRule new].
+	^cls new

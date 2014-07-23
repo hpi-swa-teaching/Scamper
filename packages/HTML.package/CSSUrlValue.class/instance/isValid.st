@@ -1,4 +1,4 @@
 accessing
 isValid
 
-	^true.
+	^true

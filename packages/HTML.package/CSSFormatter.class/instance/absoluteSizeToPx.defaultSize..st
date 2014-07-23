@@ -11,4 +11,4 @@ absoluteSizeToPx: aString defaultSize: aNumber
 	(aString endsWith: 'pt') ifTrue: [ ^self inToPx: (self ptToIn: value) ].
 	(aString endsWith: 'pc') ifTrue: [ ^self inToPx: (self pcToIn: value) ].
 	(aString endsWith: 'px') ifTrue: [ ^value ].
-	^aNumber.
+	^aNumber

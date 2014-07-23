@@ -5,5 +5,4 @@ fromString: aString
 
 	in := ReadStream on: aString.
 
-	^self readFrom: in.
-	
+	^self readFrom: in

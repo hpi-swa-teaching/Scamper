@@ -19,4 +19,4 @@ newForTag: aTag
 		node addError: (HtmlTagNotLowerCaseError new tag: tag).
 	].
 
-	^node.	
+	^node

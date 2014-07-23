@@ -7,7 +7,7 @@ parseContents: aStream
 		(aStream peek = $* and: [aStream next. aStream peek = $/]) ifTrue:
 		[
 			aStream next.
-			^self end: aStream position.
+			^self end: aStream position
 		]
 		ifFalse:
 		[

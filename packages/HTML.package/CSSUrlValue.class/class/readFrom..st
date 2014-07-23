@@ -18,5 +18,5 @@ readFrom: aStream
 			]
 		]
 	].
-	^self new valueString: s unquoted. 
+	^self new valueString: s unquoted
 	

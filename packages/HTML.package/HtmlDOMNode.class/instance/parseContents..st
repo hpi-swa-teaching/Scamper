@@ -63,7 +63,7 @@ parseContents: aStream
 					[
 						self addError: (HtmlTagMissingEndError new).
 						aStream skip: (s size + 2) negated.
-						^self end: (aStream position); endTagMissing: true.
+						^self end: (aStream position); endTagMissing: true
 					]
 					ifFalse:
 					[
