@@ -1,4 +1,4 @@
 accessing
 tag
 
-	^self parent tag.
+	^self parent tag

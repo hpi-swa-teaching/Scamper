@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromString: aString
 
 	(aString includes: $,) 
@@ -15,7 +15,7 @@ fromString: aString
 			list add: sel.
 		].
 			
-		^CSSOrSelector new selectors: list asArray.
+		^CSSOrSelector new selectors: list asArray
 	]
 	ifFalse:
 	[

@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"absoluteSizeToPx:defaultSize:" : "rs 7/5/2014 11:47:20.346",
+		"absoluteSizeToPx:defaultSize:" : "pf 7/23/2014 15:42",
 		"cmToIn:" : "SN 6/21/2014 11:31",
 		"inToPx:" : "SN 6/21/2014 11:38",
 		"isAbsoluteSize:" : "SN 6/25/2014 00:06",
-		"isAbsoluteSize:ifTrue:" : "SN 6/21/2014 12:16",
+		"isAbsoluteSize:ifTrue:" : "pf 7/23/2014 15:42",
 		"isNumber:" : "rs 7/5/2014 10:28:11.467",
 		"isRelativeSize:" : "SN 6/28/2014 10:29",
-		"isRelativeSize:ifTrue:" : "SN 6/21/2014 12:16",
+		"isRelativeSize:ifTrue:" : "pf 7/23/2014 15:42",
 		"mmToIn:" : "SN 6/21/2014 11:31",
 		"parentResolver" : "SN 6/21/2014 14:04",
 		"parentResolver:" : "SN 6/21/2014 14:03",
@@ -17,4 +17,4 @@
 		"parseTextAttributesFrom:into:withParentAttributeResolver:" : "SN 6/21/2014 14:05",
 		"pcToIn:" : "SN 6/21/2014 11:31",
 		"ptToIn:" : "SN 6/21/2014 11:31",
-		"relativeSizeToPx:parentAndDefaultSize:" : "SN 6/28/2014 10:47" } }
+		"relativeSizeToPx:parentAndDefaultSize:" : "pf 7/23/2014 15:42" } }

@@ -1,3 +1,3 @@
 accessing
 children
-	^OrderedCollection new.
+	^OrderedCollection new

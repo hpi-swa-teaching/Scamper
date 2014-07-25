@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 readFrom: in
 
 	| out | 
@@ -7,4 +7,4 @@ readFrom: in
 	in peek = $. ifTrue: [in next].
 	[in atEnd not and: [in peek isAlphaNumeric or:['-_' includes: in peek]]] 
 		whileTrue: [out nextPut: in next].
-	^self new value: out contents unquoted.
+	^self new value: out contents unquoted

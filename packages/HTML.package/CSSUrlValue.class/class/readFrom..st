@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 readFrom: aStream
 
 	| s pos |
@@ -18,5 +18,5 @@ readFrom: aStream
 			]
 		]
 	].
-	^self new valueString: s unquoted. 
+	^self new valueString: s unquoted
 	

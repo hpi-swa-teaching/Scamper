@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 allowableUnits
 
 	^#('deg' 'grad' 'rad')

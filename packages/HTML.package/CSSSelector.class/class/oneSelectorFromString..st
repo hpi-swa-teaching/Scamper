@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 oneSelectorFromString: aString
 
 	| in sel lastOperator pos operators |

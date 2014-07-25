@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseContents: aStream
 
 	aStream skip: 2.
@@ -7,7 +7,7 @@ parseContents: aStream
 		(aStream peek = $* and: [aStream next. aStream peek = $/]) ifTrue:
 		[
 			aStream next.
-			^self end: aStream position.
+			^self end: aStream position
 		]
 		ifFalse:
 		[

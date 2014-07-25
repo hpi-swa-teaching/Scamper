@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 isLiteral
 
 	^true

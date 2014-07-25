@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 on: aStringOrStream
 
 	| seq in seps | 

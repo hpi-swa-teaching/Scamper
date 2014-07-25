@@ -13,4 +13,4 @@ privateAttributeKeyInNode: aNode
 			(aNode attributes includesKey: self attribute asLowercase) 
 				ifFalse: [nil] 
 				ifTrue:[self attribute]
-		]).
+		])

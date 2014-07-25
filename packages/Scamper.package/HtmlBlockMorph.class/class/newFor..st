@@ -1,5 +1,5 @@
-as yet unclassified
+instance creation
 newFor: aHtmlNode
 	^self new 
 			node: aHtmlNode;
-			yourself.
+			yourself

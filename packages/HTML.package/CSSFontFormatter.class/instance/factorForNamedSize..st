@@ -9,4 +9,4 @@ factorForNamedSize: aString
 		'large' -> 1.5.
 		'x-large' -> 2.
 		'xx-large' -> 3.
-	}) at: aString ifAbsent: [1].
+	}) at: aString ifAbsent: [1]

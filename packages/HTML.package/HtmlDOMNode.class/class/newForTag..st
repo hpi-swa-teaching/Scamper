@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newForTag: aTag 
 
 	| node className cls tag |
@@ -19,4 +19,4 @@ newForTag: aTag
 		node addError: (HtmlTagNotLowerCaseError new tag: tag).
 	].
 
-	^node.	
+	^node

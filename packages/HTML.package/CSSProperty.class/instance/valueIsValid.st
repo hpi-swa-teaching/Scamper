@@ -21,5 +21,5 @@ valueIsValid
 			ifFalse: [false]
 		]
 		ifFalse: [true]
-	].
+	]
 	

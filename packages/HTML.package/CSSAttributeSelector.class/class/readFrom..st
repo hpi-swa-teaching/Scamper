@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 readFrom: in
 
 	| out |
@@ -47,7 +47,7 @@ readFrom: in
 							ifFalse:
 							[
 								in upTo: $].
-								^CSSInvalidAttributeSelector new attribute: out contents.
+								^CSSInvalidAttributeSelector new attribute: out contents
 							]
 						]
 					]
@@ -71,6 +71,6 @@ readFrom: in
 					]
 			].
 		in next. "Consume the last ]"
-		^sel value: val.
+		^sel value: val
 	]
 	

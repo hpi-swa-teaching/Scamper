@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 readConstraintFor: anExpn from: aStream
 
 	| c |

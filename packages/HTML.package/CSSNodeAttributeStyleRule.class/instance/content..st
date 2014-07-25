@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 content: aString
 
 	content := '[style="',aString,'"]{',aString,'}'.
