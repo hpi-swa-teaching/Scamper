@@ -1,8 +1,8 @@
-Scamper Web Browser [![Build Status](https://travis-ci.org/SWTI2014/Scamper.svg?branch=master)](https://travis-ci.org/SWTI2014/Scamper)  
+Scamper Web Browser [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Scamper.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/Scamper)  
 ===================
 
-**[Download the latest release](https://github.com/SWTI2014/Scamper/releases/latest)**  
+**[Download the latest release](https://github.com/HPI-SWA-Teaching/Scamper/releases/latest)**  
 *Note: installing will overwrite any previously installed WebClient package*
 
 ###Current build screenshot
-![screenshot](https://github.com/SWTI2014/Scamper/wiki/images/scamper.png)
+![screenshot](https://github.com/HPI-SWA-Teaching/Scamper/wiki/images/scamper.png)
