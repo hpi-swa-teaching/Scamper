@@ -1,1 +1,0 @@
-(name 'HTML-tb.26'message 'Fixed problem with initalizing InvalidCSSSelector where selectorString was not being set'id '4a844523-5e4f-43ac-a142-e75d3104a253'date '8 April 2006'time '8:54:51 pm'author 'tb'ancestors ((id '9c3cd361-f666-4029-961a-d7b51057abf3'))stepChildren ())

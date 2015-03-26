@@ -1,1 +1,0 @@
-(name 'Webclient-SS.2'message 'Add User-Agent to every HTTP requestexample: WebClient/1.5 (Webclient-SS.2; Squeak4.5-1; Mac OS)'id 'f9cf4cf9-2d4d-4512-88ce-f9e067d1c7c6'date '18 May 2014'time '4:30:38.824 pm'author 'SS'ancestors ((id '5ed0ab8f-5f50-904e-a244-b5cc43ed5951'))stepChildren ())
