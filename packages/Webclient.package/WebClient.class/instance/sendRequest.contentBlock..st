@@ -13,15 +13,16 @@ sendRequest: request contentBlock: contentBlock
 
 	"Always update the host header due to redirect"
 	request headerAt: 'Host' put: server.
-	
-	"Reset the User-Agent so that websites know which Browser is requesting."
-	request headerAt: 'User-Agent' put: self defaultUserAgent.
 
 		["The inner loop handles authentication"
 		repeatAuth := false.
 
 		"Connect can fail if SSL proxy CONNECT is involved"
 		self connect ifNotNil:[:resp| ^resp].
+
+		"add matching cookies to request"
+		self addCookiesTo: request host: server path: request url.
+		
 		
 		"Write the request to the debugLog if present"
 		debugLog ifNotNil:[self writeRequest: request on: debugLog].
@@ -55,6 +56,9 @@ sendRequest: request contentBlock: contentBlock
 	"Flush previous authState.
 	XXXX: Fixme. authState must be preserved for pre-authentication of requests."
 	self flushAuthState.
+
+	"refresh cookies"
+	self refreshCookies.
 
 	"Handle redirect if needed"
 	(self allowRedirect and:[response isRedirect]) ifTrue:[

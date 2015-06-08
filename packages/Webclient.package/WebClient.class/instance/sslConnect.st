@@ -1,5 +1,6 @@
 initialize
 sslConnect
+	"Do the SSL handshake"
 	"Connect the client to a web server"
 
 	| sqSSL |
@@ -13,8 +14,9 @@ sslConnect
 	"Convert the stream to a secure stream"
 	stream := sqSSL secureSocketStream on: stream socket.
 	stream timeout: timeout.
-	"Do the SSL handshake"
-	stream sslConnect.
-	"And cert verification"
-	stream verifyCert: self serverName.
-	^nil "indicating success"
+	self sslConnect: stream to: lastServer.
+	"And cert verification
+	(unless on OSX, where this does not work yet)"
+	WebUtils platformName = 'Mac OS'
+		ifFalse: [stream verifyCert: self serverName].
+	^ nil"indicating success"

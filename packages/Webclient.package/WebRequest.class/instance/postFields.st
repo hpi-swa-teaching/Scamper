@@ -4,5 +4,9 @@ postFields
 
 	^(self isPostRequest and: [
 		self contentType beginsWith: 'application/x-www-form-urlencoded'])
-			ifTrue: [WebUtils decodeUrlEncodedForm: self content multipleValues: true]
+			ifTrue: [
+				WebUtils 
+					decodeUrlEncodedForm: self content 
+					multipleValues: true
+					withConverter: self textConverterForContentType ]
 			ifFalse: [Dictionary new]

@@ -28,5 +28,5 @@ connect
 	stream := SocketStream openConnectionToHostNamed: lastServer port: lastPort.
 	stream timeout: timeout.
 	"Perform ssl initialization if necessary"
-	scheme = 'https' ifTrue:[^self sslConnect].
+	scheme = 'https' ifTrue:[self retryOnce: [^self sslConnect]].
 	^nil
