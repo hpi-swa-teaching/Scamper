@@ -9,7 +9,7 @@ refreshCookies
 	[file atEnd] whileFalse:
 	[line := file nextLine.
 	cookie := WebCookie new readFrom: line asString readStream.
-	(cookie expiry == nil or:[cookie expiry > DateAndTime now])  ifTrue:[
+	(cookie expiry notNil and: [cookie expiry > DateAndTime now])  ifTrue:[
 			cookies add: cookie.
 	]].	
 	

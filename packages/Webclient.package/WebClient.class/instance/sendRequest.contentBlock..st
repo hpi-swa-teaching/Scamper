@@ -23,14 +23,12 @@ sendRequest: request contentBlock: contentBlock
 		"add matching cookies to request"
 		self addCookiesTo: request host: server path: request url.
 		
-		
 		"Write the request to the debugLog if present"
 		debugLog ifNotNil:[self writeRequest: request on: debugLog].
 
 		"Send the request itself"
 		self writeRequest: request on: stream.
 		contentBlock value: stream.
-
 		response := request newResponse readFrom: stream.
 		response url: (scheme, '://', server, request rawUrl).
 
