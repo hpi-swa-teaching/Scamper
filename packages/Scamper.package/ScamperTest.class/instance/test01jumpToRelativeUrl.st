@@ -1,11 +1,11 @@
 initialize-release
 test01jumpToRelativeUrl
 	| scamper |
-	scamper := Scamper openOnUrl: 'http://de.selfhtml.org/html/verweise/anzeige/index.htm'.
+	scamper := Scamper openOnUrl: 'http://wiki.selfhtml.org/wiki/Startseite'.
 	scamper owner runStepMethods.
 	
-	(scamper model jumpToUrlAsync: 'zweiteseite.htm') wait.
+	(scamper model jumpToUrlAsync: 'Referenzen') wait.
 	scamper owner runStepMethods.
 	
-	self assert: scamper model currentUrl asString equals: 'http://de.selfhtml.org/html/verweise/anzeige/zweiteseite.htm'.
+	self assert: scamper model currentUrl asString equals: 'http://wiki.selfhtml.org/wiki/Referenzen'.
 	scamper delete.

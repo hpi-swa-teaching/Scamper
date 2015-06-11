@@ -1,7 +1,11 @@
 changing page
 downloadFromUrlAsync: aUrl
-	| promise downloadWork |
+	| promise downloadWork statusResponse isUrl|
 	promise := Promise new.
+
+	isUrl:= aUrl asString includesSubString: '.'.
+	Transcript show: isUrl.
+	isUrl ifTrue: [statusResponse:= self getHttpStatusCode: aUrl.].
 
 	downloadWork := [ | newSource |
 		newSource := [ aUrl retrieveContentsForBrowser: self ] ifError: [ :msg :ctx |
@@ -12,6 +16,8 @@ downloadFromUrlAsync: aUrl
 
 		newSource url ifNil: [
 			newSource := MIMEDocument contentType: newSource contentType  content: newSource content  url: aUrl ].
+		
+		statusResponse = 'OK' ifFalse: [newSource:= MIMEDocument contentType: 'text/html'  content: statusResponse].
 
 		downloadingProcess := nil.
 		promise resolveWith: newSource ].
