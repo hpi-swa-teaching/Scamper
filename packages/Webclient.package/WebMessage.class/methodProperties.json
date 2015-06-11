@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"initialize" : "ar 2/21/2010 09:55",
-		"statusCodeAt:" : "ar 2/21/2010 09:55" },
+		"statusCodeAt:" : "klub 1/14/2014 22:09" },
 	"instance" : {
 		"addHeader:value:" : "ar 2/20/2010 16:31",
 		"asString" : "ar 2/23/2010 09:02",
@@ -15,9 +15,10 @@
 		"contentStream" : "ar 2/20/2010 11:01",
 		"contentType" : "ar 2/20/2010 11:02",
 		"contentType:" : "ar 3/30/2010 21:58",
-		"contentWithProgress:" : "ar 2/23/2010 22:03",
+		"contentWithProgress:" : "ul 4/21/2015 06:40",
 		"destroy" : "ar 5/4/2010 20:02",
-		"getContent" : "pmm 6/19/2010 07:40",
+		"getContent" : "ul 4/21/2015 06:31",
+		"getContentWithProgress:" : "ul 4/21/2015 06:42",
 		"headerAt:" : "ar 2/20/2010 11:02",
 		"headerAt:ifAbsent:" : "ar 2/20/2010 11:03",
 		"headerAt:put:" : "ar 2/20/2010 12:18",

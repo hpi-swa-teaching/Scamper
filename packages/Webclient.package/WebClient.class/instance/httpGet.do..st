@@ -8,5 +8,6 @@ httpGet: urlString do: aBlock
 	request := self requestWithUrl: urlString.
 	request method: 'GET'.
 	userAgent ifNotNil:[request headerAt: 'User-Agent' put: userAgent].
+	request headerAt: 'Accept-Encoding' put: 'gzip'.
 	aBlock value: request.
 	^self sendRequest: request
