@@ -3,8 +3,7 @@ downloadFromUrlAsync: aUrl
 	| promise downloadWork statusResponse isUrl|
 	promise := Promise new.
 
-	isUrl:= aUrl asString includesSubString: '.'.
-	Transcript show: isUrl.
+	isUrl:= ('http://*' match: aUrl asString) or: ['https://*' match: aUrl asString].
 	isUrl ifTrue: [statusResponse:= self getHttpStatusCode: aUrl.].
 
 	downloadWork := [ | newSource |
@@ -17,7 +16,7 @@ downloadFromUrlAsync: aUrl
 		newSource url ifNil: [
 			newSource := MIMEDocument contentType: newSource contentType  content: newSource content  url: aUrl ].
 		
-		statusResponse = 'OK' ifFalse: [newSource:= MIMEDocument contentType: 'text/html'  content: statusResponse].
+		(statusResponse = nil or: [statusResponse = 'OK']) ifFalse: [newSource:= MIMEDocument contentType: 'text/html'  content: statusResponse].
 
 		downloadingProcess := nil.
 		promise resolveWith: newSource ].
