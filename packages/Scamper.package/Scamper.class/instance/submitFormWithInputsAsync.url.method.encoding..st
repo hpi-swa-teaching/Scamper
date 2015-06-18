@@ -9,9 +9,9 @@ submitFormWithInputsAsync: inputs url: url method: method encoding: encoding
 			[ self inform: ('unknown FORM method: {1}' translated format: {method}).
 			^ false ].
 	newUrl := url asUrlRelativeTo: currentUrl.
-	newUrl schemeName ~= 'http'
+	(newUrl schemeName ~= 'http' and: [newUrl schemeName ~= 'https'])
 		ifTrue:
-			[ self inform: 'I can only submit forms via HTTP' translated.
+			[ self inform: 'I can only submit forms via HTTP/S' translated.
 			^ false ].
 	self status: 'submitting form...' translated.
 	self addNextToRecentDocuments.
