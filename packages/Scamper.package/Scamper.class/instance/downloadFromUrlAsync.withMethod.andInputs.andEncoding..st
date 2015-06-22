@@ -2,12 +2,20 @@ changing page
 downloadFromUrlAsync: aUrl withMethod: method andInputs: inputs andEncoding: encoding
 	"Submit the given form with the provided inputs, url, method, and encoding"
 
-	| promise downloadWork |
+	| promise downloadWork client resp|
 	promise := Promise new.
 	
 	downloadWork := [	| newSource |
 		newSource := method asLowercase = 'get'
-			ifTrue: [ aUrl retrieveContentsArgs: inputs ]
+			ifTrue: [
+					client := WebClient new;
+					userAgent: Scamper userAgent.
+					resp := client httpGet: aUrl do:[:req].
+					resp content; close.
+				"client := WebClient new.
+				client userAgent: 'Scamper'.
+				 client httpGet: aUrl asString."
+				"aUrl retrieveContentsArgs: inputs" ]
 			ifFalse:
 				[ encoding = MIMEDocument contentTypeMultipart
 					ifTrue: [ aUrl postMultipartFormArgs: inputs ]
