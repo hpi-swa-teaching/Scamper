@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"LongtimeCookies",
 		"StartUrl" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
@@ -16,7 +17,8 @@
 		"currentUrlIndex",
 		"bookmark",
 		"bookDir",
-		"webPageMorph" ],
+		"webPageMorph",
+		"sessionCookies" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],

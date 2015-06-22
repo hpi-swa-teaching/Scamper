@@ -6,5 +6,7 @@ initialize
 	self loadBookmark.
 	currentUrlIndex := 0.
 	currentUrl := ''.
+	sessionCookies := OrderedCollection new.
+	LongtimeCookies := OrderedCollection new.
 	pageSource := ''.
 	self status: 'sittin' translated

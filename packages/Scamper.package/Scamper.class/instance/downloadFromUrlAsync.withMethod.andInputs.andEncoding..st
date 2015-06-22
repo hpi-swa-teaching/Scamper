@@ -11,11 +11,7 @@ downloadFromUrlAsync: aUrl withMethod: method andInputs: inputs andEncoding: enc
 					client := WebClient new;
 					userAgent: Scamper userAgent.
 					resp := client httpGet: aUrl do:[:req].
-					resp content; close.
-				"client := WebClient new.
-				client userAgent: 'Scamper'.
-				 client httpGet: aUrl asString."
-				"aUrl retrieveContentsArgs: inputs" ]
+					resp content; close ]
 			ifFalse:
 				[ encoding = MIMEDocument contentTypeMultipart
 					ifTrue: [ aUrl postMultipartFormArgs: inputs ]
