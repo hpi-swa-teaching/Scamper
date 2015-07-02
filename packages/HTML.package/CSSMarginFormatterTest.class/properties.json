@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSSMarginFormatterTest",
+	"pools" : [
+		 ],
+	"super" : "CSSDistanceFormatterTest",
+	"type" : "normal" }

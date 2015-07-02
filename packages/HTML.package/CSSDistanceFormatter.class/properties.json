@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-Formatter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CSSDistanceFormatter",
+	"pools" : [
+		 ],
+	"super" : "CSSFormatter",
+	"type" : "normal" }

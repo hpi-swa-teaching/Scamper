@@ -10,6 +10,8 @@ cssPrefixMap
 			'display' -> CSSDisplayFormatter new.
 			'list' -> CSSListFormatter new.
 			'background' -> CSSBackgroundFormatter new.
+			'padding' -> CSSPaddingFormatter new.
+			'margin' -> CSSMarginFormatter new.
 			'height' -> sizeFormatter.
 			'width' -> sizeFormatter.
 		}]

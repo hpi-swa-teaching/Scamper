@@ -1,8 +1,7 @@
 accessing
 fontMap
 "I replace some fonts with licence issues by free alternatives and set a mapping for generic font families such as serif or monospace."
-	^ fontMap ifNil:
-		[ Dictionary newFrom: {
+	^ fontMap ifNil: [ Dictionary newFrom: {
 			'serif' -> 'NimbusRomanNo9L'.
 			'Times' -> 'NimbusRomanNo9L'.
 			'Times New Roman' -> 'NimbusRomanNo9L'.

@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"absoluteSizeToPx:defaultSize:" : "pf 7/23/2014 15:42",
+		"attributeMap" : "PS 6/18/2015 10:47",
 		"cmToIn:" : "SN 6/21/2014 11:31",
 		"inToPx:" : "SN 6/21/2014 11:38",
 		"isAbsoluteSize:" : "SN 6/25/2014 00:06",
@@ -13,8 +14,9 @@
 		"mmToIn:" : "SN 6/21/2014 11:31",
 		"parentResolver" : "SN 6/21/2014 14:04",
 		"parentResolver:" : "SN 6/21/2014 14:03",
-		"parseTextAttributesFrom:into:" : "rs 6/7/2014 13:30:00.265",
+		"parseTextAttributesFrom:into:" : "PS 6/18/2015 11:47",
 		"parseTextAttributesFrom:into:withParentAttributeResolver:" : "SN 6/21/2014 14:05",
 		"pcToIn:" : "SN 6/21/2014 11:31",
 		"ptToIn:" : "SN 6/21/2014 11:31",
+		"put:at:to:" : "PS 6/18/2015 12:53",
 		"relativeSizeToPx:parentAndDefaultSize:" : "pf 7/23/2014 15:42" } }
