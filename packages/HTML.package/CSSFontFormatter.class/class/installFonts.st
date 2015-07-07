@@ -1,5 +1,6 @@
 font installation
 installFonts
+	"self installFonts"
 	((FileDirectory uri: 'Scamper' , FileDirectory slash , 'fonts') fileNamesMatching: '*.ttf')
 		do: [:fontfile | 
 			self newTextStyleFromTTFile:
