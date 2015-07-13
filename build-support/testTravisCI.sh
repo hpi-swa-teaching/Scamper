@@ -12,12 +12,12 @@ if [[ $? != 0 ]] ; then
   echo "ERROR: $(basename $0)"
   cd "${BUILD_PATH}/travisCI/"
   $BUILDER_CI_HOME/buildImageErrorCheck.sh # dump Transcript on error and exit
-  if [[ $? != 0 ]] ; then exit 1; fi
+  if [[ $? != 0 ]] ; then exit 2; fi
   $BUILDER_CI_HOME/dumpTranscript.sh
-  exit 1
+  exit 3
 fi
 cd "${BUILD_PATH}/travisCI/"
 $BUILDER_CI_HOME/buildImageErrorCheck.sh # dump Transcript on error and exit
-if [[ $? != 0 ]] ; then exit 1; fi
+if [[ $? != 0 ]] ; then exit 4; fi
 $BUILDER_CI_HOME/buildTravisStatusCheck.sh "$@" # dump Transcript on failed tests and exit
-if [[ $? != 0 ]] ; then exit 1; fi
+if [[ $? != 0 ]] ; then exit 5; fi
