@@ -1,4 +1,3 @@
-sudo: true
 language: erlang
 
 # Choose which platforms you want your builds run against (done in parallel)
@@ -17,7 +16,7 @@ matrix:
 install:
    - export PROJECT_HOME="$(pwd)"
    - cd $HOME
-   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/archive/master.zip
+   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/archive/v1.0.0.zip
    - unzip -q builderCI.zip
    - cd builderCI-*
    - source build_env_vars
