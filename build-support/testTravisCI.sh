@@ -19,5 +19,5 @@ fi
 cd "${BUILD_PATH}/travisCI/"
 $BUILDER_CI_HOME/buildImageErrorCheck.sh # dump Transcript on error and exit
 if [[ $? != 0 ]] ; then exit 4; fi
-$BUILDER_CI_HOME/buildTravisStatusCheck.sh "$@" # dump Transcript on failed tests and exit
+$BUILDER_CI_HOME/buildTravisStatusCheck.sh "$@" -verbose # dump Transcript on failed tests and exit
 if [[ $? != 0 ]] ; then exit 5; fi
