@@ -6,8 +6,6 @@ baseline: spec
         do: [ 
             spec
                 package: 'HTML';
-		    package: 'WebClient';
-		    package: 'ConfigurationOfWebClient';
                 package: 'Scamper' with: [ spec requires: #('HTML') ].
             spec
                 group: 'default' with: #('Scamper');
