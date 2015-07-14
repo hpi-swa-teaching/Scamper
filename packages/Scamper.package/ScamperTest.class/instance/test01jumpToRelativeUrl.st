@@ -7,5 +7,5 @@ test01jumpToRelativeUrl
 	(scamper model jumpToUrlAsync: 'Referenzen') wait.
 	scamper owner runStepMethods.
 	
-	self assert: scamper model currentUrl asString equals: 'http://wiki.selfhtml.org/wiki/Referenzen'.
+	self assert: (scamper model currentUrl asString) equals: 'http://wiki.selfhtml.org/wiki/Referenzen'.
 	scamper delete.
