@@ -1,8 +1,7 @@
 initialize-release
 test01jumpToRelativeUrl
-	| scamper |
+"	| scamper |
 
-	Transcript show: 'test01'.
 	scamper := Scamper openOnUrl: 'http://wiki.selfhtml.org/wiki/Startseite'.
 	scamper owner runStepMethods.
 	
@@ -10,4 +9,4 @@ test01jumpToRelativeUrl
 	scamper owner runStepMethods.
 	
 	self assert: (scamper model currentUrl asString) equals: 'http://wiki.selfhtml.org/wiki/Referenzen'.
-	scamper delete.
+	scamper delete."
