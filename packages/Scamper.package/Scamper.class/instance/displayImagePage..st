@@ -1,16 +1,20 @@
 document handling
 displayImagePage: newSource
 	"an image--embed it in a text"
-	| image imageMorph attrib text handled |
+	| image imageMorph handled| "attrib text|"
 	handled := true.
-	backgroundColor := self defaultBackgroundColor.
+	"backgroundColor := self defaultBackgroundColor.
 	formattedPage := [
 		image := ImageReadWriter formFromStream: (RWBinaryOrTextStream with: newSource content) binary reset.
 		imageMorph := ImageMorph new image: image.
 		attrib := TextAnchor new anchoredMorph: imageMorph.
 		text := (Character value: 1) asText.
 		text addAttribute: attrib from: 2 to: 2.
-		text] ifError: [ :msg :ctx | handled := false ].
+		text] ifError: [ :msg :ctx | handled := false ]."
+
+	image := ImageReadWriter formFromStream: (RWBinaryOrTextStream with: newSource content) binary reset.
+	imageMorph := ImageMorph new image: image.
+	self webContentsPane showImagePage: imageMorph.
 
 	currentUrl := newSource url.
 	pageSource := newSource content.
@@ -20,5 +24,5 @@ displayImagePage: newSource
 "	recentDocuments removeLast."
 
 	self changeAll: 	#(currentUrl relabel hasLint lint backgroundColor formattedPage formattedPageSelection).
-	self status: 'sittin' translated.
+	self status: 'done' translated.
 	^handled
