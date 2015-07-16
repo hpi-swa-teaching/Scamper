@@ -1,7 +1,7 @@
 initialize-release
 test04HandleHttpStatusCode
 	| statusCode testUrl|
-
+	Transcript show: 'test04'.
 	testUrl:='www.test.com'.
 	statusCode:= Scamper new handleHttpStatusCode: 200 withURL: testUrl.
 	self  assert: statusCode equals: 'OK'.
