@@ -1,0 +1,4 @@
+document handling
+content
+
+	^ content
