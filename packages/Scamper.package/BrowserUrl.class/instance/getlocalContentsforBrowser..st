@@ -1,3 +1,3 @@
 downloading
-retrieveContentsForBrowser: aBrowser
+getlocalContentsforBrowser: aBrowser
 	^aBrowser browserUrlContents: locator

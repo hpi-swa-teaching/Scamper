@@ -5,5 +5,4 @@
 		"test01jumpToRelativeUrl" : "wg 7/16/2015 11:40",
 		"test02submitForm" : "wg 7/16/2015 11:41",
 		"test03DocumentWithoutTitleTagShouldntRaiseErrors" : "wg 7/16/2015 11:41",
-		"test04HandleHttpStatusCode" : "wg 7/16/2015 11:41",
 		"testOpen" : "wg 7/16/2015 11:41" } }

@@ -2,5 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"hasContents" : "ls 8/4/1998 20:42",
-		"retrieveContentsForBrowser:" : "ls 7/26/1998 21:21" } }
+		"getlocalContentsforBrowser:" : "wp 7/19/2015 02:21",
+		"hasContents" : "ls 8/4/1998 20:42" } }

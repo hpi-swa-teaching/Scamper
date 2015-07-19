@@ -1,22 +1,21 @@
 changing page
 downloadFromUrlAsync: aUrl
-	| promise downloadWork statusResponse isUrl|
+	| promise downloadWork isUrl content|
 	promise := Promise new.
 
 	isUrl:= ('http://*' match: aUrl asString) or: ['https://*' match: aUrl asString].
-	isUrl ifTrue: [statusResponse:= self getHttpStatusCode: aUrl.].
+	isUrl ifTrue: [content:= self getContent: aUrl.].
+	isUrl ifFalse: [content:=[ aUrl getlocalContentsforBrowser: self ] ifError: [ :msg :ctx |
+		MIMEDocument contentType: 'text/plain' content: msg ].].
 
 	downloadWork := [ | newSource |
-		newSource := [ aUrl retrieveContentsForBrowser: self ] ifError: [ :msg :ctx |
-		MIMEDocument contentType: 'text/plain' content: msg ].
+		newSource := content.
 
 		newSource 
 			ifNil: [ newSource := MIMEDocument contentType: 'text/plain' content: 'Error retrieving this URL' translated].
 
 		newSource url ifNil: [
 			newSource := MIMEDocument contentType: newSource contentType  content: newSource content  url: aUrl ].
-		
-		(statusResponse = nil or: [statusResponse = 'OK']) ifFalse: [newSource:= MIMEDocument contentType: 'text/html'  content: statusResponse].
 
 		downloadingProcess := nil.
 		promise resolveWith: newSource ].
