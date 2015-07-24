@@ -10,4 +10,4 @@ test01jumpToRelativeUrl
 	scamper owner runStepMethods.
 	
 	self assert: (scamper model currentUrl asString) equals: 'http://wiki.selfhtml.org/wiki/Referenzen'.
-	scamper delete.
+	scamper delete
