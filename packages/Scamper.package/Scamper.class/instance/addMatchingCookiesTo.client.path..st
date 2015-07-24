@@ -1,4 +1,4 @@
-as yet unclassified
+cookies
 addMatchingCookiesTo: aRequest client: aWebClient path: aPath
 
 	sessionCookies  do: [:c | 
