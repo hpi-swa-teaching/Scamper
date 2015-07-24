@@ -5,7 +5,7 @@ storeCookies: aCollection
 		"valid expiry -> longtimeCookie"
 		(cookie expiry notNil and: [cookie expiry > DateAndTime now]) ifTrue: [
 			Scamper addLongtimeCookie: cookie].
-		"no expiry -> session cookie"
+		"no exiry -> session cookie"
 		(cookie expiry isNil) ifTrue: [
 			self addSessionCookie: cookie]].
 		

@@ -5,4 +5,3 @@ addSessionCookie: aCookie
 	sessionCookies do: [:cookie |
 		sessionCookies := sessionCookies reject: [:any | any = aCookie]].
 	sessionCookies add: aCookie.
-	Transcript show: sessionCookies.

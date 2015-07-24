@@ -1,6 +1,6 @@
 changing page
 downloadFromUrlAsync: aUrl
-	| promise downloadWork isUrl |
+	| promise downloadWork isUrl content|
 	promise := Promise new.
 
 	isUrl:= ('http://*' match: aUrl asString) or: ['https://*' match: aUrl asString].

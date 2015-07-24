@@ -18,8 +18,7 @@
 		"bookmark",
 		"bookDir",
 		"webPageMorph",
-		"sessionCookies",
-		"content" ],
+		"sessionCookies" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],
