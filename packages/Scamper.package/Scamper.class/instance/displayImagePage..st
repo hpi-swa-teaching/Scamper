@@ -1,21 +1,21 @@
 document handling
 displayImagePage: newSource
 	"an image--embed it in a text"
-	| image imageMorph handled| "attrib text|"
+	| image imageMorph handled|
 	handled := true.
-	"backgroundColor := self defaultBackgroundColor.
-	formattedPage := [
-		image := ImageReadWriter formFromStream: (RWBinaryOrTextStream with: newSource content) binary reset.
-		imageMorph := ImageMorph new image: image.
-		attrib := TextAnchor new anchoredMorph: imageMorph.
-		text := (Character value: 1) asText.
-		text addAttribute: attrib from: 2 to: 2.
-		text] ifError: [ :msg :ctx | handled := false ]."
-
+	
+	"check if Image is svg"
+	((newSource contentType) includesSubString: 'svg') ifTrue: [
+		[imageMorph := SVGMorph fromFileStream: newSource contentStream.]
+			ifError: [:err :crvr | imageMorph := StringMorph new; contents: 'You need SVGMorphic to display svg content!'.] 
+	]
+	"if not -> use default ImageReader"
+	ifFalse: [
 	image := ImageReadWriter formFromStream: (RWBinaryOrTextStream with: newSource content) binary reset.
 	imageMorph := ImageMorph new image: image.
-	self webContentsPane showImagePage: imageMorph.
+	].
 
+	self webContentsPane showImagePage: imageMorph.
 	currentUrl := newSource url.
 	pageSource := newSource content.
 
