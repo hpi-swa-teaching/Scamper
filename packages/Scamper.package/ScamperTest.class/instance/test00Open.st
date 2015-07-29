@@ -1,7 +1,9 @@
 initialize-release
-testOpen
+test00Open
 
 	|scamper|
-
+	
+	"obsolete because of setup"
+	
 	self shouldnt: [scamper := Scamper open] raise: Error.
 	scamper delete.

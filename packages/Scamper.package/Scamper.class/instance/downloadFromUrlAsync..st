@@ -13,7 +13,7 @@ downloadFromUrlAsync: aUrl
 		(self isInternBrowserUrl: aUrl) ifTrue: [newSource := [ aUrl getlocalContentsforBrowser: self ] ifError: [ :msg :ctx |
 		MIMEDocument contentType: 'text/plain' content: msg ]. handled := true.].
 		"file"
-		handled ifFalse: [Transcript show: aUrl; cr. [newSource := aUrl retrieveContentsForBrowser: self] ifError: [ :msg :ctx |
+		handled ifFalse: [newSource := [aUrl retrieveContentsForBrowser: self] ifError: [ :msg :ctx |
 		MIMEDocument contentType: 'text/plain' content: msg ]. handled := true.].
 
 		newSource 

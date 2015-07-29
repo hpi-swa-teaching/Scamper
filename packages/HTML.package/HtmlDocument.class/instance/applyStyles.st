@@ -13,7 +13,7 @@ applyStyles
 
 	self nodesDo:
 	[:ea | 
-		(ea tag = 'img' or: [ "workaround - let img ignore styles"
+		(ea tag = 'img' or: [ "workaround - let img ignore styles. TODO: fix display style on images"
 		ea isCSS ])
 			ifFalse: 
 			[

@@ -1,7 +1,5 @@
-as yet unclassified
+initialize-release
 test04testRealWorkdCookies
-	|  scamper |
-	
-	scamper := Scamper new.
-	(scamper jumpToUrlAsync: 'google.de' asUrl) wait.
+
+	(scamper model jumpToUrlAsync: 'google.de' asUrl) wait.
 	self assert: (Scamper longtimeCookies size) equals: 2

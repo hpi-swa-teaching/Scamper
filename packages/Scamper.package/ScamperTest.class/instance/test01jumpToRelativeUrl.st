@@ -1,7 +1,7 @@
 initialize-release
 test01jumpToRelativeUrl
 
-	| port server scamper|
+	| port server|
 	
 	"randomize port to minize risk of clushing tests"
 	port := (10000 to: 50000) atRandom.
@@ -17,13 +17,12 @@ test01jumpToRelativeUrl
 		req send200Response: 'ok' contentType: 'text/plain'
 	].
 
-	scamper := Scamper openOnUrl: 'http://localhost:', port asString, '/'.
+	(scamper model jumpToAbsoluteUrlAsync: ('http://localhost:', port asString, '/')) wait.
 	scamper owner runStepMethods.
 	
 	(scamper model jumpToUrlAsync: 'relative_page') wait.
 	scamper owner runStepMethods.
 	
 	self assert: (scamper model currentUrl asString) = ('http://localhost:', port asString, '/relative_page').
-	scamper delete.
 
 	server ifNotNil:[server destroy]
