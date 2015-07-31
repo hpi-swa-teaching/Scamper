@@ -1,7 +1,7 @@
 accessing
 attributeMap
 
-	^ attributeMap ifNil: [ Dictionary newFrom: {
+	^ attributeMap ifNil: [ attributeMap := Dictionary newFrom: {
 			self class attributePrefix			-> 	[ :aProperty :aContext | self readShorthandAttributesFrom: aProperty propertyString to: aContext ].
 			self class attributePrefix, '-top'		-> 	[ :aProperty :aContext | self put: aProperty propertyString at: 'top' to: aContext ].
 			self class attributePrefix, '-right' 	->	[ :aProperty :aContext | self put: aProperty propertyString at: 'right' to: aContext ].

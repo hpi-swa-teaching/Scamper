@@ -1,6 +1,6 @@
 testing
 test06twoShorthandAttributesShouldBeParsedCorrectly
-"
+
 	| aProperty aResult |
 
 	aResult := Dictionary new.
@@ -12,4 +12,4 @@ test06twoShorthandAttributesShouldBeParsedCorrectly
 	self assert: '70px' equals: (aResult at: #self topAttribute).
 	self assert: '80px' equals: (aResult at: #self rightAttribute).
 	self assert: '70px' equals: (aResult at: #self bottomAttribute).
-	self assert: '80px' equals: (aResult at: #self leftAttribute)"
+	self assert: '80px' equals: (aResult at: #self leftAttribute)

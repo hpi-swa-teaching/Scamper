@@ -1,7 +1,7 @@
 accessing
 attributeMap
 
-	^ attributeMap ifNil: [ Dictionary newFrom: {
+	^ attributeMap ifNil: [ attributeMap := Dictionary newFrom: {
 			'font' 			-> 	[ :aProperty :aContext | self readFontAttribute: aProperty propertyString to: aContext ].
 			'font-style' 		-> 	[ :aProperty :aContext | self readFontStyleAttribute: aProperty propertyString to: aContext ].
 			'font-weight' 	-> 	[ :aProperty :aContext | self readFontWeightAttribute: aProperty propertyString to: aContext ].

@@ -1,6 +1,6 @@
 testing
 test02rightAttributeShouldBeParsedCorrectly
-"
+
 	| aProperty aResult |
 
 	aResult := Dictionary new.
@@ -9,4 +9,4 @@ test02rightAttributeShouldBeParsedCorrectly
 				propertyString: '30px';
 				yourself.
 	self paddingFormatter parseTextAttributesFrom: aProperty into: aResult.
-	self assert: '30px' equals: (aResult at: #self rightAttribute)"
+	self assert: '30px' equals: (aResult at: #self rightAttribute)

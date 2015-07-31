@@ -1,7 +1,7 @@
 accessing
 attributeMap
 
-	^ attributeMap ifNil: [ Dictionary newFrom: {
+	^ attributeMap ifNil: [ attributeMap := Dictionary newFrom: {
 			'background' 			-> 	[ :aProperty :aContext | self readBackgroundAttribute: aProperty propertyString of: aProperty to: aContext ].
 			'background-image'		-> 	[ :aProperty :aContext | self readBackgroundImageAttribute: aProperty propertyString of: aProperty to: aContext].
 			'background-color' 		->	[ :aProperty :aContext | self readBackgroundColorAttribute: aProperty propertyString to: aContext ].
