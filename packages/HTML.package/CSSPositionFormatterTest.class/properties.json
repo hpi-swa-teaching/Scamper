@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"positionFormatter" ],
+	"name" : "CSSPositionFormatterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

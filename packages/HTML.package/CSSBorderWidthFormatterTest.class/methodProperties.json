@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"prefix" : "AB 7/31/2015 19:29",
+		"setUp" : "AB 7/31/2015 19:29",
+		"suffix" : "AB 7/31/2015 20:41",
+		"test01topAttributeShouldBeParsedCorrectly" : "AB 7/31/2015 19:28",
+		"test02rightAttributeShouldBeParsedCorrectly" : "AB 7/31/2015 19:28",
+		"test03bottomAttributeShouldBeParsedCorrectly" : "AB 7/31/2015 19:28",
+		"test04leftAttributeShouldBeParsedCorrectly" : "AB 7/31/2015 19:28",
+		"test05oneShorthandAttributeShouldBeParsedCorrectly" : "AB 7/31/2015 19:28",
+		"test06twoShorthandAttributesShouldBeParsedCorrectly" : "AB 7/31/2015 19:28",
+		"test07threeShorthandAttributesShouldBeParsedCorrectly" : "AB 7/31/2015 19:28",
+		"test08fourShorthandAttributesShouldBeParsedCorrectly" : "AB 7/31/2015 19:28" } }

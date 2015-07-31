@@ -12,6 +12,8 @@ cssPrefixMap
 			'background' -> CSSBackgroundFormatter new.
 			'padding' -> CSSPaddingFormatter new.
 			'margin' -> CSSMarginFormatter new.
+			'border' -> CSSBorderWidthFormatter new.
+			'position' -> CSSPositionFormatter new.
 			'height' -> sizeFormatter.
 			'width' -> sizeFormatter.
 		}]

@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"attributePrefix" : "PS 6/18/2015 13:51" },
+		"attributePrefix" : "PS 6/18/2015 13:51",
+		"attributeSuffix" : "AB 7/31/2015 20:51" },
 	"instance" : {
-		"attributeMap" : "PS 7/31/2015 16:34",
-		"put:at:to:" : "PS 6/23/2015 17:19",
-		"readFourAttributesFrom:to:" : "PS 6/23/2015 13:01",
-		"readOneAttributeFrom:to:" : "PS 6/23/2015 08:27",
+		"attributeMap" : "AB 7/31/2015 21:06",
+		"put:at:to:" : "PS 7/31/2015 17:59",
+		"readFourAttributesFrom:to:" : "AB 7/31/2015 21:07",
+		"readOneAttributeFrom:to:" : "AB 7/31/2015 21:07",
 		"readShorthandAttributesFrom:to:" : "PS 6/18/2015 13:49",
-		"readThreeAttributesFrom:to:" : "PS 6/23/2015 13:01",
-		"readTwoAttributesFrom:to:" : "PS 6/23/2015 13:01" } }
+		"readThreeAttributesFrom:to:" : "AB 7/31/2015 21:08",
+		"readTwoAttributesFrom:to:" : "AB 7/31/2015 21:26" } }

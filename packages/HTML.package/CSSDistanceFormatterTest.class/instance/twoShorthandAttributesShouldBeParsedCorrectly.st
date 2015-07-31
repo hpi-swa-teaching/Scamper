@@ -5,7 +5,7 @@ twoShorthandAttributesShouldBeParsedCorrectly
 
 	aResult := Dictionary new.
 	aProperty := CSSProperty new
-				propertyName: self prefix asSymbol;
+				propertyName: self completeAttribute asSymbol;
 				propertyString: '70px 80px';
 				yourself.
 	self formatter parseTextAttributesFrom: aProperty into: aResult.

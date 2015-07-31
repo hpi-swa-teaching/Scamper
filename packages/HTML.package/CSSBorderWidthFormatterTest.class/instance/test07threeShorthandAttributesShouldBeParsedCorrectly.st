@@ -1,0 +1,4 @@
+testing
+test07threeShorthandAttributesShouldBeParsedCorrectly 
+
+	super threeShorthandAttributesShouldBeParsedCorrectly 

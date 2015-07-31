@@ -1,4 +1,4 @@
 accessing
 prefix
 
-	self subclassResponsibility 
+	self subclassResponsibility

@@ -3,12 +3,12 @@ readThreeAttributesFrom: aPropertyValue to: aContext
 
 		(aPropertyValue splitOn: ' ') doWithIndex: [:each :index |
 			(index = 1) 
-				ifTrue: [ self put: each at: 'top' to: aContext ].
+				ifTrue: [ self put: each at: 'top', self class attributeSuffix to: aContext ].
 			(index = 2) 
 				ifTrue: [ 
-					self put: each at: 'right' to: aContext.
-					self put: each at: 'left' to: aContext
+					self put: each at: 'right', self class attributeSuffix to: aContext.
+					self put: each at: 'left', self class attributeSuffix to: aContext
 				].
 			(index = 3) 
-				ifTrue: [ self put: each at: 'bottom' to: aContext ]
+				ifTrue: [ self put: each at: 'bottom', self class attributeSuffix to: aContext ]
 		]

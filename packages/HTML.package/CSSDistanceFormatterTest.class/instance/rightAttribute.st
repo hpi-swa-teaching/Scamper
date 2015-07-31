@@ -1,4 +1,4 @@
 accessing
 rightAttribute
 
-	^ self prefix, '-right'
+	^ self prefix, '-right', self suffix

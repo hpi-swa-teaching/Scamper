@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"positionFormatter" : "AB 7/31/2015 19:33",
+		"positionFormatter:" : "AB 7/31/2015 19:32",
+		"setUp" : "AB 7/31/2015 22:24",
+		"test01PositionAbsoluteShouldBeParsedCorrectly" : "AB 7/31/2015 19:46",
+		"test02PositionFixedShouldBeParsedCorrectly" : "AB 7/31/2015 19:47",
+		"test03PositionRelativeShouldBeParsedCorrectly" : "AB 7/31/2015 19:47",
+		"test04PositionStaticShouldBeParsedCorrectly" : "AB 7/31/2015 19:48",
+		"test05TopPositionShouldBeParsedCorrectly" : "AB 7/31/2015 19:59",
+		"test06RightPositionShouldBeParsedCorrectly" : "AB 7/31/2015 19:59",
+		"test07BottomPositionShouldBeParsedCorrectly" : "AB 7/31/2015 19:59",
+		"test08LeftPositionShouldBeParsedCorrectly" : "AB 7/31/2015 19:59" } }

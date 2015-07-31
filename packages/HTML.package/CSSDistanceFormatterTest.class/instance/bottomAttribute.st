@@ -1,4 +1,4 @@
 accessing
 bottomAttribute
 
-	^ self prefix, '-bottom'
+	^ self prefix, '-bottom', self suffix

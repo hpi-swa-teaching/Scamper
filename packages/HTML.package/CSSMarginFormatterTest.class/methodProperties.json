@@ -4,6 +4,7 @@
 	"instance" : {
 		"prefix" : "PS 6/23/2015 12:30",
 		"setUp" : "PS 6/23/2015 10:01",
+		"suffix" : "AB 7/31/2015 20:45",
 		"test01topAttributeShouldBeParsedCorrectly" : "PS 7/31/2015 17:39",
 		"test02rightAttributeShouldBeParsedCorrectly" : "PS 7/31/2015 17:39",
 		"test03bottomAttributeShouldBeParsedCorrectly" : "PS 7/31/2015 17:39",
