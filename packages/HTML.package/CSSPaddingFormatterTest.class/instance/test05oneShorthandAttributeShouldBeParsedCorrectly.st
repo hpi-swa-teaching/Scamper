@@ -1,0 +1,4 @@
+testing
+test05oneShorthandAttributeShouldBeParsedCorrectly 
+
+	super oneShorthandAttributeShouldBeParsedCorrectly 

@@ -3,4 +3,12 @@
 		 },
 	"instance" : {
 		"prefix" : "PS 6/23/2015 12:30",
-		"setUp" : "PS 6/23/2015 10:01" } }
+		"setUp" : "PS 6/23/2015 10:01",
+		"test01topAttributeShouldBeParsedCorrectly" : "PS 7/31/2015 17:39",
+		"test02rightAttributeShouldBeParsedCorrectly" : "PS 7/31/2015 17:39",
+		"test03bottomAttributeShouldBeParsedCorrectly" : "PS 7/31/2015 17:39",
+		"test04leftAttributeShouldBeParsedCorrectly" : "PS 7/31/2015 17:39",
+		"test05oneShorthandAttributeShouldBeParsedCorrectly" : "PS 7/31/2015 17:40",
+		"test06twoShorthandAttributesShouldBeParsedCorrectly" : "PS 7/31/2015 17:40",
+		"test07threeShorthandAttributesShouldBeParsedCorrectly" : "PS 7/31/2015 17:40",
+		"test08fourShorthandAttributesShouldBeParsedCorrectly" : "PS 7/31/2015 17:40" } }
