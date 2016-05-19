@@ -9,5 +9,4 @@ baseline: spec
                 package: 'Scamper' with: [ spec requires: #('HTML') ].
             spec
                 group: 'default' with: #('Scamper');
-                group: 'Tests' with: #('Scamper');
-                group: 'TravisCI' with: #('Tests') ]
+                group: 'tests' with: #('Scamper') ]

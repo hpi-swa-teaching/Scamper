@@ -1,29 +1,19 @@
-sudo: true
-language: erlang
+language: smalltalk
+sudo: false
 
-# Choose which platforms you want your builds run against (done in parallel)
+smalltalk:
+  - Squeak-trunk
+  - Squeak-5.0
+  - Squeak-4.6
+  - Squeak-4.5
+
 env:
-   matrix:
-   - ST=Squeak-4.5 SCAMPER_SCREENSHOT=true
-   - ST=Squeak-4.6
    global:
      secure: PkDb5LAmq3k4O4wXLPhCq5GdlEBjaMJ8B7sAK36Rb9rg223OBYs8I+mTp9TB1O5DVu+4Q5o5EUmG5+lkiPINzXcDyPMpnw9zx7kZdA4LaiBpeiVtKH/2+t5hgD4KDWkXYdoINuIahOZsZcKzlibQ1aDcXN61A1qzQAo9BT4CbbU=
 
-# Boilerplate ... should be no reason to edit the install section
 install:
-   - export PROJECT_HOME="$(pwd)"
-   - cd $HOME
-   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/archive/master.zip
-   - unzip -q builderCI.zip
-   - cd builderCI-*
-   - source build_env_vars
-   - ln -s $PROJECT_HOME $GIT_PATH
-   - ./build_image.sh
-   - chmod -R 777 $PROJECT_HOME/build-support/*.sh
-   - $PROJECT_HOME/build-support/copyfonts.sh
+   - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
+   - $TRAVIS_BUILD_DIR/build-support/copyfonts.sh
 
-# use a different script if you want to customize how travis tests are run
-# use verbose flag to dump transcript unconditionally
-script: $PROJECT_HOME/build-support/testTravisCI.sh # -verbose 
 after_success:
-   - $PROJECT_HOME/build-support/screenshots.sh
+   - $TRAVIS_BUILD_DIR/build-support/screenshots.sh
