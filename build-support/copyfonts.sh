@@ -1,3 +1,3 @@
 mkdir -p -v $TRAVIS_BUILD_DIR/travisCI/Scamper/fonts
-cp -R -v $PROJECT_HOME/build-support/fonts ${BUILD_PATH}/travisCI/Scamper/
+cp -vR $PROJECT_HOME/build-support/fonts/* $TRAVIS_BUILD_DIR/travisCI/Scamper/fonts
 chmod -R 777 $TRAVIS_BUILD_DIR/travisCI/Scamper/fonts/*
