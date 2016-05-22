@@ -1,7 +1,9 @@
 window definition
 morphicWindow
 	"Create and return a Morphic window for Scamper."
-
+	
+	self debugPane.	"Debug Panel"
+	
 	^(SystemWindow labelled: 'Scamper')
 		model: self;
 		setProperty: #webBrowserView toValue: true;
