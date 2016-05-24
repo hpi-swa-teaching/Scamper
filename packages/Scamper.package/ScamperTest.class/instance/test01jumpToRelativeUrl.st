@@ -20,6 +20,7 @@ test01jumpToRelativeUrl
 	(scamper model jumpToAbsoluteUrlAsync: ('http://localhost:', port asString, '/')) wait.
 	scamper owner runStepMethods.
 	
+	Transcript showln: (scamper model currentUrl asString). 
 	(scamper model jumpToUrlAsync: 'relative_page') wait.
 	scamper owner runStepMethods.
 	
