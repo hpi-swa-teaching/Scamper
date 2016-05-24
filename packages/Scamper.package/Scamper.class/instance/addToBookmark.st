@@ -1,10 +1,9 @@
 menus
 addToBookmark
-	| key value file filename|
-	
-	key :=  (self getTitle: document) ifNil: ['Untitled2' translated].
+	| key value file filename |
+	key := (self getTitle: document) ifNil: ['Untitled' translated].
 	value := self currentUrl.
-	filename := (key asString) ,'.lin'.
+	filename := key,'.lin'.
 	bookDir deleteFileNamed: filename. 
 	file := StandardFileStream fileNamed: (bookDir fullNameFor: filename).
 	file ifNil:[self error: 'could not save file' translated].

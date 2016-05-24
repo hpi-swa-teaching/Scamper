@@ -21,10 +21,7 @@
 		"webPageMorph",
 		"sessionCookies",
 		"content",
-		"webClient",
-		"currentAnchorLocation",
-		"formattedPage",
-		"backgroundColor" ],
+		"webClient" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],
