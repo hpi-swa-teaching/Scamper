@@ -17,10 +17,10 @@ test01jumpToRelativeUrl
 		req send200Response: 'ok' contentType: 'text/plain'
 	].
 
-	(scamper model jumpToAbsoluteUrlAsync: ('http://localhost:', port asString, '/')) wait.
+	(scamper model jumpToAbsoluteUrlAsync: (('http://localhost:', port asString, '/') asText)) wait.
 	scamper owner runStepMethods.
 	
-	(scamper model jumpToUrlAsync: 'relative_page') wait.
+	(scamper model jumpToUrlAsync: ('relative_page' asText)) wait.
 	scamper owner runStepMethods.
 	
 	self assert: (scamper model currentUrl asString) = ('http://localhost:', port asString, '/relative_page').
