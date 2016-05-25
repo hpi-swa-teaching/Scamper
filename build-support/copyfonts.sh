@@ -1,3 +1,4 @@
+chmod -R 777 ${BUILD_PATH}
 mkdir -vp ${BUILD_PATH}/travisCI/Scamper/fonts
 pwd
 if [! [-d $TRAVIS_BUILD_DIR/build-support/fonts/ ]]
