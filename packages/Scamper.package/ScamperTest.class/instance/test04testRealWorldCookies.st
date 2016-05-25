@@ -8,12 +8,12 @@ test04testRealWorldCookies
 	Scamper longtimeCookies: OrderedCollection new.
 
 	(scamper model jumpToUrlAsync: 'hpi.de' asUrl) wait.
-	self assert: (Scamper longtimeCookies size) equals: 2.
+	self assert: (Scamper longtimeCookies size) equals: 1.
 
 	oldCookies := Scamper longtimeCookies.
 	
 	(scamper model jumpToUrlAsync: 'hpi.de' asUrl) wait.
-	self assert: (Scamper longtimeCookies size) equals: 2.
+	self assert: (Scamper longtimeCookies size) equals: 1.
 	self assert: Scamper longtimeCookies equals: oldCookies.
 	
 	
