@@ -7,3 +7,4 @@ fi
 
 cp -vR $TRAVIS_BUILD_DIR/build-support/fonts/* $TRAVIS_BUILD_DIR/fonts
 chmod -R 777 $TRAVIS_BUILD_DIR/fonts/*
+ls -l  /home/travis/smalltalkCI-master/_builds
