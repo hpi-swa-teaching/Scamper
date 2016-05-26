@@ -23,4 +23,9 @@ bookmark
 						add: name
 						selector: #jumpToUrlAsync:
 						argument: url]].
+	menu addLine.
+	menu
+		add: 'Clear Bookmark' translated
+		target: self
+		selector: #clearBookmark.
 	menu popUpInWorld: self currentWorld
