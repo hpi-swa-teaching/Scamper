@@ -8,9 +8,9 @@ downloadFromUrlAsync: aUrl withMethod: method andInputs: inputs andEncoding: enc
 	downloadWork := [	| newSource |
 		newSource := method asLowercase = 'get'
 			ifTrue: [
-					client := WebClient new;
-					userAgent: Scamper userAgent.
-					resp := client httpGet: aUrl do:[:req].
+					client := WebClient new.
+					client userAgent: Scamper userAgent.
+					resp := client httpGet: aUrl asString do:[:req].
 					resp content; close ]
 			ifFalse:
 				[ encoding = MIMEDocument contentTypeMultipart

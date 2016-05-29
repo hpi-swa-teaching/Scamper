@@ -1,4 +1,4 @@
-Scamper Web Browser [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Scamper.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/Scamper)  
+Scamper Web Browser [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Scamper.svg?branch=dev)](https://travis-ci.org/HPI-SWA-Teaching/Scamper)  
 ===================
 
 ###Screenshot after last feature was added
