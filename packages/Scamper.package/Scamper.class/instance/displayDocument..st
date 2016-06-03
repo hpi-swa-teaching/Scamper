@@ -12,7 +12,7 @@ displayDocument: mimeDocument
 		ifTrue: [recentDocuments addLast: mimeDocument].
 "		ifFalse: [recentDocuments removeAt: currentUrlIndex]."
 	recentDocuments size > 20 ifTrue: [ recentDocuments removeFirst ].
-		
+	
 	mimeDocument mainType = 'image' 
 		ifTrue: [handled := self displayImagePage: mimeDocument].
 

@@ -1,5 +1,6 @@
 document handling
 processDocument: aDocument
+	| backgroundColor formattedPage |
 	aDocument == #stateDownloaded ifTrue: [ 
 		"images and such have been downloaded; update the page"
 		self status: 'reformatting page...' translated.
@@ -7,6 +8,6 @@ processDocument: aDocument
 		backgroundColor := Color fromString: document body bgcolor.
 		self changeAll: #(backgroundColor formattedPage).
 		self status: 'sittin' translated. ]
-	ifFalse: [		
+	ifFalse: [	
 		self displayDocument: aDocument
 	]
