@@ -21,7 +21,8 @@
 		"webPageMorph",
 		"sessionCookies",
 		"content",
-		"webClient" ],
+		"webClient",
+		"tabs" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],

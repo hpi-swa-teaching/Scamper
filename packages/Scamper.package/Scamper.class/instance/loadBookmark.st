@@ -4,10 +4,9 @@ loadBookmark
 	favorite := 'Bookmark'.
 	directory := FileDirectory default.
 	(directory directoryExists: favorite)
-			ifTrue:[bookDir := directory directoryNamed: favorite.
-					self bookmark: (self makeBookmark: bookDir)
-					]
+			ifTrue:[self bookDir: (directory directoryNamed: favorite).
+					self bookmark: (self makeBookmark: self bookDir)]
 			ifFalse:[directory createDirectory: favorite.
-					bookDir := directory directoryNamed: favorite.
+					self bookDir: (directory directoryNamed: favorite).
 					self bookmark: Dictionary new ].
 	

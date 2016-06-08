@@ -45,5 +45,10 @@ addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleButtonNamed: 'Stop!' translated
 					action: #stopEverything
-					text: self stopButtonText).
+					text: self stopButtonText);
+		addTransparentSpacerOfSize: 5 @ 0;
+		addMorphBack: (self 
+					simpleButtonNamed: 'Tabs' translated
+					action: #showTabs
+					text: self openNewTabText).
 	^buttonRow

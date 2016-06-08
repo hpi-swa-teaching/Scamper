@@ -11,4 +11,6 @@
 		"test04testRealWorldCookies" : "MR 5/29/2016 16:27",
 		"test05isUrl" : "fm 7/29/2015 18:50",
 		"test06isInternBrowser" : "fm 7/29/2015 18:51",
-		"test07intializeMIMEDatabase" : "fm 7/29/2015 19:00" } }
+		"test07intializeMIMEDatabase" : "fm 7/29/2015 19:00",
+		"test08addBookmark" : "ak 6/8/2016 14:08",
+		"test09newTab" : "ak 6/8/2016 14:09" } }
