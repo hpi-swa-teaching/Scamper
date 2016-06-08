@@ -1,7 +1,10 @@
 as yet unclassified
 test08addBookmark
 
-	self Scamper clearBookmark. 
-	self Scamper currentUrl: 'http://www.google.de' asUrl.
-	self Scamper addToBookmark.
-	self assert: ( ('http://www.google.de' asUrl) == ((Scamper jumpToUrlAsync: ((Scamper bookmark) at: 1)))). 
+	scamper model clearBookmark. 
+	
+	(scamper model jumpToUrlAsync: ('http://www.google.de' asUrl)) wait.
+	scamper owner runStepMethods.
+	scamper model addToBookmark.
+	
+	self assert: 'http://www.google.de' equals: (scamper model bookmark first value). 

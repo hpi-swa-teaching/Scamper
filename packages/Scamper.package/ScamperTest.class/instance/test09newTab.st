@@ -1,18 +1,19 @@
 as yet unclassified
 test09newTab
-	| a b c |
-	a:= Scamper document.
-	Scamper jumpToUrlAsync: 'http://www.google.de' asUrl.
-	b:= Scamper document.
-	Scamper openNewTab.
-	Scamper jumpToUrlAsync: 'http://www.wikipedia.de' asUrl.
-	c:= Scamper document.
+	| a b |
+	
+	(scamper model jumpToUrlAsync: 'http://www.google.de' asUrl) wait.
+	scamper owner runStepMethods.
+	a:= scamper model document.
+	
+	scamper model openNewTab.
+	
+	(scamper model jumpToUrlAsync: 'http://www.wikipedia.de' asUrl) wait.
+	scamper owner runStepMethods.
+	b:= scamper model document.
 		
-	Scamper openTab: ((Scamper tabs at: 1) at: 1).
-	self assert: (Scamper document == a).
+	scamper model openTab: ((scamper model tabs first) first).
+	self assert: scamper model document equals: a.
 	
-	Scamper openTab: ((Scamper tabs at: 2) at: 2).
-	self assert: (Scamper document == b).
-	
-	Scamper openTab: ((Scamper tabs at: 3) at: 3).
-	self assert: (Scamper document == c).
+	scamper model openTab: ((scamper model tabs at: 2) at: 2).
+	self assert: scamper model document equals: b.
