@@ -15,7 +15,7 @@ showTabs
 			add: (a at: 2) translated
 			target: self
 			selector: #openTab: 
-			argument: (a at: 1)]].
+			argument: (self tabs indexOf: a)]].
 	menu addLine.
 	menu
 		add: 'Close All Tabs' translated
