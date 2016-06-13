@@ -7,4 +7,4 @@ test08addBookmark
 	scamper owner runStepMethods.
 	scamper model addToBookmark.
 	
-	self assert: 'http://www.google.de' equals: (scamper model bookmark first value). 
+	self assert: 'http://www.google.de/' equals: ((scamper model bookmarks associationAt: 'Google') value asString). 

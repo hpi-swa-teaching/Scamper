@@ -1,3 +1,3 @@
 access
-bookmark: aDictionary
+bookmarks: aDictionary
 	bookmarks := aDictionary.
