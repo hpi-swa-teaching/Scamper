@@ -1,7 +1,6 @@
 event handling
 scrollByKeyboard: event 
-	"If event is ctrl+up/down then scroll and answer true"
-	super scrollByKeyboard: event.
+	"If event is up/down/left/right/pgup/pgdown then scroll and answer true"
 	event keyCharacter = Character arrowUp
 		ifTrue: 
 			[scrollBar scrollUp: 3.

@@ -1,0 +1,14 @@
+{
+	"category" : "Scamper-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MW 6/15/2016 11:34",
+	"instvars" : [
+		"keyString" ],
+	"name" : "ScrollingEventSimulator",
+	"pools" : [
+		 ],
+	"super" : "KeyboardEvent",
+	"type" : "normal" }
