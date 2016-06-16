@@ -11,8 +11,6 @@ test09newTab
 	b:= scamper model document.
 
 	scamper model openTab: 1.
-	Transcript show: a asString.
-	Transcript show: scamper model document asString.
 	self assert: scamper model document == a.
 	
 	scamper model openTab: 2.
