@@ -7,7 +7,7 @@ browserUrlContents: aRequest
 	aRequest = 'about' ifTrue: [
 		^MIMEDocument contentType: 'text/html' content: self aboutScamperHTML ].
 	
-	aRequest = 'status404' ifTrue: [
+	aRequest = '404' ifTrue: [
 		^MIMEDocument contentType: 'text/html' content: self error404Page  ].
 
 	^ nil
