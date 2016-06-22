@@ -3,3 +3,7 @@ Scamper Web Browser [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Scam
 
 ###Screenshot after last feature was added
 ![screenshot](https://raw.githubusercontent.com/HPI-SWA-Teaching/Scamper/dev/tests/scamper.png)
+
+###Third Party Credits
+
+Please note that the icons used in this package are proerpty of [Gregor Cresnar](http://www.flaticon.com/authors/gregor-cresnar).
