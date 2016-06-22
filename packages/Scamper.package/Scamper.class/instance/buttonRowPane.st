@@ -14,14 +14,14 @@ buttonRowPane
 				addTransparentSpacerOfSize: 5 @ 0.
 	buttonRow
 		addMorphBack: (self 
-					simpleButtonNamed: 'Back' translated
+					simpleIconicButtonNamed: 'Back'  
 					action: #back
-					text: self backButtonText);
+					withIcon: MenuIcons smallUndoIcon);
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleButtonNamed: 'Forward' translated
+					simpleIconicButtonNamed: 'Forward' 
 					action: #forward
-					text: self forwardButtonText);
+					withIcon: MenuIcons smallRedoIcon);
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleButtonNamed: 'History' translated
@@ -34,19 +34,19 @@ addTransparentSpacerOfSize: 5 @ 0;
 					text: self bookmarkButtonText);
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleButtonNamed: 'Reload' translated
+					simpleIconicButtonNamed: 'Reload' 
 					action: #reload
-					text: self reloadButtonText);
+					withIcon: MenuIcons smallDocumentClockIcon);
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleButtonNamed: 'Home' translated
+					simpleIconicButtonNamed: 'Home'
 					action: #visitStartPage
-					text: self homeButtonText);
+					withIcon: MenuIcons smallHomeIcon);
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleButtonNamed: 'Stop!' translated
+					simpleIconicButtonNamed: 'Stop'
 					action: #stopEverything
-					text: self stopButtonText);
+					withIcon: MenuIcons smallCancelIcon);
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleButtonNamed: 'Tabs' translated
