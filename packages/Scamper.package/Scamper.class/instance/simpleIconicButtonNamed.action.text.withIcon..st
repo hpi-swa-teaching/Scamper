@@ -1,8 +1,8 @@
 window definition
-simpleButtonNamed: buttonLabel action: selector text: balloonText
+simpleIconicButtonNamed: buttonLabel action: selector text: balloonText withIcon: buttonIcon
 	"Create and return a simple button with Scamper as the target."
 
-	^SimpleButtonMorph new
+	^IconicButton new
 		label: buttonLabel;
 		target: self;
 		color: Color transparent;
