@@ -45,4 +45,16 @@
 		"test38httpStatus428" : "MR 6/22/2016 19:00",
 		"test39httpStatus429" : "MR 6/22/2016 19:00",
 		"test40httpStatus431" : "MR 6/22/2016 19:01",
-		"test41httpStatus451" : "MR 6/22/2016 19:01" } }
+		"test41httpStatus451" : "MR 6/22/2016 19:01",
+		"test42httpStatus500" : "MR 6/22/2016 19:09",
+		"test43httpStatus501" : "MR 6/22/2016 19:10",
+		"test44httpStatus502" : "MR 6/22/2016 19:10",
+		"test45httpStatus503" : "MR 6/22/2016 19:10",
+		"test46httpStatus504" : "MR 6/22/2016 19:10",
+		"test47httpStatus505" : "MR 6/22/2016 19:11",
+		"test48httpStatus506" : "MR 6/22/2016 19:11",
+		"test49httpStatus507" : "MR 6/22/2016 19:11",
+		"test50httpStatus508" : "MR 6/22/2016 19:12",
+		"test51httpStatus509" : "MR 6/22/2016 19:12",
+		"test52httpStatus510" : "MR 6/22/2016 19:12",
+		"test53httpStatus511" : "MR 6/22/2016 19:13" } }
