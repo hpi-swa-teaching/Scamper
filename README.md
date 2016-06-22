@@ -6,4 +6,4 @@ Scamper Web Browser [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Scam
 
 ###Third Party Credits
 
-Please note that the icons used in this package are proerpty of [Gregor Cresnar](http://www.flaticon.com/authors/gregor-cresnar).
+Please note that the icons used in this package are property of [Gregor Cresnar](http://www.flaticon.com/authors/gregor-cresnar).

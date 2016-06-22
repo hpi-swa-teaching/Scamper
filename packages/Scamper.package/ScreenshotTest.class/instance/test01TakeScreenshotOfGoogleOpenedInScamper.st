@@ -3,7 +3,7 @@ test01TakeScreenshotOfGoogleOpenedInScamper
 	| scamper |
 	
 	<timeout:20>
-	scamper := (Scamper openOnUrlAsync: 'http://google.com/en' asUrl) wait.
+	scamper := (Scamper openOnUrlAsync: 'http://squeak.org' asUrl) wait.
 	scamper owner runStepMethods.
 	(Delay forSeconds: 5) wait.
 	scamper extent: 900@700.
