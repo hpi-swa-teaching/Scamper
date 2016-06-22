@@ -102,4 +102,41 @@ browserUrlContents: aRequest
 			
 	aRequest = '451' ifTrue: [
 		^MIMEDocument contentType: 'text/html' content: self error451Page  ].
-	^ nil
+			
+	aRequest = '500' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error500Page  ].
+				
+	aRequest = '501' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error501Page  ].
+				
+	aRequest = '502' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error502Page  ].
+				
+	aRequest = '503' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error503Page  ].
+				
+	aRequest = '504' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error504Page  ].
+				
+	aRequest = '505' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error505Page  ].
+				
+	aRequest = '506' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error506Page  ].
+				
+	aRequest = '507' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error507Page  ].
+				
+	aRequest = '508' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error508Page  ].
+				
+	aRequest = '509' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error509Page  ].
+				
+	aRequest = '510' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error510Page  ].
+				
+	aRequest = '511' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self error511Page  ].
+	
+		^ nil
