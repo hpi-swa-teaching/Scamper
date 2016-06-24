@@ -7,6 +7,12 @@ browserUrlContents: aRequest
 	aRequest = 'about' ifTrue: [
 		^MIMEDocument contentType: 'text/html' content: self aboutScamperHTML ].
 	
+	aRequest = 'history' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self historyHTML ].
+	
+	aRequest = 'bookmarks' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self bookmarksHTML ].
+	
 	aRequest = '400' ifTrue: [
 		^MIMEDocument contentType: 'text/html' content: self error400Page  ].
 	
