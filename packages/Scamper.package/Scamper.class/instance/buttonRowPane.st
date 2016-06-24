@@ -16,12 +16,12 @@ buttonRowPane
 				addTransparentSpacerOfSize: 5 @ 0.
 	buttonRow
 		addMorphBack: (self 
-					simpleIconicButtonNamed: 'Back'  
+					simpleIconicButtonNamed: 'Back'  translated
 					action: #back
 					withIcon: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconBackward) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleIconicButtonNamed: 'Forward' 
+					simpleIconicButtonNamed: 'Forward' translated
 					action: #forward
 					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconForward) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
@@ -31,27 +31,28 @@ buttonRowPane
 					text: self historyButtonText);
 addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleButtonNamed: 'Bookmark' translated
+					simpleIconicButtonNamed: 'Bookmark' translated
 					action: #bookmark
-					text: self bookmarkButtonText);
+					withIcon: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconBookmark) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleIconicButtonNamed: 'Reload' 
+					simpleIconicButtonNamed: 'Reload' translated
 					action: #reload
 					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleIconicButtonNamed: 'Home'
+					simpleIconicButtonNamed: 'Home' translated
 					action: #visitStartPage
 					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconHome) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleIconicButtonNamed: 'Stop'
+					simpleIconicButtonNamed: 'Stop' translated
 					action: #stopEverything
 					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconCancel) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleButtonNamed: 'Tabs' translated
+					simpleIconicButtonNamed: 'Tabs' translated
 					action: #showTabs
-					text: self openNewTabText).
-	^buttonRow
+					withIcon: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconTabs) fullName))).
+	
+	^ buttonRow.
