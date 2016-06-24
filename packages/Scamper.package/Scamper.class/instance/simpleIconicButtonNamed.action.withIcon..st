@@ -7,8 +7,8 @@ simpleIconicButtonNamed: buttonLabel action: selector withIcon: iconForm
 		target: self;
 		labelGraphic: iconForm;
 		color: Color transparent;
-		extent: 30@30;
-		borderColor: Color black;
+		borderWidth: 0;
+		extent: 32@32;
 		actionSelector: selector;
 		actWhen: #buttonUp;
 		yourself

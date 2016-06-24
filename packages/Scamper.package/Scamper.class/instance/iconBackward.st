@@ -1,4 +1,4 @@
 window definition
 iconBackward
 	
-	^('Scamper/scamper-icons/png/back-w32-h32.png')
+	^('Scamper/scamper-icons/png/back-w24-h24.png')

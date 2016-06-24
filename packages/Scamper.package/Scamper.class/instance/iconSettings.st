@@ -1,4 +1,4 @@
 window definition
 iconSettings
 	
-	^('Scamper/scamper-icons/png/settings-1-w32-h32.png')
+	^('Scamper/scamper-icons/png/settings-1-w24-h24.png')

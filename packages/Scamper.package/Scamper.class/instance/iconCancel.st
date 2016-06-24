@@ -1,4 +1,4 @@
 window definition
 iconCancel
 	
-	^('Scamper/scamper-icons/png/cancel-w32-h32.png')
+	^('Scamper/scamper-icons/png/cancel-w24-h24.png')

@@ -8,7 +8,7 @@ buttonRowPane
 	buttonRow := (AlignmentMorph new)
 				borderWidth: 0;
 				layoutInset: 0;
-				color:(Color r: 1 g:1 b:1);
+				color:(Color transparent );
 				hResizing: #spaceFill;
 				wrapCentering: #center;
 				cellPositioning: #leftCenter;

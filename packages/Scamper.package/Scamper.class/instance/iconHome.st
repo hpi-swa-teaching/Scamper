@@ -1,4 +1,4 @@
 window definition
 iconHome
 	
-	^('Scamper/scamper-icons/png/house-w32-h32.png')
+	^('Scamper/scamper-icons/png/house-w24-h24.png')
