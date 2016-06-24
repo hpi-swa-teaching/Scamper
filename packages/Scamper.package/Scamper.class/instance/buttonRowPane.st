@@ -3,6 +3,8 @@ buttonRowPane
 	"Create and return a pane of navigation buttons."
 
 	| buttonRow |
+	
+	
 	buttonRow := (AlignmentMorph new)
 				borderWidth: 0;
 				layoutInset: 0;
@@ -16,12 +18,12 @@ buttonRowPane
 		addMorphBack: (self 
 					simpleIconicButtonNamed: 'Back'  
 					action: #back
-					withIcon: MenuIcons smallUndoIcon);
+					withIcon: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconBackward) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleIconicButtonNamed: 'Forward' 
 					action: #forward
-					withIcon: MenuIcons smallRedoIcon);
+					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconForward) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleButtonNamed: 'History' translated
@@ -36,17 +38,17 @@ addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleIconicButtonNamed: 'Reload' 
 					action: #reload
-					withIcon: MenuIcons smallDocumentClockIcon);
+					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleIconicButtonNamed: 'Home'
 					action: #visitStartPage
-					withIcon: MenuIcons smallHomeIcon);
+					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconHome) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleIconicButtonNamed: 'Stop'
 					action: #stopEverything
-					withIcon: MenuIcons smallCancelIcon);
+					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconCancel) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleButtonNamed: 'Tabs' translated

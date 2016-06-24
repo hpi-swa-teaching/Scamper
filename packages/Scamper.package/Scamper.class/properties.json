@@ -22,7 +22,8 @@
 		"content",
 		"webClient",
 		"tabs",
-		"bookmarks" ],
+		"bookmarks",
+		"aStream" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],
