@@ -12,7 +12,7 @@ go to start page
 edit start page
 bookmark' translated.
 	linePositions := #(2 4 6 ).
-	selections := #(#back #forward #jumpToNewUrl #visitHistoryPage #viewSource #inspectParseTree #visitStartPage #editStartPage #bookmark ).
+	selections := #(#back #forward #jumpToNewUrl #visitHistoryPage #viewSource #inspectParseTree #visitStartPage #editStartPage #visitBookmarksPage ).
 	downloadingProcess
 		ifNotNil: 
 			[lines := lines , String cr , 'stop downloading' translated.

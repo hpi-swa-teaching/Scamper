@@ -4,7 +4,7 @@ bookmarksHTML
 	
 	| bookmarkList |
 	bookmarkList := ''.
-	self recentDocuments reverseDo: [ :doc | bookmarkList := bookmarkList, '<li><a href="', doc url asString, '">', doc url asString,'</a></li>' ].
+	self bookmarks keysAndValuesDo: [ :aKey : aValue | bookmarkList := bookmarkList, '<li><a href="', aValue asString, '">', aKey asString,'</a></li>' ].
 	^'
 <html>
 <head>

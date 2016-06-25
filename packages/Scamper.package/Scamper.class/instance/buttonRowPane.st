@@ -32,7 +32,7 @@ buttonRowPane
 addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleButtonNamed: 'Bookmark' translated
-					action: #bookmark
+					action: #visitBookmarksPage
 					text: self bookmarkButtonText);
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
