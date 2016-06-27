@@ -1,6 +1,6 @@
 browser urls
 bookmarksHTML
-	"return a string of HTML which introduces Scamper"
+	"returns a string which lists user boomarks in html"
 	
 	| bookmarkList |
 	bookmarkList := ''.

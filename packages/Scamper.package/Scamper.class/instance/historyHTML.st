@@ -1,6 +1,6 @@
 browser urls
 historyHTML
-	"return a string of HTML which introduces Scamper"
+	"returns a string which shows th users browser history in html"
 	
 	| historyList |
 	historyList := ''.
