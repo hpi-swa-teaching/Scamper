@@ -5,7 +5,7 @@ Scamper Web Browser [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Scam
 
 + Create a directory called `Scamper`in your Squeak ressources dir which depends on the os you are using 
 + Copy `fonts` and `scamper-icons` from `{SCAMPERROOT}/build-support/`into your Scamper source dir you created the step before.
-+ Open Squeak and run `Scamper open` from a workspcae in Squeak
++ Open Squeak and run `Scamper open` from a workspace window in Squeak
 
 
 ###Screenshot after last feature was added
