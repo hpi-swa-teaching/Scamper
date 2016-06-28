@@ -1,6 +1,8 @@
 changing page
 downloadFromUrlAsync: aUrl
+	
 	| promise downloadWork handled|
+	
 	promise := Promise new.
 	handled := false.
 
@@ -27,4 +29,4 @@ downloadFromUrlAsync: aUrl
 	
 	downloadingProcess := downloadWork forkAt: Processor userBackgroundPriority.
 
-	^ promise
+	^ promise.

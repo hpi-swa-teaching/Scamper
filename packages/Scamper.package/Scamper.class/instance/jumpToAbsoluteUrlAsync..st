@@ -1,7 +1,8 @@
 changing page
 jumpToAbsoluteUrlAsync: urlText
 	"start downloading a new page.  The page source is downloaded in a background thread"
-	|  newUrl |
+	
+	| newUrl |
 
 	self stopEverything.
 
@@ -19,4 +20,4 @@ jumpToAbsoluteUrlAsync: urlText
 		then: [ :document |
 			WorldState addDeferredUIMessage: [ self processDocument: document ].
 			self
-		]
+		].

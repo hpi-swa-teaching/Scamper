@@ -6,8 +6,9 @@ urlEditPane
 	pane := (AlignmentMorph new)
 				hResizing: #spaceFill;
 				color: (Color r:1 g:1 b:1).
+				
 	
-	paneURL := (PluggableTextMorph on: self text: #currentUrl accept: #jumpToAbsoluteUrlAsync)
+	paneURL := (PluggableTextMorph on: self text: #currentUrl accept: #jumpToAbsoluteUrlAsync:)
 				height: 10;
 				vResizing: #rigid.
 				"hResizing: #spaceFill;
@@ -26,27 +27,32 @@ urlEditPane
 					offsets: (60@0 corner: 0@0));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorph: (self 
-					simpleIconicButtonNamed: 'Forward' 
+					simpleIconicButtonNamed: 'Forward' translated 
 					action: #forward
 					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconForward) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorph: (self 
-					simpleIconicButtonNamed: 'Home'
+					simpleIconicButtonNamed: 'Home' translated
 					action: #visitStartPage
 					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconHome) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorph: (self 
-					simpleIconicButtonNamed: 'Back'  
+					simpleIconicButtonNamed: 'Back' translated 
 					action: #back
 					withIcon: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconBackward) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleIconicButtonNamed: 'Reload' 
+					simpleIconicButtonNamed: 'Refresh' translated 
 					action: #reload
 					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName)));
-		addTransparentSpacerOfSize: 5 @ 0.	
+		addTransparentSpacerOfSize: 5 @ 0;
+		addMorphBack: (self 
+					simpleIconicButtonNamed: 'Settings' translated 
+					action: #reload
+					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconSettings) fullName))).	
 					
 	paneURL acceptOnCR: true.
 	paneURL hideScrollBarsIndefinitely.
-	^pane 
+	
+	^ pane. 
 		

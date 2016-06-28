@@ -3,6 +3,7 @@ downloadFromUrlAsync: aUrl withMethod: method andInputs: inputs andEncoding: enc
 	"Submit the given form with the provided inputs, url, method, and encoding"
 
 	| promise downloadWork client resp|
+	
 	promise := Promise new.
 	
 	downloadWork := [	| newSource |
@@ -22,5 +23,5 @@ downloadFromUrlAsync: aUrl withMethod: method andInputs: inputs andEncoding: enc
 	
 	downloadingProcess := downloadWork forkAt: Processor userBackgroundPriority.
 	
-	^ promise
+	^ promise.
 		
