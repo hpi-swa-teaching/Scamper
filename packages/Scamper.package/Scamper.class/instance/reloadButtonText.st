@@ -1,3 +1,4 @@
 button text
 reloadButtonText
-	^ 'Reload page' translated
+
+	^ 'Reload page' translated.

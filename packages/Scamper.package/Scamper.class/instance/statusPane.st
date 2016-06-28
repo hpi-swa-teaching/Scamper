@@ -5,6 +5,6 @@ statusPane
 	| pane |
 	
 	pane := PluggableTextMorph on: self text: #status accept: nil.
-	pane  hideScrollBarsIndefinitely.
+	pane hideScrollBarsIndefinitely.
 	
 	^ pane.

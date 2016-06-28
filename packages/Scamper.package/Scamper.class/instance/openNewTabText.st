@@ -1,4 +1,4 @@
 button text
 openNewTabText
 
-	^ 'Open New Tab' translated
+	^ 'Open New Tab' translated.
