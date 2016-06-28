@@ -8,12 +8,11 @@ urlEditPane
 				color: (Color r:1 g:1 b:1).
 	
 	paneURL := (PluggableTextMorph on: self text: #currentUrl accept: #jumpToAbsoluteUrlAsync)
-				height: 24.
+				height: 10;
+				vResizing: #rigid.
 				"hResizing: #spaceFill;
 				spaceFillWeight: 1;"
 				
-				.
-	
 	paneUI := (AlignmentMorph new)
 				borderWidth: 0;
 				layoutInset: 0;
@@ -21,8 +20,7 @@ urlEditPane
 				color: (Color r:0.1 g:1 b:1);
 				addTransparentSpacerOfSize: 5 @ 0.
 		
-	pane 
-		
+	pane 	
 		addMorph: paneURL fullFrame: ( LayoutFrame 
 					fractions: (0@0 corner: 1@1)
 					offsets: (60@0 corner: 0@0));
@@ -45,7 +43,8 @@ urlEditPane
 		addMorphBack: (self 
 					simpleIconicButtonNamed: 'Reload' 
 					action: #reload
-					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName))).	
+					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName)));
+		addTransparentSpacerOfSize: 5 @ 0.	
 					
 	paneURL acceptOnCR: true.
 	paneURL hideScrollBarsIndefinitely.
