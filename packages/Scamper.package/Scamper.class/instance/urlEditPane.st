@@ -20,6 +20,8 @@ urlEditPane
 				position: 1 @ 1;
 				color: (Color r:0.1 g:1 b:1);
 				addTransparentSpacerOfSize: 5 @ 0.
+				
+	refreshAndCancelButton := IconicButton on: self text: #status  accept: nil. 
 		
 	pane 	
 		addMorph: paneURL fullFrame: ( LayoutFrame 

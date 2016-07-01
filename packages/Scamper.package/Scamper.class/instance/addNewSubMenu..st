@@ -15,4 +15,4 @@ addNewSubMenu: aDictionary
 						target: self
 						selector: #jumpToUrlAsync:
 						argument: url]].
-	^ subMenu
+	^ subMenu.
