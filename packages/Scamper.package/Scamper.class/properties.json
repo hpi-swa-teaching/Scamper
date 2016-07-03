@@ -23,8 +23,7 @@
 		"webClient",
 		"tabs",
 		"bookmarks",
-		"aStream",
-		"refreshAndCancelButton" ],
+		"aStream" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],

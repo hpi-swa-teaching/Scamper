@@ -16,4 +16,4 @@ importUrl: aFile
 					].
 				]. 
 	url =='' ifTrue:[ self error: 'blank file: url not exist' translated].
-	^ url asUrl.
+	^url asUrl
