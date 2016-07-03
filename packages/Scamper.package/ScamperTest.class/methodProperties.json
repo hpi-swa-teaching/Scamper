@@ -57,4 +57,5 @@
 		"test51httpStatus509" : "MR 6/22/2016 19:12",
 		"test52httpStatus510" : "MR 6/22/2016 19:12",
 		"test53httpStatus511" : "MR 6/22/2016 19:13",
-		"test54ReloadStopButtonBehaviour" : "MR 7/3/2016 16:43" } }
+		"test54StopButtonBehaviour" : "MR 7/3/2016 16:56",
+		"test55ReloadButtonBehaviour" : "MR 7/3/2016 17:03" } }

@@ -20,6 +20,9 @@ urlEditPane
 				position: 1 @ 1;
 				color: (Color r:0.1 g:1 b:1);
 				addTransparentSpacerOfSize: 5 @ 0.
+				
+	reloadAndStopButton := (ScamperButton new)
+								labelGraphic: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName)).
 		
 	pane 	
 		addMorph: paneURL fullFrame: ( LayoutFrame 
