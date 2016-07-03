@@ -22,7 +22,8 @@ urlEditPane
 				addTransparentSpacerOfSize: 5 @ 0.
 				
 	reloadAndStopButton := (ScamperButton new)
-								labelGraphic: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName)).
+								labelGraphic: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName));
+								labelInfo: 'Reload'.
 		
 	pane 	
 		addMorph: paneURL fullFrame: ( LayoutFrame 
