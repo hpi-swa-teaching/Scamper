@@ -1,4 +1,4 @@
 as yet unclassified
 labelGraphic: aForm
 
-	labelGraphic := aForm.
+	super labelGraphic: aForm.

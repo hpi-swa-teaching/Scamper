@@ -11,8 +11,6 @@ urlEditPane
 	paneURL := (PluggableTextMorph on: self text: #currentUrl accept: #jumpToAbsoluteUrlAsync:)
 				height: 10;
 				vResizing: #rigid.
-				"hResizing: #spaceFill;
-				spaceFillWeight: 1;"
 				
 	paneUI := (AlignmentMorph new)
 				borderWidth: 0;
@@ -22,8 +20,9 @@ urlEditPane
 				addTransparentSpacerOfSize: 5 @ 0.
 				
 	reloadAndStopButton := (ScamperButton new)
-								labelGraphic: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName));
-								labelInfo: 'Reload'.
+								selfChangeAction: #reload 
+								Icon: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName))
+								labelInfo: #status.
 		
 	pane 	
 		addMorph: paneURL fullFrame: ( LayoutFrame 
@@ -46,10 +45,7 @@ urlEditPane
 					withIcon: ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconBackward) fullName)));
 		addTransparentSpacerOfSize: 5 @ 0;
 		
-		addMorphBack: (self 
-					simpleIconicButtonNamed: 'Refresh' translated 
-					action: #reload
-					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconRefresh) fullName)));
+		addMorphBack: reloadAndStopButton;
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleIconicButtonNamed: 'Settings' translated 
