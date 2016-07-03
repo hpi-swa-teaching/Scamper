@@ -10,7 +10,7 @@
 		"test03DocumentWithoutTitleTagShouldntRaiseErrors" : "wg 7/16/2015 11:41",
 		"test04testRealWorldCookies" : "MR 5/29/2016 16:27",
 		"test05isUrl" : "fm 7/29/2015 18:50",
-		"test06isInternBrowser" : "fm 7/29/2015 18:51",
+		"test06isInternBrowser" : "MR 7/3/2016 16:34",
 		"test07intializeMIMEDatabase" : "fm 7/29/2015 19:00",
 		"test08addBookmark" : "LL 6/13/2016 15:37",
 		"test09newTab" : "ak 6/16/2016 10:12",
@@ -56,4 +56,5 @@
 		"test50httpStatus508" : "MR 6/22/2016 19:12",
 		"test51httpStatus509" : "MR 6/22/2016 19:12",
 		"test52httpStatus510" : "MR 6/22/2016 19:12",
-		"test53httpStatus511" : "MR 6/22/2016 19:13" } }
+		"test53httpStatus511" : "MR 6/22/2016 19:13",
+		"test54ReloadStopButtonBehaviour" : "MR 7/3/2016 16:43" } }
