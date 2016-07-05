@@ -26,7 +26,7 @@ urlEditPane
 		
 	pane 	
 		addMorph: paneURL fullFrame: ( LayoutFrame 
-					fractions: (0@0 corner: 1@1)
+					fractions: (5@0 corner: 1@1)
 					offsets: (60@0 corner: 0@0));
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorph: (self 

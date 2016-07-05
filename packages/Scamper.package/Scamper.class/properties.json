@@ -24,7 +24,8 @@
 		"tabs",
 		"bookmarks",
 		"aStream",
-		"reloadAndStopButton" ],
+		"reloadAndStopButton",
+		"tabPaneVariable" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],
