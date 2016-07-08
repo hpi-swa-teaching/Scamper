@@ -6,6 +6,7 @@ addTabButton
 	
 	button:= (SimpleButtonMorph new
 		target: self;
+		color: (Color r:1 g:1 b:1);
 		hResizing: #spaceFill;
 		label: ((self tabs at: indexOfTab) at: 2);
 		actionSelector: #openTab:;

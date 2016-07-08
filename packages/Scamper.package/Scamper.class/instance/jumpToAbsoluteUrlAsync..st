@@ -15,9 +15,10 @@ jumpToAbsoluteUrlAsync: urlText
 	self status: ('downloading {1}...' translated format:{newUrl asString}).
 
 	self addNextToRecentDocuments.
-	
 	^ (self downloadFromUrlAsync: newUrl)
 		then: [ :document |
 			WorldState addDeferredUIMessage: [ self processDocument: document ].
 			self
-		].
+			].
+	
+	
