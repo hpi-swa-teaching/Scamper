@@ -26,7 +26,8 @@
 		"aStream",
 		"reloadAndStopButton",
 		"tabPaneVariable",
-		"currentTab" ],
+		"currentTab",
+		"optionsPanel" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],

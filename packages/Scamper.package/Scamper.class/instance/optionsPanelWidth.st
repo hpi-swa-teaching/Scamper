@@ -1,4 +1,4 @@
 menus
 optionsPanelWidth
 
-	^ 200.
+	^ 50.
