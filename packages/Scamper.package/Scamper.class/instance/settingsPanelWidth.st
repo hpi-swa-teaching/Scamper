@@ -1,4 +1,0 @@
-menus
-settingsPanelWidth
-
-	^ 200.

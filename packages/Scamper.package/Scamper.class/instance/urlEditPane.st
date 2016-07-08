@@ -48,9 +48,9 @@ urlEditPane
 		addMorphBack: reloadAndStopButton;
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleIconicButtonNamed: 'Settings' translated 
-					action: #reload
-					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconSettings) fullName))).	
+					simpleIconicButtonNamed: 'Options' translated 
+					action: #switchOptionsPanel 
+					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconOptions) fullName))).	
 					
 	paneURL acceptOnCR: true.
 	paneURL hideScrollBarsIndefinitely.

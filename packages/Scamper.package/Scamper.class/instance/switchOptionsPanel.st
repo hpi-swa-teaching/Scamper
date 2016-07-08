@@ -1,5 +1,5 @@
 menus
-switchSettingsPanel
+switchOptionsPanel
 	
 	| pane northEastPosition |
 	
