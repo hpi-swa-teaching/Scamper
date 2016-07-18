@@ -21,6 +21,10 @@ optionsPanelButtonPaneWithPosition: aPosition
 						action:  #visitBookmarksPage  
 						withIcon: ((ImageReadWriter formFromFileNamed:  
 							(FileDirectory uri: self iconBookmark) fullName)));
+		addMorph: (self simpleIconicButtonNamed: 'Add Site as a Bookmark' translated 
+						action: #addToBookmark   
+						withIcon: ((ImageReadWriter formFromFileNamed:
+						(FileDirectory uri: self iconAddBookmark) fullName)));
 		addMorph: (self simpleIconicButtonNamed: 'History' translated 
 						action: #visitHistoryPage  
 						withIcon: ((ImageReadWriter formFromFileNamed:  

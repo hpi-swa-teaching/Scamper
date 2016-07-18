@@ -12,8 +12,8 @@ test58furtherOptionsButtons
 	
 	"Check whether Scamper is loading the two iconicButtons into the AlignmentMorph"
 	optionsPanelInnerAlignmentBoxChildren := optionsPanelInnerAlignmentBox submorphs.
-	"It should cotain 2 IconicButtons"
-	self assert: (optionsPanelInnerAlignmentBoxChildren size = 2).
+	"It should cotain 3 IconicButtons"
+	self assert: (optionsPanelInnerAlignmentBoxChildren size = 3).
 	optionsPanelInnerAlignmentBoxChildren do: [ :element | self assert:( element isKindOf: IconicButton)].
 	
 	

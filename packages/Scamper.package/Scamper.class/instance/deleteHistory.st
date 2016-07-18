@@ -4,4 +4,5 @@ deleteHistory
 
 	recentDocuments := nil.
 	self jumpToAbsoluteUrlAsync: 'browser:history'.
+	^ true.
 	

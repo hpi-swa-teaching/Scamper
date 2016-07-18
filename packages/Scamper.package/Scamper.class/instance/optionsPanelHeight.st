@@ -1,4 +1,4 @@
 menus
 optionsPanelHeight
 
-	^ 90.
+	^ 120.
