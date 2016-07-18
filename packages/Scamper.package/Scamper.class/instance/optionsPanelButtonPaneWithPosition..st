@@ -18,7 +18,7 @@ optionsPanelButtonPaneWithPosition: aPosition
 	
 	pane
 		addMorph: (self simpleIconicButtonNamed: 'Bookmarks' translated
-						action:  #bookmarks 
+						action:  #visitBookmarksPage  
 						withIcon: ((ImageReadWriter formFromFileNamed:  
 							(FileDirectory uri: self iconBookmark) fullName)));
 		addMorph: (self simpleIconicButtonNamed: 'History' translated 
