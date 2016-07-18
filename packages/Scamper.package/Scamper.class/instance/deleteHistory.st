@@ -2,7 +2,6 @@ menus
 deleteHistory
 	"Let the user select a previous page to view."
 
-	recentDocuments := nil.
-	self jumpToAbsoluteUrlAsync: 'browser:history'.
-	^ true.
-	
+	self recentDocuments: nil.
+	self recentDocuments: OrderedCollection new.
+	^self historyHTML
