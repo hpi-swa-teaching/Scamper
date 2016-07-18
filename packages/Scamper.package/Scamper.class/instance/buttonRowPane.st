@@ -4,7 +4,6 @@ buttonRowPane
 
 	| buttonRow |
 	
-	
 	buttonRow := (AlignmentMorph new)
 				borderWidth: 0;
 				layoutInset: 0;
