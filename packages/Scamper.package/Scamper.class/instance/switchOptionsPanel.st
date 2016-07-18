@@ -1,5 +1,5 @@
 menus
-openOptionsPanel
+switchOptionsPanel
 "Opens up on click a panel with several option buttons."
 	
 	optionsPanel := (RectangleMorph new)

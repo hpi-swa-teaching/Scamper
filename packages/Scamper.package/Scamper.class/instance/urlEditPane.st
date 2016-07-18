@@ -49,7 +49,7 @@ urlEditPane
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleIconicButtonNamed: 'Options' translated 
-					action: #openOptionsPanel 
+					action: #switchOptionsPanel 
 					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconOptions) fullName))).	
 					
 	paneURL acceptOnCR: true.
