@@ -4,7 +4,9 @@ statusPane
 
 	| pane |
 	
-	pane := PluggableTextMorph on: self text: #status accept: nil.
+	pane := (PluggableTextMorph on: self text: #status accept: nil)
+			borderWidth: 0;
+			color: (Color transparent).
 	pane hideScrollBarsIndefinitely.
 	
 	^ pane.

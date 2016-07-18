@@ -11,11 +11,24 @@ historyHTML
 <title>{1}</title>
 </head>
 <body>
-<h1>{2}</h1>
+<h1>{1}</h1>
+<table>
+<tr>
+<td>
+<h3>{4}</h3>
 <ul>', historyList, 
 '</ul>
+</td>
+<td>
+<h3>{2}</h3>
+<a href="browser:deleteHistory">{3}<a/>
+</td>
+</tr>
+</table>
 </body>
 </html>' format:{
 	'History' translated.
-	'History' translated.
+	'Options' translated.
+	'Delete History' translated.
+	'Recently visited pages' translated.
 	}

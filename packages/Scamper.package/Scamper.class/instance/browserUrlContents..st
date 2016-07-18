@@ -10,6 +10,9 @@ browserUrlContents: aRequest
 	aRequest = 'history' ifTrue: [
 		^MIMEDocument contentType: 'text/html' content: self historyHTML ].
 	
+	aRequest = 'deleteHistory' ifTrue: [
+		^MIMEDocument contentType: 'text/html' content: self deleteHistory].
+	
 	aRequest = 'bookmarks' ifTrue: [
 		^MIMEDocument contentType: 'text/html' content: self bookmarksHTML ].
 	
