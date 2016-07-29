@@ -5,7 +5,7 @@ Scamper Web Browser [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Scam
 
 Please visit our [wiki](https://github.com/HPI-SWA-Teaching/Scamper/wiki) for [documentation](https://github.com/HPI-SWA-Teaching/Scamper/wiki#how-to-use-this-wiki) and [FAQ](https://github.com/HPI-SWA-Teaching/Scamper/wiki#faq)
 
-##Screenshot of the curent version
+##Screenshot of the current version
 ![screenshot](https://raw.githubusercontent.com/HPI-SWA-Teaching/Scamper/dev/tests/scamper.png)
 
 ##Third Party Credits
