@@ -1,4 +1,4 @@
 changing page
 isInternBrowserUrl: aUrl
 
-	^('browser:*' match: aUrl asString).
+	^ ('browser:*' match: aUrl asString).

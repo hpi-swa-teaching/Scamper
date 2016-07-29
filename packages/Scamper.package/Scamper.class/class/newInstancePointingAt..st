@@ -5,5 +5,5 @@ newInstancePointingAt: aStringOrUrl
 		Scamper newInstancePointingAt: 'file://C%3A/test.htm'
 	"
 
-	^ (self new
-		jumpToUrlAsync: aStringOrUrl asUrl) morphicWindow applyModelExtent
+	
+		^ (self new jumpToUrlAsync: aStringOrUrl asUrl) morphicWindow applyModelExtent

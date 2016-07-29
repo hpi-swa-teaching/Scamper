@@ -1,0 +1,4 @@
+accessing
+keyCharacter
+
+	^ keyString

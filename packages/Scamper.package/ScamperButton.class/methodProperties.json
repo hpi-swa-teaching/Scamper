@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"changeBetweenReloadAndStopWithState:" : "MR 7/3/2016 20:54",
+		"iconCancel" : "MR 7/3/2016 19:54",
+		"iconRefresh" : "MR 7/3/2016 19:54",
+		"initialize" : "MR 7/3/2016 20:39",
+		"labelGraphic" : "MR 7/3/2016 17:18",
+		"labelGraphic:" : "MR 7/3/2016 20:36",
+		"labelInfo" : "MR 7/3/2016 17:40",
+		"labelInfo:" : "MR 7/3/2016 17:40",
+		"on:action:Icon:labelInfo:" : "MR 7/3/2016 18:48",
+		"selfChangeAction:Icon:labelInfo:" : "MR 7/3/2016 20:51" } }

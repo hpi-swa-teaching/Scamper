@@ -3,14 +3,15 @@ downloadFromUrlAsync: aUrl withMethod: method andInputs: inputs andEncoding: enc
 	"Submit the given form with the provided inputs, url, method, and encoding"
 
 	| promise downloadWork client resp|
+	
 	promise := Promise new.
 	
 	downloadWork := [	| newSource |
 		newSource := method asLowercase = 'get'
 			ifTrue: [
-					client := WebClient new;
-					userAgent: Scamper userAgent.
-					resp := client httpGet: aUrl do:[:req].
+					client := WebClient new.
+					client userAgent: Scamper userAgent.
+					resp := client httpGet: aUrl asString do:[:req].
 					resp content; close ]
 			ifFalse:
 				[ encoding = MIMEDocument contentTypeMultipart
@@ -22,5 +23,5 @@ downloadFromUrlAsync: aUrl withMethod: method andInputs: inputs andEncoding: enc
 	
 	downloadingProcess := downloadWork forkAt: Processor userBackgroundPriority.
 	
-	^ promise
+	^ promise.
 		

@@ -5,7 +5,7 @@ test04testRealWorldCookies
 
 	| oldCookies |
 
-	Scamper longtimeCookies: OrderedCollection new.
+	"Scamper longtimeCookies: OrderedCollection new.
 
 	(scamper model jumpToUrlAsync: 'google.de' asUrl) wait.
 	self assert: (Scamper longtimeCookies size) equals: 2.
@@ -14,6 +14,6 @@ test04testRealWorldCookies
 	
 	(scamper model jumpToUrlAsync: 'google.de' asUrl) wait.
 	self assert: (Scamper longtimeCookies size) equals: 2.
-	self assert: Scamper longtimeCookies equals: oldCookies.
+	self assert: Scamper longtimeCookies equals: oldCookies."
 	
 	

@@ -9,7 +9,7 @@ parseContents: aStream
 
 	(out contents beginsWith: '<![CDATA[') 
 		ifTrue: [cdStart := aStream position]
-		ifFalse: [self halt]. "I musta messed up something here"
+		ifFalse: [self error: 'I musta messed up something here'].
 
 	[(out contents endsWith: ']]>') or: [aStream atEnd]] whileFalse: [out nextPut: aStream next].
 

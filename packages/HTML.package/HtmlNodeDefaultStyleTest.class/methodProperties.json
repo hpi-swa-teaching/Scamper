@@ -9,7 +9,7 @@
 		"styleResolver:" : "SS 6/28/2014 19:38",
 		"test01EmphasizedTextShouldBeItalic" : "SS 6/28/2014 19:41",
 		"test02StrongTextShouldBeBold" : "SS 6/28/2014 19:42",
-		"test03DefinitionShouldBeItalicAndTimes" : "SS 6/28/2014 19:53",
+		"test03DefinitionShouldBeItalicAndTimes" : "MR 5/25/2016 22:47",
 		"test04CodeShouldBeCourierNew" : "SS 6/28/2014 20:50",
 		"test05OutputShouldBeGeorgia" : "SS 6/28/2014 20:49",
 		"test06InputShouldBeTrebuchetMS" : "SS 6/29/2014 18:14",

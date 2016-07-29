@@ -6,7 +6,6 @@ simpleButtonNamed: buttonLabel action: selector text: balloonText
 		label: buttonLabel;
 		target: self;
 		color: Color transparent;
-		cornerStyle: #rounded;
 		borderColor: Color black;
 		actionSelector: selector;
 		actWhen: #buttonUp;

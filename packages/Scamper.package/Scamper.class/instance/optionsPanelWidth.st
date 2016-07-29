@@ -1,0 +1,4 @@
+menus
+optionsPanelWidth
+
+	^ 50.

@@ -1,3 +1,3 @@
 button text
 bookmarkButtonText
-	^ 'Display a list of bookmarks' translated
+	^ 'Display a list of bookmarks' translated.

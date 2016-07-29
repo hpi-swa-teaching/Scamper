@@ -4,7 +4,7 @@ displayDocument: mimeDocument
 	|  handled  urlString |
 	handled := false.
 
-	Transcript show: mimeDocument contentType; cr. 
+	
 
 	"add it to the history"
 "	recentDocuments removeAllSuchThat: [ :d | d url = mimeDocument url ]."
@@ -12,7 +12,7 @@ displayDocument: mimeDocument
 		ifTrue: [recentDocuments addLast: mimeDocument].
 "		ifFalse: [recentDocuments removeAt: currentUrlIndex]."
 	recentDocuments size > 20 ifTrue: [ recentDocuments removeFirst ].
-		
+	
 	mimeDocument mainType = 'image' 
 		ifTrue: [handled := self displayImagePage: mimeDocument].
 

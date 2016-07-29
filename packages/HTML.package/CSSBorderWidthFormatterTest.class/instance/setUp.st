@@ -1,3 +1,3 @@
 running
 setUp
-	self formatter: CSSBorderFormatter new
+	self formatter: CSSBorderWidthFormatter new

@@ -1,3 +1,4 @@
 button text
 stopButtonText
-	^ 'Stop loading page' translated
+
+	^ 'Stop loading page' translated.
