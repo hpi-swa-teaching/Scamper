@@ -3,4 +3,6 @@
 		 },
 	"instance" : {
 		"saveScreenshotOf:toFile:" : "wg 7/17/2015 00:56",
-		"test01TakeScreenshotOfGoogleOpenedInScamper" : "MR 6/22/2016 21:20" } }
+		"setUp" : "MR 7/29/2016 22:08",
+		"tearDown" : "MR 7/29/2016 22:08",
+		"test01TakeScreenshotOfGoogleOpenedInScamper" : "MR 7/29/2016 22:12" } }

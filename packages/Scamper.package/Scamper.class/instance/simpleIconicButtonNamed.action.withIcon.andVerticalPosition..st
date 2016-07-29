@@ -1,5 +1,5 @@
 window definition
-simpleIconicButtonNamed: buttonLabel action: selector withIcon: iconForm
+simpleIconicButtonNamed: buttonLabel action: selector withIcon: iconForm andVerticalPosition: aVerticalPosition
 	"Create and return a simple button with Scamper as the target."
 
 	
@@ -10,7 +10,7 @@ simpleIconicButtonNamed: buttonLabel action: selector withIcon: iconForm
 		color: Color transparent;
 		borderWidth: 0;
 		extent: 35@35;
-		"position: (50@50);"
+		position: (50@50);
 		actionSelector: selector;
 		actWhen: #buttonUp;
 		yourself

@@ -15,6 +15,8 @@ morphicWindow
 	
 	self initializeTabs.
 	
+	window openInWorld.
+	
 	^ window.
 		
 	
