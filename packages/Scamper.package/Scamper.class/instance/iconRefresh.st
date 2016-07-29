@@ -1,0 +1,4 @@
+window definition
+iconRefresh
+	
+	^('Scamper/scamper-icons/png/reload-w24-h24.png')

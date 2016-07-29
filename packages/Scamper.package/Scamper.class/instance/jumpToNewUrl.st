@@ -4,4 +4,4 @@ jumpToNewUrl
 	| newUrl |
 	newUrl := FillInTheBlank request: 'url to visit' translated initialAnswer: currentUrl asString.
 	(newUrl isNil or: [ newUrl isEmpty ]) ifTrue: [ ^self ].
-	self jumpToAbsoluteUrlAsync: newUrl
+	self jumpToAbsoluteUrlAsync: newUrl.

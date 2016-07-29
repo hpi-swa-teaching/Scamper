@@ -1,12 +1,10 @@
 language: smalltalk
-sudo: false
+sudo: true
 
 smalltalk:
-  - Squeak-trunk
   - Squeak-5.0
   - Squeak-4.6
-  - Squeak-4.5
-
+  
 env:
    global:
      secure: PkDb5LAmq3k4O4wXLPhCq5GdlEBjaMJ8B7sAK36Rb9rg223OBYs8I+mTp9TB1O5DVu+4Q5o5EUmG5+lkiPINzXcDyPMpnw9zx7kZdA4LaiBpeiVtKH/2+t5hgD4KDWkXYdoINuIahOZsZcKzlibQ1aDcXN61A1qzQAo9BT4CbbU=
@@ -14,6 +12,7 @@ env:
 install:
    - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
    - $TRAVIS_BUILD_DIR/build-support/copyfonts.sh
+   - $TRAVIS_BUILD_DIR/build-support/copyicons.sh
 
 after_success:
    - $TRAVIS_BUILD_DIR/build-support/screenshots.sh

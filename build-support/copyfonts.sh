@@ -1,3 +1,9 @@
-mkdir -p -v ${BUILD_PATH}/travisCI/Scamper/fonts
-cp -R -v $PROJECT_HOME/build-support/fonts ${BUILD_PATH}/travisCI/Scamper/
-chmod -R 777 ${BUILD_PATH}/travisCI/Scamper/fonts/*
+mkdir -p /home/travis/smalltalkCI-master/_builds/Scamper/fonts
+pwd
+if ![[-d $TRAVIS_BUILD_DIR/build-support/fonts/ ]]
+	then
+		echo "font dir not exists."
+fi
+
+cp -R $TRAVIS_BUILD_DIR/build-support/fonts/* /home/travis/smalltalkCI-master/_builds/Scamper/fonts
+chmod -R 777 /home/travis/smalltalkCI-master/_builds/Scamper/fonts/*

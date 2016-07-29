@@ -3,9 +3,11 @@ buttonRowPane
 	"Create and return a pane of navigation buttons."
 
 	| buttonRow |
+	
 	buttonRow := (AlignmentMorph new)
 				borderWidth: 0;
 				layoutInset: 0;
+				color:(Color transparent );
 				hResizing: #spaceFill;
 				wrapCentering: #center;
 				cellPositioning: #leftCenter;
@@ -13,37 +15,22 @@ buttonRowPane
 				addTransparentSpacerOfSize: 5 @ 0.
 	buttonRow
 		addMorphBack: (self 
-					simpleButtonNamed: 'Back' translated
-					action: #back
-					text: self backButtonText);
-		addTransparentSpacerOfSize: 5 @ 0;
-		addMorphBack: (self 
-					simpleButtonNamed: 'Forward' translated
-					action: #forward
-					text: self forwardButtonText);
-		addTransparentSpacerOfSize: 5 @ 0;
-		addMorphBack: (self 
 					simpleButtonNamed: 'History' translated
-					action: #displayHistory
+					action: #visitHistoryPage
 					text: self historyButtonText);
-addTransparentSpacerOfSize: 5 @ 0;
+		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
 					simpleButtonNamed: 'Bookmark' translated
-					action: #bookmark
+					action: #visitBookmarksPage
 					text: self bookmarkButtonText);
 		addTransparentSpacerOfSize: 5 @ 0;
 		addMorphBack: (self 
-					simpleButtonNamed: 'Reload' translated
-					action: #reload
-					text: self reloadButtonText);
-		addTransparentSpacerOfSize: 5 @ 0;
-		addMorphBack: (self 
-					simpleButtonNamed: 'Home' translated
-					action: #visitStartPage
-					text: self homeButtonText);
-		addTransparentSpacerOfSize: 5 @ 0;
-		addMorphBack: (self 
-					simpleButtonNamed: 'Stop!' translated
+					simpleIconicButtonNamed: 'Stop'
 					action: #stopEverything
-					text: self stopButtonText).
+					withIcon:  ((ImageReadWriter formFromFileNamed:  (FileDirectory uri: self iconCancel) fullName)));
+		addTransparentSpacerOfSize: 5 @ 0;
+		addMorphBack: (self 
+					simpleButtonNamed: 'Tabs' translated
+					action: #showTabs
+					text: self openNewTabText).
 	^buttonRow

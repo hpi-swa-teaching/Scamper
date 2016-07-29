@@ -1,7 +1,9 @@
 start page
 startPage
 	"return the contents of the user's personal start page"
+	
 	| file |
+	
 	file := FileStream oldFileOrNoneNamed: 'StartPage.html'.
 	file 
 		ifNil: [ ^'<title>{1}</title>

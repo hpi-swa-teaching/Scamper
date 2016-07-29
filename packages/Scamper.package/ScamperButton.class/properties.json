@@ -1,0 +1,16 @@
+{
+	"category" : "Scamper-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"labelGraphic",
+		"labelInfo" ],
+	"name" : "ScamperButton",
+	"pools" : [
+		 ],
+	"super" : "IconicButton",
+	"type" : "normal" }

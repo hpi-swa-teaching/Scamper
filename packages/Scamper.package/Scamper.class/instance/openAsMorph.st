@@ -1,4 +1,4 @@
 creation
 openAsMorph
 
-	^self morphicWindow openInWorld
+	^ self morphicWindow asMorph. 

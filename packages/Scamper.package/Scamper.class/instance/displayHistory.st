@@ -1,6 +1,6 @@
 menus
 displayHistory
-	"Let the user selecet a previous page to view."
+	"Let the user select a previous page to view."
 
 	| menu |
 	menu := MenuMorph entitled: 'Recent URLs' translated.
