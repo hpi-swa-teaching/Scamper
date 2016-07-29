@@ -12,6 +12,7 @@ env:
 install:
    - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
    - $TRAVIS_BUILD_DIR/build-support/copyfonts.sh
+   - $TRAVIS_BUILD_DIR/build-support/copyicons.sh
 
 after_success:
    - $TRAVIS_BUILD_DIR/build-support/screenshots.sh
