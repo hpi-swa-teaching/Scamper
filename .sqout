@@ -1,0 +1,5 @@
+OrderedDictionary {
+	'packages\/BaselineOfScamper.package' : #SquotCypressCodeSerializer,
+	'packages\/HTML.package' : #SquotCypressCodeSerializer,
+	'packages\/Scamper.package' : #SquotCypressCodeSerializer
+}
