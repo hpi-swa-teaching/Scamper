@@ -1,7 +1,7 @@
 menus
 addToBookmark
 	| key value file filename |
-	key := self document head title ifNil: ['Untitled' translated].
+	key := self titleOf: document.
 	value := self currentUrl.
 	filename := key,'.lin'.
 	bookDir deleteFileNamed: filename. 
