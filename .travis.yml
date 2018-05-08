@@ -1,3 +1,5 @@
+notification:
+  email: false
 language: smalltalk
 sudo: false
 
