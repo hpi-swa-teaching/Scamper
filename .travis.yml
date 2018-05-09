@@ -1,5 +1,6 @@
-notification:
+notifications:
   email: false
+  slack: hpi16:WwKwp8VWezeuIiWz2rtpZ6e0
 language: smalltalk
 sudo: false
 
