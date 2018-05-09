@@ -2,8 +2,7 @@ testing
 test01TakeScreenshotOfGoogleOpenedInScamper
 	| scamper |
 	
-	self assert: true.
-	"<timeout:20>
+	<timeout:20>
 	scamper := (Scamper openOnUrlAsync: 'http://google.com/en' asUrl) wait.
 	scamper owner runStepMethods.
 	(Delay forSeconds: 5) wait.
@@ -13,4 +12,4 @@ test01TakeScreenshotOfGoogleOpenedInScamper
 		[ self saveScreenshotOf: scamper toFile: 'scamper.png' ].
 		
 	scamper ifNotNilDo: [ :s | s delete ].
-	self assert: true"
+	self assert: true
