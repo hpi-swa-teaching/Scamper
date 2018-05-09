@@ -18,9 +18,11 @@ test01jumpToRelativeUrl
 	].
 
 	(scamper model jumpToAbsoluteUrlAsync: ('http://localhost:', port asString, '/')) wait.
+	1 second asDelay wait.
 	scamper owner runStepMethods.
 	
 	(scamper model jumpToUrlAsync: 'relative_page') wait.
+	1 second asDelay wait.
 	scamper owner runStepMethods.
 	
 	self assert: (scamper model currentUrl asString) = ('http://localhost:', port asString, '/relative_page').

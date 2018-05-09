@@ -1,11 +1,11 @@
 initialize-release
 test08AddBookmark
 	| url |
-	url := 'http://google.de'.
+      [url := 'http://google.de'.
 	(scamper model jumpToAbsoluteUrlAsync: url) wait.
-	ActiveWorld doOneCycle.
+	1 second asDelay wait. "wait for one world cycle"
 	scamper model addToBookmark.
 	self assert: 
 		(scamper model bookmarks keys contains: [ :bm | 
-			^ bm = 'Google'
-		]).
+			bm = 'Google'
+		])] on: Error do: [:e | Transcript showln: e]
