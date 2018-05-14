@@ -10,7 +10,7 @@ downloadFromUrlAsync: aUrl withMethod: method andInputs: inputs andEncoding: enc
 			ifTrue: [
 					client := WebClient new.
 					client userAgent: Scamper userAgent.
-					resp := client httpGet: (aUrl downloadUrl) do:[:req].
+					resp := client httpGet: (aUrl downloadUrl).
 					resp content; close ]
 			ifFalse:
 				[ encoding = MIMEDocument contentTypeMultipart
