@@ -3,7 +3,6 @@ submitAsync
 	"collect inputs and instruct the browser to do a submission"
 	| inputValues |
 	inputValues := Dictionary new.
-
 	inputs do: [ :input |
 		input active ifTrue: [
 			(inputValues includesKey: input name) ifFalse: [
