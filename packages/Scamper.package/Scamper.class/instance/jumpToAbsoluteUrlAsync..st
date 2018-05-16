@@ -5,7 +5,6 @@ jumpToAbsoluteUrlAsync: urlText
 	|  newUrl queryString |
 
 	self stopEverything.
-	self halt.
 	(self isSearchWords: urlText) 
 	ifTrue: [
 		queryString := '?' ,  (self makeQueryArg: urlText key: 'q').
