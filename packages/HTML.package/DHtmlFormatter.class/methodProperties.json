@@ -2,11 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
+		"decreaseFontBy:" : "bolot 5/18/2000 11:55",
 		"endFont:" : "bolot 5/18/2000 11:23",
+		"endHeader:" : "bolot 5/18/2000 12:01",
 		"endStyles" : "rs 5/18/2014 14:00:49.41",
 		"fontWith:and:" : "SN 6/28/2014 14:15",
+		"headerFont:" : "bolot 5/18/2000 12:00",
+		"increaseFontBy:" : "bolot 5/18/2000 11:50",
+		"lastFontSize" : "bolot 5/18/2000 11:55",
 		"parseTextAttributesFor:" : "SN 7/5/2014 12:22",
 		"parseTextStyleAttributesFor:in:" : "SN 6/28/2014 13:31",
+		"resetFont" : "bolot 5/18/2000 11:57",
 		"setAttributes" : "LaurentLaffont 2/26/2010 23:13",
 		"startFont:" : "rs 5/18/2014 13:53:54.124",
+		"startHeader:" : "bolot 5/18/2000 12:00",
 		"startStyles:" : "rs 6/7/2014 11:51:33.101" } }
