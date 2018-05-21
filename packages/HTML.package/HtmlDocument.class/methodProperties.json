@@ -1,14 +1,11 @@
 {
 	"class" : {
-		"emptyDocument" : "ls 7/23/1998 04:26" },
+		 },
 	"instance" : {
-		"addToBody:" : "djp 7/21/1998 18:38",
-		"addToHead:" : "djp 7/21/1998 18:37",
 		"addToHtmlMorph:" : "rs 6/28/2014 14:12:49.155",
 		"allStyles" : "tb 12/30/2005 20:49",
 		"applyStyles" : "fm 7/29/2015 18:56",
 		"associatedForm" : "rs 5/29/2014 23:11:28.394",
-		"body" : "djp 7/21/1998 18:28",
 		"content" : "tb 12/2/2005 20:38",
 		"content:" : "PK 10/18/2010 22:31",
 		"createImpliedNodes" : "tb 12/1/2005 00:24",
@@ -18,15 +15,9 @@
 		"dtd" : "tb 12/2/2005 09:39",
 		"dtdIsImplied" : "tb 1/4/2006 10:47",
 		"dtdIsImplied:" : "sebastian.sastre 9/20/2010 11:53",
-		"formattedText" : "bolot 5/18/2000 11:37",
-		"formattedTextForBrowser:defaultBaseUrl:" : "bolot 5/18/2000 11:37",
-		"formattedTextMorph" : "bolot 5/18/2000 11:37",
-		"formattedTextMorphForBrowser:defaultBaseUrl:" : "bolot 5/18/2000 11:37",
-		"head" : "djp 7/21/1998 18:28",
 		"isDocument" : "tb 12/2/2005 12:27",
 		"loader" : "tb 1/10/2006 08:50",
 		"loader:" : "sebastian.sastre 9/20/2010 11:51",
-		"mayContain:" : "ls 6/25/1998 02:57",
 		"mayContainTag:" : "tb 12/2/2005 11:02",
 		"parseContents:" : "SebastianSastre 1/15/2012 16:35",
 		"parseProcessingDirective:" : "tb 12/11/2005 21:10",
@@ -36,6 +27,5 @@
 		"responseUrl:" : "sebastian.sastre 9/20/2010 11:52",
 		"stylesheets" : "tb 12/30/2005 17:37",
 		"tag" : "tb 11/30/2005 11:52",
-		"tagName" : "ls 6/25/1998 02:06",
 		"uniqueId" : "tb 12/3/2005 13:52",
 		"url" : "tb 1/4/2006 14:35" } }

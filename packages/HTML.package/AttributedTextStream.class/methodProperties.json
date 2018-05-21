@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"new" : "LaurentLaffont 2/26/2010 21:42",
-		"new:" : "ul 8/15/2016 00:56" },
+		"new" : "LaurentLaffont 2/26/2010 21:42" },
 	"instance" : {
 		"contents" : "LaurentLaffont 2/26/2010 21:39",
 		"cr" : "ul 11/2/2010 21:51",
@@ -9,9 +8,7 @@
 		"currentAttributes" : "LaurentLaffont 2/26/2010 21:39",
 		"currentAttributes:" : "LaurentLaffont 2/26/2010 21:40",
 		"initialize" : "LaurentLaffont 2/26/2010 21:40",
-		"initialize:" : "ul 8/15/2016 00:56",
 		"lf" : "ul 11/2/2010 21:45",
-		"next:putAll:startingAt:" : "ul 8/14/2016 20:38",
 		"nextPut:" : "LaurentLaffont 2/26/2010 21:41",
 		"nextPutAll:" : "LaurentLaffont 2/26/2010 21:41",
 		"size" : "LaurentLaffont 2/26/2010 21:41",
