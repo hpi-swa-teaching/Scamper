@@ -20,7 +20,8 @@
 		"webPageMorph",
 		"sessionCookies",
 		"content",
-		"webClient" ],
+		"webClient",
+		"searchEngineUrl" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],
