@@ -5,3 +5,4 @@ initialize
 	self StartUrl: 'browser:about'.
 	FileList registerFileReader: self.
 	WebBrowser register: self.
+	TheWorldMenu registerOpenCommand: {'Scamper'. {self. #open}}.
