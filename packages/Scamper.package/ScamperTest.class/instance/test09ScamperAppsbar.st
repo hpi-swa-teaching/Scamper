@@ -1,10 +1,10 @@
 initialize-release
 test09ScamperAppsbar 
 
-	| test |
+	| appList |
 	
 	Scamper install.
-	test := TheWorldMenu registeredOpenCommands.
-	test isKindOf: Collection.
+	appList := TheWorldMenu registeredOpenCommands.
+	appList isKindOf: Collection.
 	self assert: 
-		(test contains: [ :each| each = {'Scamper' . {Scamper . #open}} ]).
+		(appList contains: [ :each| each = {'Scamper' . {Scamper . #open}} ]).
