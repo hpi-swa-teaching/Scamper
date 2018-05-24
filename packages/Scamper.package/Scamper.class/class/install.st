@@ -1,3 +1,3 @@
 initialization
 install 
-	TheWorldMenu registerOpenCommand: {'Scamper'. {self class. #open}}.
+	TheWorldMenu registerOpenCommand: {'Scamper'. {self. #open}}.
