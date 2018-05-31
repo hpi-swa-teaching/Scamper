@@ -3,7 +3,7 @@ processBackgroundImage: aUrl at: aPosition
 	| absoluteUrl |
 	aUrl ifNil: [ ^ self ].
 	
-	absoluteUrl := aUrl.
+	absoluteUrl := aUrl asUrl.
 	(aUrl asString beginsWith: 'http') 
 		ifFalse: [ absoluteUrl := aUrl asUrlRelativeTo: self node document url ].
 
