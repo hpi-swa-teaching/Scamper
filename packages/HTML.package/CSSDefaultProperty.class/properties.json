@@ -1,0 +1,14 @@
+{
+	"category" : "HTML-CSS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "KD 6/2/2018 19:06",
+	"instvars" : [
+		 ],
+	"name" : "CSSDefaultProperty",
+	"pools" : [
+		 ],
+	"super" : "CSSProperty",
+	"type" : "normal" }
