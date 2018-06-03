@@ -1,4 +1,4 @@
-initialize-release
+as yet unclassified
 test03DocumentWithoutTitleTagShouldntRaiseErrors
 	| document |
 
