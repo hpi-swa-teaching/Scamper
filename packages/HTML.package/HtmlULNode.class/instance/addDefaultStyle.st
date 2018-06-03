@@ -6,4 +6,4 @@ addDefaultStyle
 		'list-style-type' -> 'disc'.
 		'margin' -> '1em 0'.
 	}.
-	self addStyle: (CSSStyleRule fromDictionary: styles)"
+	self addStyle: (CSSDefaultStyleRule fromDictionary: styles)"
