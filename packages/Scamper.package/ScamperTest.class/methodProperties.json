@@ -2,15 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "fm 7/29/2015 19:03",
+		"setUp" : "KD 6/3/2018 20:44",
 		"tearDown" : "fm 7/29/2015 18:25",
-		"test00Open" : "fm 7/29/2015 19:08",
 		"test01jumpToRelativeUrl" : "KD 5/29/2018 14:34",
 		"test02submitForm" : "wg 7/16/2015 11:41",
-		"test03DocumentWithoutTitleTagShouldntRaiseErrors" : "wg 7/16/2015 11:41",
 		"test04testRealWorldCookies" : "KD 5/29/2018 14:50",
-		"test05isUrl" : "fm 7/29/2015 18:50",
-		"test06isInternBrowser" : "fm 7/29/2015 18:51",
-		"test07intializeMIMEDatabase" : "fm 7/29/2015 19:00",
-		"test08AddBookmark" : "ML 5/9/2018 17:27",
-		"test09ScamperAppsbar" : "LL 5/23/2018 16:20" } }
+		"test08AddBookmark" : "ML 5/9/2018 17:27" } }
