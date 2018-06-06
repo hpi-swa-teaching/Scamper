@@ -7,4 +7,4 @@ addDefaultStyle
 		'font-weight' -> 'bold'.
 		'margin' -> '.67em 0'
 	}.
-	self addStyle: (CSSStyleRule fromDictionary: styles)
+	self addStyle: (CSSDefaultStyleRule fromDictionary: styles)
