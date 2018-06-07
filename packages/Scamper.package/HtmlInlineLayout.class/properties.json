@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"margin",
-		"padding",
+		"textAlign",
 		"float" ],
-	"name" : "HtmlBoxLayout",
+	"name" : "HtmlInlineLayout",
 	"pools" : [
 		 ],
 	"super" : "LayoutPolicy",
