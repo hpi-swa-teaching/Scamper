@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"setUp" : "KD 6/18/2018 14:09",
 		"test03DocumentWithoutTitleTagShouldntRaiseErrors" : "KD 6/3/2018 20:54",
 		"test05isSearchWords" : "KD 6/3/2018 20:51",
 		"test05isUrl" : "KD 6/3/2018 20:53",
