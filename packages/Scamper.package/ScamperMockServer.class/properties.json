@@ -1,0 +1,14 @@
+{
+	"category" : "Scamper-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ScamperMockServer",
+	"pools" : [
+		 ],
+	"super" : "WebServer",
+	"type" : "normal" }
