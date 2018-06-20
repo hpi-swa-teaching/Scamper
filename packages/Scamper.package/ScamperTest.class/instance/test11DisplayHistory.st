@@ -2,11 +2,14 @@ initialize-release
 test11DisplayHistory
 
 
-	"| test test2 |
-	test   := MIMEDocument contentType: 'text/html' content: 'test' url:'test.de'.
-	test2 := MIMEDocument contentType: 'text/html' content: 'test2' url: 'test2.com'.
-	scamper model recentDocuments add: test.
-	scamper model recentDocuments add: test2.
+	| mock |
+	mock   := MIMEDocument contentType: 'text/html' content: 'test' url:'test.de'.
+	scamper model recentDocuments add: mock.
 	scamper model displayHistory.
-	self assert: (scamper model menuHistory contains:  test)"
-	self assert: true
+	scamper model menuHistory delete.
+	self assert: (scamper model menuHistory submorphs anySatisfy: [:submorph | 
+		(submorph isKindOf: MenuItemMorph) ifTrue: [^ submorph contents = mock url].
+		^ False]).
+	self assert: (scamper model menuHistory submorphs noneSatisfy: [:submorph | 
+		(submorph isKindOf: MenuItemMorph) ifTrue: [^ submorph contents = 'test2.de'].
+		^ True]).
