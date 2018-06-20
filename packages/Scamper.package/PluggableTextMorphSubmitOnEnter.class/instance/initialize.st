@@ -1,5 +1,5 @@
 as yet unclassified
 initialize 
 	super initialize.
-	self textMorph ifNil: [ Transcript show: 'Text Morph is nil'. 1 second asDelay wait ].
+	self setText: ''. "compatability for squeak < 5.0"
 	self acceptOnCR: true.
