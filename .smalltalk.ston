@@ -6,5 +6,10 @@ SmalltalkCISpec {
       #load : [ 'tests' ],
       #platforms : [ #squeak ]
     }
-  ]
+  ],
+  #testing : {
+    #coverage : {
+      #packages : [ 'Scamper*', 'HTML*' ]
+    }
+  }
 }
