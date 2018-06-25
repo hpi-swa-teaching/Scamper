@@ -18,5 +18,5 @@ submitFormWithInputsAsync: inputs url: url method: method encoding: encoding
 	
 	^ (self downloadFromUrlAsync: newUrl withMethod: method andInputs: inputs andEncoding: encoding)
 		then: [ :document |
-			WorldState addDeferredUIMessage: [ self processDocument: document ].
+			WorldState addDeferredUIMessage: [ self processDocument: (MIMEDocument contentType: 'text/html' content: (document content) url: newUrl)].
 			self ]

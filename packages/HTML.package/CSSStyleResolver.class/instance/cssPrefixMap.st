@@ -14,6 +14,7 @@ cssPrefixMap
 			'margin' -> CSSMarginFormatter new.
 			'border' -> CSSBorderWidthFormatter new.
 			'position' -> CSSPositionFormatter new.
+			'float' -> CSSPositionFormatter new.
 			'height' -> sizeFormatter.
 			'width' -> sizeFormatter.
 		}]

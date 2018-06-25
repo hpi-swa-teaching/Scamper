@@ -3,7 +3,7 @@ downloadFromUrlAsync: aUrl
 	| promise downloadWork handled|
 	promise := Promise new.
 	handled := false.
-
+	
 	downloadWork := [ | newSource |
 		
 		"webpage"

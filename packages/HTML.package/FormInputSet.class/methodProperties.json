@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"forForm:" : "rs 5/30/2014 15:25:00.848" },
+		"forForm:" : "rs 5/30/2014 15:25:00.848",
+		"forForm:andBrowser:" : "ls 7/16/1998 22:01" },
 	"instance" : {
 		"addInput:" : "ls 8/5/1998 03:57",
 		"browser" : "rs 5/30/2014 15:22:38.872",
 		"form:" : "rs 5/30/2014 15:25:36.328",
+		"form:browser:" : "ls 8/5/1998 03:57",
 		"initialize" : "rs 5/30/2014 15:25:47.98",
 		"inputs" : "ls 8/11/1998 03:30",
 		"morph:" : "rs 5/30/2014 15:26:08.476",
 		"reset" : "ls 8/5/1998 03:58",
-		"submitAsync" : "rs 5/30/2014 15:41:41.972" } }
+		"submit" : "bolot 11/3/1999 03:09",
+		"submitAsync" : "KD 6/25/2018 17:33" } }

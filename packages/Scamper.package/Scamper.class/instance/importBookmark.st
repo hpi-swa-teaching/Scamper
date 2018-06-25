@@ -6,7 +6,7 @@ importBookmark
 	(FileDirectory new directoryExists: newDirectory)
 		ifTrue:[importLinks := self makeBookmark: (FileDirectory on: newDirectory).
 				importLinks isEmpty 
-					ifFalse:[importLinks associationsDo:[:ass | bookmark add: ass.
+					ifFalse:[importLinks associationsDo:[:ass | self bookmarks add: ass.
 							(ass value isKindOf: Dictionary)
 								ifTrue:[self createBookmarkFiles: bookDir dict: ass value dirname: ass key]
 								ifFalse:[filename := ass key,'.lin'.

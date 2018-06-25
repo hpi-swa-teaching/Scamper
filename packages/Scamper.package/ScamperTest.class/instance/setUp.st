@@ -1,4 +1,4 @@
 initialize-release
 setUp
 
-	scamper := Scamper open.
+	scamper := Scamper openOnUrl: 'browser:about'.
