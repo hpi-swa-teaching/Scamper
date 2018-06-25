@@ -8,15 +8,10 @@ downloadFromUrlAsync: aUrl withMethod: method andInputs: inputs andEncoding: enc
 	downloadWork := [	| newSource |
 		newSource := method asLowercase = 'get'
 			ifTrue: [
-					urlWithArgs := (aUrl downloadUrl) asText.
-					urlWithArgs append: '?'.
-					"build url with input"
-					inputs keysAndValuesDo: [:k :v |
-						urlWithArgs append: (self makeQueryArg: (v asArray first) key: k ).
-						urlWithArgs append: '&'.
-						].
+					
 					client := WebClient new.
 					client userAgent: Scamper userAgent.
+					urlWithArgs := self buildUrlStringFrom: aUrl WithFormInput: inputs.
 					resp := client httpGet: urlWithArgs asString.
 					resp content; close ]
 			ifFalse:
