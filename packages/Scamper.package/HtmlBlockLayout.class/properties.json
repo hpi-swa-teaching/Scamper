@@ -9,7 +9,7 @@
 		"margin",
 		"padding",
 		"float" ],
-	"name" : "HtmlBoxLayout",
+	"name" : "HtmlBlockLayout",
 	"pools" : [
 		 ],
 	"super" : "LayoutPolicy",
