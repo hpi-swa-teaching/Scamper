@@ -21,7 +21,8 @@
 		"sessionCookies",
 		"content",
 		"webClient",
-		"searchEngineUrl" ],
+		"searchEngineUrl",
+		"menuHistory" ],
 	"name" : "Scamper",
 	"pools" : [
 		 ],

@@ -6,5 +6,6 @@ attributeMap
 			'top'				-> 	[ :aProperty :aContext | self put: aProperty propertyString at: #top to: aContext ].
 			'right'				-> 	[ :aProperty :aContext | self put: aProperty propertyString at: #right to: aContext ].
 			'bottom'			-> 	[ :aProperty :aContext | self put: aProperty propertyString at: #bottom to: aContext ].
-			'left'				-> 	[ :aProperty :aContext | self put: aProperty propertyString at: #left to: aContext ]
+			'left'				-> 	[ :aProperty :aContext | self put: aProperty propertyString at: #left to: aContext ].
+			'float'				->  [  :aProperty :aContext | self put: aProperty propertyString at: #float to: aContext ].
 		}]
