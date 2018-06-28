@@ -13,4 +13,4 @@ test01SupportedDisplayValuesShouldBeParsedCorrectly
 		self displayFormatter 
 			parseTextAttributesFrom: ((CSSProperty propertyNamed: 'display') propertyString: value)  
 			into: tempContext.
-		self assert: (tempContext at: #block) equals: expectedResult ]
+		self assert: (tempContext at: #display) equals: expectedResult ]

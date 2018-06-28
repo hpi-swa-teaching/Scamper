@@ -1,4 +1,4 @@
 accessing
 boxType
 
-	^ ((CSSStyleResolver for: self) getStyle: #block) ifNil: [ #inline ]
+	^ ((CSSStyleResolver for: self) getStyle: #display) ifNil: [ #inline ]
