@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"textAlign",
-		"columns",
-		"rows" ],
-	"name" : "HtmlGridLayout",
+		"layoutStyles" ],
+	"name" : "HtmlMorph",
 	"pools" : [
 		 ],
-	"super" : "HtmlLayoutPolicy",
+	"super" : "Morph",
 	"type" : "normal" }

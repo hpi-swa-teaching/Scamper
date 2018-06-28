@@ -6,11 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"textAlign",
 		"margin",
 		"padding",
 		"float" ],
 	"name" : "HtmlBlockLayout",
 	"pools" : [
 		 ],
-	"super" : "LayoutPolicy",
+	"super" : "HtmlLayoutPolicy",
 	"type" : "normal" }
