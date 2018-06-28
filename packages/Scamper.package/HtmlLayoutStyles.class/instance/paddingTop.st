@@ -1,3 +1,3 @@
 accessing
 paddingTop
-	^ paddingTop
+	^ paddingTop ifNil: [ 0 ]

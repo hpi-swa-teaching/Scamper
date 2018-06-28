@@ -1,3 +1,3 @@
 accessing
 paddingLeft
-	^ paddingLeft
+	^ paddingLeft ifNil: [ 0 ]

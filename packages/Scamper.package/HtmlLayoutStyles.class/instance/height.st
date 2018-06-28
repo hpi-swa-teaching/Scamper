@@ -1,3 +1,3 @@
 accessing
 height
-	^ height
+	^ height ifNil: [ 0 ]

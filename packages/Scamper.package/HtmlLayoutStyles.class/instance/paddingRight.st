@@ -1,3 +1,3 @@
 accessing
 paddingRight
-	^ paddingRight
+	^ paddingRight ifNil: [ 0 ]

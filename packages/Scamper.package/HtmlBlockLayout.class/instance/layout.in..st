@@ -1,7 +1,25 @@
 as yet unclassified
 layout: aMorph in: newBounds
 
-	| x y origin noneFloating leftFloating rightFloating maxY |
+	| origin maxX maxY currentY |
+	
+	aMorph hasSubmorphs ifFalse: [^self].
+	
+	origin := (newBounds origin asIntegerPoint) + ((aMorph layoutStyles paddingLeft)@(aMorph layoutStyles paddingTop)).
+	maxX := newBounds width - (aMorph layoutStyles paddingRight).
+	maxY := newBounds height - (aMorph layoutStyles paddingBottom).
+	currentY := 0.
+	aMorph submorphs do: [ :morph |
+		| morphBounds w h |
+		w := morph width.
+		h := morph height.
+		morphBounds := (origin + (0@currentY) corner: (origin + (0@currentY) + (w@h))).
+		morph layoutInBounds: morphBounds.
+		currentY := currentY + h ].
+	aMorph minHeight: currentY + aMorph layoutStyles extraHeight.
+
+	
+	"| x y origin noneFloating leftFloating rightFloating maxY |
 	
 	aMorph hasSubmorphs ifFalse: [^self].
 	y := 0.
@@ -55,4 +73,4 @@ layout: aMorph in: newBounds
 		morphBounds := (origin + (0@y) corner: (origin + (0@y) + (w@h))).
 		morph layoutInBounds: morphBounds.
 		y := y + h.
-	]
+	]"

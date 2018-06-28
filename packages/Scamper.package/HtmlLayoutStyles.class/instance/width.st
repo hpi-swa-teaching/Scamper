@@ -1,3 +1,3 @@
 accessing
 width
-	^ width
+	^ width ifNil: [ 0 ]
