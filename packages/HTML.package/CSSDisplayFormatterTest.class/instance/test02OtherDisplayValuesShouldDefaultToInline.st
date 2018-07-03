@@ -5,4 +5,4 @@ test02OtherDisplayValuesShouldDefaultToInline
 	self displayFormatter 
 		parseTextAttributesFrom: ((CSSProperty propertyNamed: 'display') propertyString: 'foobar')  
 		into: styles.
-	self assert: (styles at: #block) equals: #inline
+	self assert: (styles at: #display) equals: #inline
