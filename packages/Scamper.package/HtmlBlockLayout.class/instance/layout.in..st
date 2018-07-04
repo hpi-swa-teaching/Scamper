@@ -3,6 +3,8 @@ layout: aMorph in: newBounds
 
 	| origin maxX maxY currentY |
 	
+	
+
 	aMorph hasSubmorphs ifFalse: [^self].
 	
 	origin := (newBounds origin asIntegerPoint) + ((aMorph layoutStyles paddingLeft)@(aMorph layoutStyles paddingTop)).
@@ -10,10 +12,13 @@ layout: aMorph in: newBounds
 	maxY := newBounds height - (aMorph layoutStyles paddingBottom).
 	currentY := 0.
 	aMorph submorphs do: [ :morph |
-		| morphBounds w h |
+		| morphBounds w h newTopLeft newBottomRight |
 		w := morph width.
 		h := morph height.
-		morphBounds := (origin + (0@currentY) corner: (origin + (0@currentY) + (w@h))).
+		newTopLeft := (origin + (0@currentY)).
+		newBottomRight := (origin + (0@currentY) + (w@h)).
+		newBottomRight x > maxX ifTrue: [ newBottomRight setX: maxX setY: newBottomRight y ].
+		morphBounds := newTopLeft corner: newBottomRight.
 		morph layoutInBounds: morphBounds.
 		currentY := currentY + h ].
 	aMorph minHeight: currentY + aMorph layoutStyles extraHeight.
