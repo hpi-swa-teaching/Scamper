@@ -9,4 +9,4 @@ bottomAttributeShouldBeParsedCorrectly
 				propertyString: '40px';
 				yourself.
 	self formatter parseTextAttributesFrom: aProperty into: aResult.
-	self assert: '40px' equals: (aResult at: self bottomAttribute asSymbol)
+	self assert: 40 equals: (aResult at: self bottomAttribute asSymbol)
