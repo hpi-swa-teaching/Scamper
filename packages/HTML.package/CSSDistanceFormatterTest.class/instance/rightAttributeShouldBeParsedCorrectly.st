@@ -9,4 +9,4 @@ rightAttributeShouldBeParsedCorrectly
 				propertyString: '30px';
 				yourself.
 	self formatter parseTextAttributesFrom: aProperty into: aResult.
-	self assert: '30px' equals: (aResult at: self rightAttribute asSymbol)
+	self assert: 30 equals: (aResult at: self rightAttribute asSymbol)
