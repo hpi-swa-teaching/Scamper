@@ -11,5 +11,5 @@
 	"name" : "HtmlInlineLayout",
 	"pools" : [
 		 ],
-	"super" : "LayoutPolicy",
+	"super" : "HtmlLayoutPolicy",
 	"type" : "normal" }

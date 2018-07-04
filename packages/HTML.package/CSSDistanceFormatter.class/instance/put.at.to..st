@@ -5,4 +5,4 @@ put: aPropertyValue at: anAttribute to: aContext
 	
 	aPrefixedAttribute := self class attributePrefix, '-', anAttribute asSymbol.
 	
-	super put: aPropertyValue at: aPrefixedAttribute to: aContext
+	super put: (self absoluteSizeToPx: aPropertyValue defaultSize: 0) at: aPrefixedAttribute to: aContext
