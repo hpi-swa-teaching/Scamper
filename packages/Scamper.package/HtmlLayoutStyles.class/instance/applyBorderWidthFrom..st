@@ -1,7 +1,7 @@
 accessing
 applyBorderWidthFrom: aResolver
 
-	aResolver ifStyleNotNil: 'borderWidth-top' do: [ :borderWidth | self borderWidthTop: borderWidth ];
-		ifStyleNotNil: 'borderWidth-right' do: [ :borderWidth | self borderWidthRight: borderWidth ];
-		ifStyleNotNil: 'borderWidth-bottom' do: [ :borderWidth | self borderWidthBottom: borderWidth ];
-		ifStyleNotNil: 'borderWidth-left' do: [ :borderWidth | self borderWidthLeft: borderWidth ].
+	aResolver ifStyleNotNil: 'border-width-top' do: [ :borderWidth | self borderWidthTop: borderWidth ];
+		ifStyleNotNil: 'border-width-right' do: [ :borderWidth | self borderWidthRight: borderWidth ];
+		ifStyleNotNil: 'border-width-bottom' do: [ :borderWidth | self borderWidthBottom: borderWidth ];
+		ifStyleNotNil: 'border-width-left' do: [ :borderWidth | self borderWidthLeft: borderWidth ].

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyBorderWidthFrom:" : "AS 7/10/2018 15:22",
+		"applyBorderWidthFrom:" : "KD 7/10/2018 15:32",
 		"applyMarginFrom:" : "AS 7/10/2018 15:20",
 		"applyPaddingFrom:" : "MLB 6/28/2018 14:04",
 		"borderWidthBottom" : "AS 7/10/2018 15:13",
@@ -13,10 +13,11 @@
 		"borderWidthRight:" : "AS 7/10/2018 15:12",
 		"borderWidthTop" : "AS 7/10/2018 15:13",
 		"borderWidthTop:" : "AS 7/10/2018 15:12",
-		"extraHeight" : "MLB 6/28/2018 14:18",
-		"extraWidth" : "MLB 6/28/2018 14:18",
+		"extraHeight" : "KD 7/10/2018 15:19",
+		"extraWidth" : "KD 7/10/2018 15:19",
 		"height" : "MLB 6/28/2018 14:33",
 		"height:" : "MLB 6/28/2018 13:42",
+		"innerExtraWidth" : "KD 7/10/2018 15:18",
 		"marginBottom" : "AS 7/10/2018 15:13",
 		"marginBottom:" : "AS 7/10/2018 15:11",
 		"marginLeft" : "AS 7/10/2018 15:13",
