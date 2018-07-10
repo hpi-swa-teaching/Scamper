@@ -2,7 +2,7 @@ initialization
 initialize
 	super initialize.
 	children := OrderedCollection new.
-	self layoutStyles: HtmlLayoutStyles new.
+	
 	self processedBackgroundImage: false.
 	self layoutPolicy: HtmlBlockLayout new;
 		listDirection: #topToBottom;

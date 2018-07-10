@@ -11,11 +11,11 @@ setWidth: availableWidth
 	(absoluteWidth == #auto) 
 		ifTrue: [ 
 			"subtract margin, padding border-width here"
-			availableContentWidth := availableWidth - self layoutStyles innerExtraWidth.
+			availableContentWidth := availableWidth - self layoutStyles extraWidth.
 			contentWidth := availableContentWidth * relativeWidth / 100.
 			resultWidth := availableWidth * relativeWidth / 100 ]
 		ifFalse: [ 
-			contentWidth := absoluteWidth - self layoutStyles innerExtraWidth.
+			contentWidth := absoluteWidth - self layoutStyles extraWidth.
 			resultWidth := absoluteWidth].
 	self computedWidth: resultWidth;
 		suppressLayoutUpdates: true;
