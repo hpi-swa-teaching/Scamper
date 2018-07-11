@@ -4,13 +4,13 @@ aboutScamperHTML
 	^'
 <html>
 <head>
-<title>{1}</title>
+<title >{1}</title>
 </head>
 <body>
-<h1>{2}</h1>
+<h1 tyle = "margin:80;">{2}</h1>
 {3}
 <ul>
-<li><a href="http://minnow.cc.gatech.edu/squeak">{4}</a>
+<li ><a href="http://minnow.cc.gatech.edu/squeak">{4}</a>
 <li><a href="http://minnow.cc.gatech.edu/squeak/14">{5}</a>
 <li><a href="http://www.squeak.org">{6}</a>
 <li><a href="http://www.squeakland.org">{7}</a>
