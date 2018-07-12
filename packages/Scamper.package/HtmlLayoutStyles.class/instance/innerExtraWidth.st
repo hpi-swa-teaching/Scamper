@@ -1,4 +1,4 @@
-accessing
+convenience
 innerExtraWidth
 
-	^ self paddingLeft + self paddingRight + self borderWidthLeft + self borderWidthRight " self marginLeft + self marginRight"
+	^ self paddingLeft + self paddingRight + self borderWidthLeft + self borderWidthRight 

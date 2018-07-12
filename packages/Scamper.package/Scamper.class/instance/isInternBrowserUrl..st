@@ -1,4 +1,4 @@
-changing page
+testing
 isInternBrowserUrl: aUrl
 
 	^('browser:*' match: aUrl asString).
