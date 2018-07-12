@@ -1,13 +1,13 @@
 {
 	"category" : "Scamper-Tests",
 	"classinstvars" : [
-		 ],
+		"scamper" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "KD 7/12/2018 12:10",
 	"instvars" : [
 		"scamper" ],
-	"name" : "ScamperUnitTest",
+	"name" : "ScamperTestWithLiveScamper",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
