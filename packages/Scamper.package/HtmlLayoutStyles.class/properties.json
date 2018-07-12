@@ -20,7 +20,8 @@
 		"borderWidthRight",
 		"borderWidthBottom",
 		"borderWidthLeft",
-		"float" ],
+		"float",
+		"textAlign" ],
 	"name" : "HtmlLayoutStyles",
 	"pools" : [
 		 ],

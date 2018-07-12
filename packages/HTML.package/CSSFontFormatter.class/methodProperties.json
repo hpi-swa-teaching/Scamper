@@ -18,9 +18,9 @@
 		"isValidStyleValue:" : "rs 5/21/2014 15:44:29.914",
 		"isValidWeightValue:" : "rs 5/21/2014 15:43:47.846",
 		"parseTextAttributesFrom:into:" : "PS 6/18/2015 12:50",
-		"readFontAttribute:to:" : "KD 7/12/2018 15:27",
-		"readFontFamilyAttribute:to:" : "SN 6/25/2014 00:01",
-		"readFontSizeAttribute:to:" : "KD 7/12/2018 15:28",
+		"readFontAttribute:to:" : "KD 7/12/2018 18:31",
+		"readFontFamilyAttribute:to:" : "KD 7/12/2018 18:31",
+		"readFontSizeAttribute:to:" : "KD 7/12/2018 18:33",
 		"readFontStyleAttribute:to:" : "SN 6/12/2014 14:20",
 		"readFontWeightAttribute:to:" : "rs 5/21/2014 11:48:27.886",
 		"styleForFamily:" : "pf 7/23/2014 15:42" } }

@@ -7,7 +7,8 @@ applyComputedStylesTo: aHtmlBlockMorph
 	aHtmlBlockMorph layoutStyles applyPaddingFrom: resolver.
 	aHtmlBlockMorph layoutStyles applyMarginFrom: resolver.
 	aHtmlBlockMorph layoutStyles applyBorderWidthFrom: resolver.
-	resolver ifStyleNotNil: #align do: [ :align | aHtmlBlockMorph layoutPolicy textAlign: align ].
+	aHtmlBlockMorph layoutStyles applyTextAlignFrom: resolver.
+	
 	
 		
 	"resolver ifStyleNotNil: #float do: [ :float |

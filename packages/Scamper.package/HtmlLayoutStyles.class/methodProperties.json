@@ -5,6 +5,7 @@
 		"applyBorderWidthFrom:" : "KD 7/12/2018 17:54",
 		"applyMarginFrom:" : "AS 7/10/2018 15:20",
 		"applyPaddingFrom:" : "MLB 6/28/2018 14:04",
+		"applyTextAlignFrom:" : "KD 7/12/2018 18:11",
 		"borderWidthBottom" : "AS 7/10/2018 15:13",
 		"borderWidthBottom:" : "AS 7/10/2018 15:12",
 		"borderWidthLeft" : "AS 7/10/2018 15:13",
@@ -39,5 +40,7 @@
 		"paddingRight:" : "MLB 6/28/2018 13:43",
 		"paddingTop" : "MLB 6/28/2018 14:33",
 		"paddingTop:" : "MLB 6/28/2018 13:43",
+		"textAlign" : "KD 7/12/2018 18:14",
+		"textAlign:" : "KD 7/12/2018 18:14",
 		"width" : "MLB 6/28/2018 14:33",
 		"width:" : "MLB 6/28/2018 13:42" } }

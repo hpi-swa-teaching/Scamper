@@ -1,6 +1,6 @@
 as yet unclassified
 layout: aMorph in: newBounds
 
-	(self textAlign = #centered) ifTrue: [ aMorph centered ].
-	(self textAlign = #left) ifTrue: [ aMorph leftFlush ].
-	(self textAlign = #right) ifTrue: [ aMorph rightFlush ].
+	(aMorph layoutStyles textAlign = #centered) ifTrue: [ aMorph centered ].
+	(aMorph layoutStyles textAlign = #left) ifTrue: [ aMorph leftFlush ].
+	(aMorph layoutStyles textAlign = #right) ifTrue: [ aMorph rightFlush ].
