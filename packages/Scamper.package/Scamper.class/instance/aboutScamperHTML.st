@@ -7,8 +7,9 @@ aboutScamperHTML
 <title >{1}</title>
 </head>
 <body>
-<h1 style = "margin:80px; padding:10px">{2}</h1>
-<h2 style="display:inline-block> Scamper Muahhaah </h2>
+<h1 >{2}</h1>
+<h2 style="margin:80px;"> Margins Work </h2>
+
 {3}
 <ul>
 <li ><a href="http://minnow.cc.gatech.edu/squeak">{4}</a>

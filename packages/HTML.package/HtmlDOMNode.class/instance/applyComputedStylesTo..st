@@ -1,13 +1,15 @@
 rendering
-applyComputedStylesTo: aHtmlBlockMorph
+applyComputedStylesTo: aHtmlMorph
 
 	| resolver |
-	
+	"can currently also be HtmlInlineMorph. HtmlInlineMorph should be refactored to also be HtmlMorph"
 	resolver := CSSStyleResolver for: self.
-	aHtmlBlockMorph layoutStyles applyPaddingFrom: resolver.
-	aHtmlBlockMorph layoutStyles applyMarginFrom: resolver.
-	aHtmlBlockMorph layoutStyles applyBorderWidthFrom: resolver.
-	aHtmlBlockMorph layoutStyles applyTextAlignFrom: resolver.
+	aHtmlMorph layoutStyles getComputedStylesFrom: resolver.
+	aHtmlMorph layoutStyles apply.
+	
+
+	
+	
 	
 	
 		

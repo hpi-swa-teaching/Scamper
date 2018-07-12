@@ -1,5 +1,5 @@
-accessing
-applyTextAlignFrom: aResolver
+getting styles
+getTextAlignFrom: aResolver
 
 	
 	aResolver ifStyleNotNil: #textAlign do: [ :align | self textAlign: align ].

@@ -1,5 +1,5 @@
-accessing
-applyBorderWidthFrom: aResolver
+getting styles
+getBorderWidthFrom: aResolver
 
 	aResolver ifStyleNotNil: 'border-top-width' do: [ :borderWidth | self borderWidthTop: borderWidth ];
 		ifStyleNotNil: 'border-right-width' do: [ :borderWidth | self borderWidthRight: borderWidth ];

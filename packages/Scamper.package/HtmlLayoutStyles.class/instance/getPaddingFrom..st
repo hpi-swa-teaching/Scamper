@@ -1,5 +1,5 @@
-accessing
-applyPaddingFrom: aResolver
+getting styles
+getPaddingFrom: aResolver
 
 	aResolver ifStyleNotNil: 'padding-top' do: [ :padding | self paddingTop: padding ];
 		ifStyleNotNil: 'padding-right' do: [ :padding | self paddingRight: padding ];

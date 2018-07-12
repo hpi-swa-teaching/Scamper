@@ -1,5 +1,5 @@
-accessing
-applyMarginFrom: aResolver
+getting styles
+getMarginFrom: aResolver
 
 	aResolver ifStyleNotNil: 'margin-top' do: [ :margin | self marginTop: margin ];
 		ifStyleNotNil: 'margin-right' do: [ :margin | self marginRight: margin ];
