@@ -7,5 +7,5 @@ test07TextAlignJustifyShouldBeParsedCorrectly
 				propertyString: 'justify';
 				yourself.
 	self textFormatter parseTextAttributesFrom: prop into: result.
-	self assert: #justified equals: (result at: #align).
+	self assert: #justified equals: (result at: #textAlign).
 	self assert: (TextAlignment respondsTo: #justified)
