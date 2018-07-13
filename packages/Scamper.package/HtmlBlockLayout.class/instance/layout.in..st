@@ -8,7 +8,7 @@ layout: aMorph in: newBounds
 	currentY := 0.
 	aMorph submorphs do: [ :morph |
 		| morphBounds newTopLeft |
-		newTopLeft := (contentOrigin + (0@currentY) + morph layoutStyles marginLeftTop).
+		newTopLeft := (contentOrigin + (0@currentY) + morph layoutStyles marginLeftTopAsPoint).
 		morphBounds := newTopLeft corner: newBounds corner.
 		morph layoutInBounds: morphBounds.
-		currentY := currentY + morph height + morph layoutStyles extraMarginHeight ].
+		currentY := currentY + morph height +morph layoutStyles extraMarginHeight].

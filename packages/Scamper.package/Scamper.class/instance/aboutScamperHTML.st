@@ -8,8 +8,9 @@ aboutScamperHTML
 </head>
 <body>
 <h1 >{2}</h1>
-<h2 style="margin:80px;"> Margins Work </h2>
-
+<div style="margin:0px 0px 80px 80px;"> Margins Work </div>
+<div>Texttexttexttexttexttexttetxttetxttxtxtextxtxetxetextexetxetextexet</div>
+<div style="text-align:center;">Text-align:center does too</div>
 {3}
 <ul>
 <li ><a href="http://minnow.cc.gatech.edu/squeak">{4}</a>

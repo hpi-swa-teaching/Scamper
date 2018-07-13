@@ -1,4 +1,4 @@
 convenience
-marginLeftTop
+marginLeftTopAsPoint
 	
 	^self marginLeft @ self marginTop 
