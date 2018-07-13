@@ -14,7 +14,7 @@ displayTextHtmlPage: newSource
 	 	responseUrl: currentUrl.
 	self status: 'applying styles...' translated.
 	document stylesheets do: [:stylesheet | 
-		(stylesheet absoluteUrl = currentUrl) ifFalse: [ stylesheet loadStyles]].
+		 stylesheet loadStyles].
 	document applyStyles.
 	self status: 'laying out...' translated.
 	self webContentsPane show: document.
