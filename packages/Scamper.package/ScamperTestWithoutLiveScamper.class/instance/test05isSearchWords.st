@@ -6,7 +6,7 @@ test05isSearchWords
 	
 	s1 := 'hpi bestes informatikinstitut deutschlands' .
 	s2 := 'www.hpi.de' .
-	s3 := 'localhost:5050/index'.
+	s3 := 'http://localhost:5050/index'.
 	s4 := 'http://google.com/search'.
 
 	self assert: (scamper isSearchWords:  s1);
