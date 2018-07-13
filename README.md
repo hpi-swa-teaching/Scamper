@@ -5,9 +5,9 @@ Screenshot after last feature was added
 ![screenshot](https://raw.githubusercontent.com/hpi-swa-teaching/Scamper/master/tests/scamper.png)
 
 
-Scamper is a Web Browser for the Squeak enviroment. You can open the Scamper Browser via Apps.
+Scamper is a Web Browser for the Squeak enviroment.
 
-## Installatioin
+## Installation
 
 1. Create a directory called `Scamper`in your Squeak resources directory 
 2. Copy `fonts` and `scamper-icons` from `{SCAMPERROOT}/build-support/`into your Scamper source directory you created the step before.
@@ -24,11 +24,11 @@ There are several ways to open Scamper:
 or simply
 * Open Scamper via Apps. The default page will be shown.
 
-To visit a Website type a URL into the Searchbar. The Webpage will be downloaded and shown to you.
-You can too search via google by typing your request into the Searchbar.
+To visit a website type a URL into the Searchbar. The webpage will be downloaded and shown to you.
+By typing your request into the searchbar you can search via google too.
 
-Clicking on Links will lead you to the given Website.
-By typing into forms on Websites and pressing enter you can send these forms in Order to get a response.
+Clicking on hyperlinks will lead you to the given website.
+By typing into forms on websites and pressing enter you can send these forms in order to get a response.
 
-By clicking on the buttons you can go backwards, forwards, see your browser history, add and access bookmarks, reload the page, go to your personal homepage, stop the downloading process and see the HTML Source
+By clicking on the buttons you can go backward, forward, see your browser history, add and access bookmarks, reload the page, go to your personal homepage, stop the downloading process and see the HTML source.
 
