@@ -7,5 +7,5 @@ test05TextAlignLeftShouldBeParsedCorrectly
 				propertyString: 'left';
 				yourself.
 	self textFormatter parseTextAttributesFrom: prop into: result.
-	self assert: #leftFlush equals: (result at: #align).
+	self assert: #leftFlush equals: (result at: #textAlign).
 	self assert: (TextAlignment respondsTo: #leftFlush)
