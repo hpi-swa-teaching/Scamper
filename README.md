@@ -20,6 +20,7 @@ There are several ways to open Scamper:
 
 * Open Scamper by running `Scamper open` in the Workspace. The default page will be shown.
 * Run `Scamper openOnUrl: 'http://google.com' asUrl` in the Workspace with any given URL, e.g. http://google.com.
+
 or simply
 * Open Scamper via Apps. The default page will be shown.
 
