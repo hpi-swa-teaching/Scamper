@@ -1,4 +1,4 @@
-as yet unclassified
+mock html pages
 submitFormHtml
 
 	^ '<!DOCTYPE HTML>

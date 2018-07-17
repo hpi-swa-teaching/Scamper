@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize 
 	super initialize.
 	self setText: ''. "compatability for squeak < 5.0"

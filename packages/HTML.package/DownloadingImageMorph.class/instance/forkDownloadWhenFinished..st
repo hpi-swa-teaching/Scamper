@@ -1,4 +1,4 @@
-as yet unclassified
+scheduling
 forkDownloadWhenFinished: aBlock 
 	| doc |
 	image ifNotNil: [^self].
