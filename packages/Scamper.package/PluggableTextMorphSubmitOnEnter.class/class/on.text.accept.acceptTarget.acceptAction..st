@@ -1,4 +1,4 @@
-event handling
+instance creation
 on: stringModel text: getTextSel accept: setTextSel acceptTarget: acceptObject acceptAction: aSymbol
 
 	| plugTextMorph |
