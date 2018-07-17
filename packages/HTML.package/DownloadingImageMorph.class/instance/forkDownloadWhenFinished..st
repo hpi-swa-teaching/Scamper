@@ -1,4 +1,4 @@
-scheduling
+downloading
 forkDownloadWhenFinished: aBlock 
 	| doc |
 	image ifNotNil: [^self].
