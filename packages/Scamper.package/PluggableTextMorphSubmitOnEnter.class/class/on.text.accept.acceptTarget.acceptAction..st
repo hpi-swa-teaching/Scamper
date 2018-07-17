@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 on: stringModel text: getTextSel accept: setTextSel acceptTarget: acceptObject acceptAction: aSymbol
 
 	| plugTextMorph |

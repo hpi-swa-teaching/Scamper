@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test05isUrl
 
 	|url1 url2 url3|

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test06isInternBrowser
 
 	|url1 url2|

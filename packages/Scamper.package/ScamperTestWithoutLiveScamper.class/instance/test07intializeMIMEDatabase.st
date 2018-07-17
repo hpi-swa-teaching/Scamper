@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test07intializeMIMEDatabase
 
 	self assert: (MIMEDocument guessTypeFromExtension: 'html') equals: 'text/html'.

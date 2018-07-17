@@ -1,4 +1,4 @@
-as yet unclassified
+mocking
 addPaddingService
 
 	self addService: '/padding' action: [ :req | 

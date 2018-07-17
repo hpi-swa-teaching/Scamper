@@ -13,8 +13,8 @@ aboutScamperHTML
 <div style="text-align:center;">Text-align:center does too</div>
 {3}
 <ul>
-<li ><a href="http://minnow.cc.gatech.edu/squeak">{4}</a>
-<li><a href="http://minnow.cc.gatech.edu/squeak/14">{5}</a>
+<li ><a href="http://wiki.squeak.org/squeak/">{4}</a>
+<li><a href="http://wiki.squeak.org/squeak/14">{5}</a>
 <li><a href="http://www.squeak.org">{6}</a>
 <li><a href="http://www.squeakland.org">{7}</a>
 </ul>

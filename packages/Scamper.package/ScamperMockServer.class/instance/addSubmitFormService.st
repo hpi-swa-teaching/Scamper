@@ -1,4 +1,4 @@
-as yet unclassified
+mocking
 addSubmitFormService
 
 	self addService: '/submitForm' action: [ :req | 
