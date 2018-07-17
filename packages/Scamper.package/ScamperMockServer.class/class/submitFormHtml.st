@@ -1,4 +1,4 @@
-accessing
+mock html pages
 submitFormHtml
 
 	^ '<!DOCTYPE HTML>
