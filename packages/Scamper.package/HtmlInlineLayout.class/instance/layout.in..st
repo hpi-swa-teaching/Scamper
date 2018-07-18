@@ -4,7 +4,7 @@ layout: aMorph in: newBounds
 	
 	aMorph layoutStyles textAlign ifNotNilDo: [:alignment | aMorph perform: alignment].
 	
-	"code below ensures margins for inline elements but leads big display problems"
+	"code below ensures margins for inline elements but breaks forms and leads to big display problems (e.g. when googling something)"
 	
 	"contentOrigin := newBounds origin asIntegerPoint.
 	currentX := 0.
