@@ -7,5 +7,5 @@ test04TextAlignCenterShouldBeParsedCorrectly
 				propertyString: 'center';
 				yourself.
 	self textFormatter parseTextAttributesFrom: prop into: result.
-	self assert: #centered equals: (result at: #align).
+	self assert: #centered equals: (result at: #textAlign).
 	self assert: (TextAlignment respondsTo: #centered)

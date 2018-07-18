@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"for:" : "rs 6/7/2014 11:24:06.679",
-		"inheritableAttributes" : "pf 7/23/2014 15:50" },
+		"inheritableAttributes" : "KD 7/12/2018 18:31" },
 	"instance" : {
 		"cssPrefixMap" : "MLB 6/7/2018 16:41",
 		"domNode:" : "rs 6/7/2014 11:23:34.652",
-		"evaluateLocalStylesFor:" : "MLB 6/7/2018 16:40",
+		"evaluateLocalStylesFor:" : "KD 7/12/2018 17:27",
 		"getFormatterFor:" : "rs 6/8/2014 14:03:12.648",
 		"getPrefixOf:" : "rs 6/7/2014 11:04:08.312",
 		"getStyle:" : "rs 6/7/2014 11:23:00.614",

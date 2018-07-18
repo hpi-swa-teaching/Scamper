@@ -20,7 +20,10 @@
 		"borderWidthRight",
 		"borderWidthBottom",
 		"borderWidthLeft",
-		"float" ],
+		"borderColor",
+		"float",
+		"textAlign",
+		"htmlMorph" ],
 	"name" : "HtmlLayoutStyles",
 	"pools" : [
 		 ],

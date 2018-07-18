@@ -4,4 +4,4 @@ readFontFamilyAttribute: aString to: aContext
 	style := self class defaultStyle.
 	(aString splitBy: ',') reversed
 		do: [:family | (self styleForFamily: family) ifNotNilDo: [:s | style := s]].
-	aContext at: #family put: style.
+	aContext at: #fontFamily put: style.

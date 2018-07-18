@@ -4,5 +4,5 @@ test05OutputShouldBeGeorgia
 	document := HtmlDocument new.
 	document parseContents: (ReadStream on: '<samp>sample output</samp>').
 	node := document children first.
-	self assert: (self styleResolver getStyle: #family for: node) 
+	self assert: (self styleResolver getStyle: #fontFamily for: node) 
 		equals: (TextStyle named: 'Georgia').

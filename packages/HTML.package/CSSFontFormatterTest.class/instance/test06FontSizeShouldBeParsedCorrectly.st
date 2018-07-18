@@ -7,4 +7,4 @@ test06FontSizeShouldBeParsedCorrectly
 				propertyString: '12pt';
 				yourself.
 	self fontFormatter parseTextAttributesFrom: prop into: result.
-	self assert: 12 / 72 * TextStyle pixelsPerInch equals: (result at: #size).
+	self assert: 12 / 72 * TextStyle pixelsPerInch equals: (result at: #fontSize).

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromDictionary: aStyleDictionary
 
 	| rule |

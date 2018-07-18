@@ -4,8 +4,8 @@ readFontAttribute: aString to: aContext
 	shorthandContext := Dictionary newFrom: {
 		#italic -> false.
 		#bold -> false.
-		#size -> self class defaultSize.
-		#family -> self class defaultStyle.
+		#fontSize -> self class defaultSize.
+		#fontFamily -> self class defaultStyle.
 	}.
 	
 	values := aString splitOn: ' '.

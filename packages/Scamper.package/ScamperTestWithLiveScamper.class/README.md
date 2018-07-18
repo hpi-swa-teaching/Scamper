@@ -1,0 +1,1 @@
+Tests here do require a Scamper instance to open, eg running a test will open a Scamper window (not viable for Test Auto Runner).

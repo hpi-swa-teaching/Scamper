@@ -6,10 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"textAlign",
-		"margin",
-		"padding",
-		"float" ],
+		 ],
 	"name" : "HtmlBlockLayout",
 	"pools" : [
 		 ],

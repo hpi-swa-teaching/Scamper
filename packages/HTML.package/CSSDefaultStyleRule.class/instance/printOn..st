@@ -1,8 +1,10 @@
-as yet unclassified
+printing
 printOn: aStream
 
+	| first |
 	aStream nextPutAll: '{'.
+	first := true.
 	self properties do: [:p |
-		p printOn: aStream.
-		aStream nextPutAll: ';'].
+		first ifTrue: [ first := false ] ifFalse: [aStream nextPutAll: ';'].
+		p printOn: aStream].
 	aStream nextPutAll: '}'

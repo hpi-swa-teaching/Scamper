@@ -1,5 +1,5 @@
-as yet unclassified
+initialization
 initialize 
 
 	super initialize.
-	self layoutStyles: HtmlLayoutStyles new.
+	self layoutStyles: (HtmlLayoutStyles newFor: self).

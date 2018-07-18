@@ -5,6 +5,8 @@ isSearchWords: aString
 	asUrl := aString asUrl.
 	
 	((self isUrl: aString) or: (self isInternBrowserUrl: aString)) ifTrue: [^false].
-	('localhost:#*' match: aString) ifTrue: [^false].
+	
+	(self isLocalhostAdress: aString) ifTrue: [^false].
+	
 	^ ('*.##*' match: aString) not 
 	
