@@ -9,5 +9,4 @@ readTextAlignAttribute: aString to: aContext
 		((attribute = 'right') or: [attribute = 'end']) 
 			ifTrue: [ self put: #rightFlush at: #textAlign to: aContext ].
 		(attribute = 'justify') 
-			ifTrue: [ self put: #justified at: #textAlign to: aContext ]
-	]
+			ifTrue: [ self put: #justified at: #textAlign to: aContext ]]
