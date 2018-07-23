@@ -1,5 +1,5 @@
-# Scamper Web Browser [![Build Status](https://travis-ci.org/hpi-swa-teaching/Scamper.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/Scamper)  
-===================
+# Scamper Web Browser 
+### master([![Build Status](https://travis-ci.org/hpi-swa-teaching/Scamper.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/Scamper)) develop([![Build Status](https://travis-ci.org/hpi-swa-teaching/Scamper.svg?branch=develop)](https://travis-ci.org/hpi-swa-teaching/Scamper)) 
 
 Scamper is a Web Browser for the Squeak enviroment.
 
