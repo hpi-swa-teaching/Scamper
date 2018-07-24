@@ -2,8 +2,7 @@ document handling
 displayTextHtmlPage: newSource
 	"HTML page--format it"
 	currentUrl := newSource url.
-	
-	pageSource := newSource content. 
+	pageSource := newSource content.
 	self status: 'parsing...' translated.
 	document := (HtmlDocument new parseContents: (ReadStream on: pageSource)).
 	document 
