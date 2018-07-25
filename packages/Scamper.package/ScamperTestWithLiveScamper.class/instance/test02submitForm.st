@@ -10,7 +10,7 @@ test02submitForm
 	
 	button := scamper model webContentsPane allMorphs detect: 
 		[:morph | (morph respondsTo: #label) and: [ morph label = ' Absenden ']].
-	form := button model. "accessor added by extension to PluggableButtonMorph"
+	form := button model. 
 	form submitAsync wait.
 	scamper owner runStepMethods.
 	

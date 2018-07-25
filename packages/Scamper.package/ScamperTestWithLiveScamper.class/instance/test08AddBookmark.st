@@ -1,11 +1,15 @@
 initialize-release
 test08AddBookmark
-	| url |
-      [url := 'http://google.de'.
-	(scamper model jumpToAbsoluteUrlAsync: url) wait.
-	1 second asDelay wait. "wait for one world cycle"
-	scamper model addToBookmark.
+	| server port browser |
+      
+	port := (10000 to: 50000) atRandom.
+	server := ScamperMockServer new listenOn: port.
+	server addPageWithTitleTest.
+	browser := Scamper openOnUrl: 'http://localhost:', port, '/testpage'.
+	1 second asDelay wait.
+	browser owner runStepMethods.
+	browser model addToBookmark.
 	self assert: 
-		(scamper model bookmarks keys contains: [ :bm | 
-			bm = 'Google'
-		])] on: Error do: [:e | Transcript showln: e]
+		(browser model bookmarks keys contains: [ :bm | bm = 'Test']).
+	server destroy.
+	browser delete.

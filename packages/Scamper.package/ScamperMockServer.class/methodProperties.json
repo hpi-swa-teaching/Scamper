@@ -1,7 +1,9 @@
 {
 	"class" : {
 		"paddingHtml" : "MLB 6/28/2018 13:58",
+		"pageWithTitleTestHtml" : "KD 7/25/2018 11:18",
 		"submitFormHtml" : "MLB 6/13/2018 14:25" },
 	"instance" : {
 		"addPaddingService" : "MLB 6/28/2018 13:58",
+		"addPageWithTitleTest" : "KD 7/25/2018 11:18",
 		"addSubmitFormService" : "MLB 6/13/2018 14:46" } }
