@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"prefix" : "AB 7/31/2015 19:29",
-		"setUp" : "AB 7/31/2015 19:29",
+		"setUp" : "ML 4/25/2018 15:51",
 		"suffix" : "AB 7/31/2015 20:41",
 		"test01topAttributeShouldBeParsedCorrectly" : "AB 7/31/2015 19:28",
 		"test02rightAttributeShouldBeParsedCorrectly" : "AB 7/31/2015 19:28",

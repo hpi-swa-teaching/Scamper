@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "KD 6/3/2018 20:44",
+		"tearDown" : "fm 7/29/2015 18:25",
+		"test01jumpToRelativeUrl" : "KD 5/29/2018 14:34",
+		"test02submitForm" : "KD 7/25/2018 11:05",
+		"test08AddBookmark" : "KD 7/25/2018 11:30",
+		"test11DisplayHistory" : "KD 7/25/2018 11:25",
+		"test12ForwardButton" : "KD 7/25/2018 11:27",
+		"test13BackButton" : "KD 7/24/2018 20:06",
+		"testDefaultBackgroundColor" : "LL 6/20/2018 11:19" } }

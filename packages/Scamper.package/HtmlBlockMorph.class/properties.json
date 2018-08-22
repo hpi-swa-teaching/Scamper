@@ -15,5 +15,5 @@
 	"name" : "HtmlBlockMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "HtmlMorph",
 	"type" : "normal" }

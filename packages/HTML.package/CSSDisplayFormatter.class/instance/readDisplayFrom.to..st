@@ -11,5 +11,5 @@ readDisplayFrom: aCSSProperty to: aContext
 		'table-cell' -> #tableCell
 	}.
 	values at: aCSSProperty propertyString asLowercase
-		ifPresent: [:value | aContext at: #block put: value ]
-		ifAbsent: [ (aContext includesKey: #block) ifFalse: [ aContext at: #block put: #inline ]]
+		ifPresent: [:value | aContext at: #display put: value ]
+		ifAbsent: [ (aContext includesKey: #display) ifFalse: [ aContext at: #display put: #inline ]]

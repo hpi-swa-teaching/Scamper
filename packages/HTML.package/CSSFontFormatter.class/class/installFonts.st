@@ -1,8 +1,9 @@
 font installation
 installFonts
 	"self installFonts"
-	((FileDirectory uri: 'Scamper' , FileDirectory slash , 'fonts') fileNamesMatching: '*.ttf')
-		do: [:fontfile | 
+	| fontFiles |
+	fontFiles := (self fontDirectory fileNamesMatching: '*.ttf').
+	fontFiles do: [:fontfile | 
 			self newTextStyleFromTTFile:
-					(FileDirectory uri: 'Scamper' , FileDirectory slash , 'fonts') fullName , FileDirectory slash , fontfile].
-	fontsInstalled := true.
+					self fontDirectory fullName , FileDirectory slash , fontfile].
+	numberOfInstalledFonts := fontFiles size.

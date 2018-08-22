@@ -7,4 +7,4 @@ test05FontFamilyShouldBeParsedCorrectly
 				propertyString: 'non-existent, serif, sans-serif';
 				yourself.
 	self fontFormatter parseTextAttributesFrom: prop into: result.
-	self assert: (TextStyle named: 'NimbusRomanNo9L') equals: (result at: #family).
+	self assert: (TextStyle named: 'NimbusRomanNo9L') equals: (result at: #fontFamily).

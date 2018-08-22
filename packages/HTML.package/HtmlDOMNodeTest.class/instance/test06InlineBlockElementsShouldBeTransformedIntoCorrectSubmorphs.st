@@ -8,7 +8,7 @@ test06InlineBlockElementsShouldBeTransformedIntoCorrectSubmorphs
 	self domNode children: { 
 		HtmlCDATANode start: 0 end: 4. 
 		HtmlDIVNode new 
-			computedStyles: (Dictionary newFrom: { #block -> #inlineBlock });
+			computedStyles: (Dictionary newFrom: { #display -> #inlineBlock });
 			children: { HtmlCDATANode start: 4 end: 8 }.
 		HtmlCDATANode start: 8 end: 12 }.
 	result := self domNode getHtmlBlockMorph.

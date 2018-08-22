@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test03DocumentWithoutTitleTagShouldntRaiseErrors" : "KD 6/3/2018 20:54",
+		"test05isSearchWords" : "KFK 7/13/2018 23:37",
+		"test05isUrl" : "KD 6/3/2018 20:53",
+		"test06isInternBrowser" : "KD 6/3/2018 20:55",
+		"test07intializeMIMEDatabase" : "KD 6/3/2018 20:55",
+		"test09ScamperAppsbar" : "KD 7/25/2018 10:53",
+		"testFormsSubmitOnEnter" : "KD 7/12/2018 14:33",
+		"testMakeQueryArgWithKey" : "KD 6/19/2018 14:05" } }

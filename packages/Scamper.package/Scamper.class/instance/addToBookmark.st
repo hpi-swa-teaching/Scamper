@@ -1,7 +1,7 @@
 menus
 addToBookmark
 	| key value file filename |
-	key := self document head title ifNil: ['Untitled' translated].
+	key := self titleOf: document.
 	value := self currentUrl.
 	filename := key,'.lin'.
 	bookDir deleteFileNamed: filename. 
@@ -9,5 +9,5 @@ addToBookmark
 	file ifNil:[self error: 'could not save file' translated].
 	file nextPutAll: value asString. 
 	file close.
-	bookmark add: (Association key: key value: value).
+	self bookmarks add: (Association key: key value: value).
 	

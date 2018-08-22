@@ -4,4 +4,4 @@ addDefaultStyle
 	styles := Dictionary newFrom: {
 		'font-size' -> 'smaller'.
 	}.
-	self addStyle: (CSSStyleRule fromDictionary: styles)
+	self addStyle: (CSSDefaultStyleRule fromDictionary: styles)

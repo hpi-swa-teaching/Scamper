@@ -5,5 +5,5 @@ test03DefinitionShouldBeItalicAndTimes
 	document parseContents: (ReadStream on: '<dfn>definition</dfn>').
 	node := document children first.
 	self assert: (self styleResolver getStyle: #italic for: node) equals: true.
-	self assert: (self styleResolver getStyle: #family for: node) 
+	self assert: (self styleResolver getStyle: #fontFamily for: node) 
 		equals: (TextStyle named: 'NimbusRomanNo9L').
