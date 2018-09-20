@@ -5,4 +5,5 @@ extent: newExtent
 	"there will always be scrollbars in both directions, even if only one is needed"
 	self hideScrollBarsIndefinitely;
 		 updateDocumentSize;
-		 hideScrollBarsIndefinitely: false
+		 vScrollBarPolicy: #whenNeeded;
+		 hScrollBarPolicy: #whenNeeded.
